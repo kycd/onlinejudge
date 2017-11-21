@@ -2,26 +2,15 @@
 
 import sys
 
-def fillMatrixHorizontal(matrix, n, p):
-    for i in range(p + 1, n):
-        matrix[p][i] = matrix[p][i-1] - 1
-    return matrix
-
-def fillMatrixVertical(matrix, n, p):
-    for i in range(p + 1, n):
-        matrix[i][p] = matrix[i-1][p] - 1
-    return matrix
-
 def tripleRecursion(n, m, k):
-    matrix = [[0 for x in range(n)] for y in range(n)]
-    matrix[0][0] = m;
-    matrix = fillMatrixHorizontal(matrix, n, 0)
-    matrix = fillMatrixVertical(matrix, n, 0)
+    matrix = [[0 for x in range(n + 1)] for y in range(n + 1)]
+    matrix[0][0] = m - k;
 
-    for i in range(1, n):
-        matrix[i][i] = matrix[i-1][i-1] + k
-        matrix = fillMatrixHorizontal(matrix, n, i)
-        matrix = fillMatrixVertical(matrix, n, i)
+    for i in range(1, n + 1):
+        matrix[i][i] = matrix[i - 1][i - 1] + k
+        for j in range(i + 1, n + 1):
+            matrix[i][j] = matrix[i][j - 1] - 1
+            matrix[j][i] = matrix[j - 1][i] - 1
 
     return matrix
 
@@ -29,5 +18,6 @@ if __name__ == "__main__":
     n, m, k = input().strip().split(' ')
     n, m, k = [int(n), int(m), int(k)]
     matrix = tripleRecursion(n, m, k)
-    for i in range(n):
-        print(" ".join(str(x) for x in matrix[i]))
+
+    for i in range(1, n + 1):
+        print(" ".join(str(matrix[i][x]) for x in range(1, n + 1)))
