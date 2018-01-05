@@ -5,24 +5,21 @@
 
 import sys
 
-t = input();
-t = int(t.strip())
+t = int(input().strip())
 
 for i in range(t):
-    n = input()
-    n = int(n.strip())
+    n = int(input().strip())
 
     commands = []
     for j in range(n):
-        inputCommand = input()
-        inputCommand = inputCommand.strip().split(' ')
+        inputCommand = input().strip().split(' ')
         
         if inputCommand[0] == 'LEFT':
             command = -1
         elif inputCommand[0] == 'RIGHT':
             command = 1
         else:
-            command = commands[int(inputCommand[-1])-1]
+            command = commands[int(inputCommand[-1]) - 1]
         commands.append(command)
 
     print(sum(commands))
