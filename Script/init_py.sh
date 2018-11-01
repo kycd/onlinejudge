@@ -9,6 +9,7 @@ case $1 in
     uva)
         VOL=$2
         VOL_PREFIX=${VOL:0:${#VOL}-2}
+        git checkout -b "uva-p${VOL}"
         if [ ! -d "$CUR/uva/v$VOL_PREFIX/" ]; then
             mkdir "$CUR/uva/v$VOL_PREFIX/"
         fi
