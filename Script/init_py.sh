@@ -14,7 +14,10 @@ case $1 in
             mkdir "$CUR/uva/v$VOL_PREFIX/"
         fi
         touch "$CUR/uva/v$VOL_PREFIX/p$2-$3.py"
+        echo "Create source file uva/v$VOL_PREFIX/p$2-$3.py"
         touch "$CUR/uva/v$VOL_PREFIX/p$2-$3.in"
+        echo "Create input file uva/v$VOL_PREFIX/p$2-$3.in"
         touch "$CUR/uva/v$VOL_PREFIX/p$2-$3.out"
+        echo "Create output file uva/v$VOL_PREFIX/p$2-$3.out"
         ;;
 esac
