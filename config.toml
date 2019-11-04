@@ -2,6 +2,7 @@ baseURL = "https://kycd.github.io/onlinejudge"
 languageCode = "en-us"
 title = "Online judge note site"
 theme = "hugo-lamp"
+publishDir = "docs"
 
 [Params]
 	author = "Kevin Cheng"
