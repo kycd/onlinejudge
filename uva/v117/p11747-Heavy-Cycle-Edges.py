@@ -1,47 +1,63 @@
 #!/bin/python3
-# 2 star
+# 2~3 star
 # MST
-# 23493030  11747   Heavy Cycle Edges   Accepted    PYTH3   0.030   2019-06-20 06:54:51
+# 24147000  11747   Heavy Cycle Edges   Accepted    PYTH3   0.030   2019-11-04 08:43:37
 
 import sys
 
-def getSequenceInt():
-    arr = []
-    for x in input().strip().split(' '):
-        arr.append(int(x))
-    return arr
+def getMapSize():
+    return map(int, input().strip().split(' '))
 
-def getParent(x):
-    if parents[x] == x:
-        return x
-    else:
-        root = getParent(parents[x])
-        parents[x] = root
+def getEdge():
+    x, y, w = list(map(int, input().strip().split(' ')))
+    return Edge(x, y, w)
+
+class Edge:
+    def __init__(self, x, y, w):
+        self.nodeX = x
+        self.nodeY = y
+        self.weight = w
+
+class Graph:
+    def __init__(self, n):
+        self.n = n
+        self.parents = [i for i in range(n)]
+        self.edges = []
+        self.leftEdges = []
+
+    def getEdges(self, m):
+        for i in range(m):
+            self.edges.append(getEdge())
+        self.edges = sorted(self.edges, key=lambda x: x.weight)
+
+    def getRoot(self, node):
+        if self.parents[node] == node:
+            return node
+
+        root = self.getRoot(self.parents[node])
+        self.parents[node] = root
         return root
 
-parents = []
+    def union(self):
+        for edge in self.edges:
+            rootX = self.getRoot(edge.nodeX)
+            rootY = self.getRoot(edge.nodeY)
+            if rootX != rootY:
+                self.parents[rootX] = rootY
+            else:
+                self.leftEdges.append(str(edge.weight))
+
 while 1:
-    n, m = getSequenceInt()
+    n, m = getMapSize()
     if n == 0:
         break
 
-    edges = []
-    parents = [x for x in range(n)]
-    edges = []
-    for i in range(m):
-        edges.append(getSequenceInt())
-    edges = sorted(edges, key=lambda x: x[2])
+    graph = Graph(n)
+    graph.getEdges(m)
+    graph.union()
 
-    ans = []
-    for edge in edges:
-        rootX = getParent(edge[0])
-        rootY = getParent(edge[1])
-        if rootX != rootY:
-            parents[rootX] = rootY
-        else:
-            ans.append(edge[2])
-    ans = list(map((lambda x: str(x)),  ans))
-    if len(ans) == 0:
+    if len(graph.leftEdges) == 0:
         print("forest")
     else:
-        print(" ".join(ans))
+        print(" ".join(graph.leftEdges))
+
