@@ -3,12 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://kycd.github.io/onlinejudge/uva/p11747-heavy-cycle-edges/</loc>
+    <loc>https://kycd.github.io/onlinejudge/post/uva/p11747-heavy-cycle-edges/</loc>
     <lastmod>2019-11-04T18:40:59+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kycd.github.io/onlinejudge/uva/p12918-lucky-thief/</loc>
+    <loc>https://kycd.github.io/onlinejudge/post/uva/p12918-lucky-thief/</loc>
     <lastmod>2019-11-04T13:46:52+08:00</lastmod>
   </url>
   
@@ -49,6 +49,12 @@
   </url>
   
   <url>
+    <loc>https://kycd.github.io/onlinejudge/post/</loc>
+    <lastmod>2019-11-04T18:40:59+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://kycd.github.io/onlinejudge/tags/</loc>
     <lastmod>2019-11-04T18:40:59+08:00</lastmod>
     <priority>0</priority>
@@ -56,12 +62,6 @@
   
   <url>
     <loc>https://kycd.github.io/onlinejudge/tags/uva/</loc>
-    <lastmod>2019-11-04T18:40:59+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kycd.github.io/onlinejudge/uva/</loc>
     <lastmod>2019-11-04T18:40:59+08:00</lastmod>
     <priority>0</priority>
   </url>

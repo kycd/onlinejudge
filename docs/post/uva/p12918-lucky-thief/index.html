@@ -10,24 +10,28 @@
     
 
     
-    <title>Page not found</title>
+    <title>UVa 12918 - Lucky Thief</title>
 
     
     
 
 
 
-
+  
   
   <meta name="author" content="Kevin Cheng" />
-  <meta name="description" content="" />
+  <meta name="description" content="題目 一個小偷拿到對應 m 個門的 n 把鑰匙，已知 n &amp;leq; m 且每一把鑰匙必定對應到一道門，問小偷最少需要嘗試開門幾次才能把所有鑰匙對應的門找出來
+">
 
   
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:site" content="@gohugoio" />
-  <meta name="twitter:title" content="Online judge note site" />
-  <meta name="twitter:description" content="" />
-  <meta name="twitter:image" content="https://kycd.github.io/img/avatar.jpg" />
+  
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@gohugoio" />
+    <meta name="twitter:title" content="UVa 12918 - Lucky Thief" />
+    <meta name="twitter:description" content="題目 一個小偷拿到對應 m 個門的 n 把鑰匙，已知 n &amp;leq; m 且每一把鑰匙必定對應到一道門，問小偷最少需要嘗試開門幾次才能把所有鑰匙對應的門找出來
+" />
+    <meta name="twitter:image" content="https://kycd.github.io/img/avatar.jpg" />
+  
 
 
 
@@ -35,7 +39,7 @@
 <meta name="generator" content="Hugo 0.54.0">
 
 
-<link rel="canonical" href="">
+<link rel="canonical" href="https://kycd.github.io/onlinejudge/post/uva/p12918-lucky-thief/">
 <link rel="alternative" href="/index.xml" title="Online judge note site" type="application/atom+xml">
 
 
@@ -155,11 +159,171 @@
 </amp-sidebar>
 
     
-  <div class="not-found">
-    <h1 class="error-emoji">\(o_o)/</h1>
-    <p class="error-text">/* 404 page not found. */</p>
-    <p><a class="error-link" href="/" title="404 Page not found">↑ Back Home ↑</a></p>
-  </div>
+  <header class="header">
+  <amp-img alt="Online judge note site"
+    width="128px"
+    height="128px"
+    class="logo"
+    src="/onlinejudge/img/logo.png"
+    sizes="(max-width: 800px) 36px, 128px">
+  </amp-img>
+  
+    <h2 class="title"><a href="https://kycd.github.io/onlinejudge" title="Online judge note site">Online judge note site</a></h2>
+  
+  <p class="subtitle"></p>
+  <button class="menu-toggle" type="button" on="tap:sidebar.open">
+    <span class="icon icon-menu"></span>
+  </button>
+
+  
+  <nav class="menu">
+    <ul class="menu-list">
+      
+      
+      
+      
+        <li class="menu-item "><a href="/onlinejudge/">Home</a></li>
+      
+        <li class="menu-item "><a href="/onlinejudge/tags/">Tags</a></li>
+      
+    </ul>
+  </nav>
+
+  <ul class="social-list">
+  
+
+  
+  <li class="social-item">
+    <a href="//github.com/kycd" title="GitHub">
+      <svg class="icon" fill="currentColor"><use xlink:href="#icon-github" /></svg>
+    </a>
+  </li>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  <li class="social-item">
+	  <a href="https://kycd.github.io/onlinejudgeindex.xml" title="RSS">
+      <svg class="icon" fill="currentColor"><use xlink:href="#icon-rss" /></svg>
+    </a>
+  </li>
+</ul>
+
+</header>
+
+  <section class="main post-detail">
+    <header class="post-header">
+      <h1 class="post-title">UVa 12918 - Lucky Thief</h1>
+      <p class="entry-meta"><span class="entry-time">Nov 4, 2019</span> 2 min read</p>
+    </header>
+    
+
+    <article class="post-content"><h1 id="題目">題目</h1>
+
+<p>一個小偷拿到對應 m 個門的 n 把鑰匙，已知 n &leq; m 且每一把鑰匙必定對應到一道門，問小偷最少需要嘗試開門幾次才能把所有鑰匙對應的門找出來</p>
+
+<h1 id="input">Input</h1>
+
+<p>第一行的 T(T &leq; 100000) 表示 case 數量，接下來 T 行每行都有兩個數字 n, m ( 1 &leq; n &leq; m &leq; 100000)</p>
+
+<h1 id="output">Output</h1>
+
+<p>對每組測資 n, m 輸出一個整數，表最小嘗試次數。</p>
+
+<h1 id="解法">解法</h1>
+
+<p>題目沒寫很清楚，但意思應該是假設小偷運氣超爛，一定要試到最後才會找到對應的門</p>
+
+<p>以這個想法 + 題目給的幾組測資推論</p>
+
+<ul>
+<li><p>n = 1, m = 2</p>
+
+<pre><code>1
+一把鑰匙，運氣最爛開第一扇 fail，得知第二個門為正解
+所以 n = 1 時，答案為 m - 1
+</code></pre></li>
+
+<li><p>n = 4, m = 6</p>
+
+<pre><code>14
+推測先試第一把，撞出答案以後再考慮剩下的情況
+f(n = 4, m = 6) = 5 + f(n = 3, m = 5)
+翻譯: 第一把鑰匙撞 5 次出解 + 剩下 3 把鑰匙 5 扇門
+so
+f(n = 4, m = 6) = 5 + f(n = 3, m = 5)
+                = 5 + 4 + f(n = 2, m = 4)
+                = 5 + 4 + 3 + f(n = 1, m = 3)
+                = 5 + 4 + 3 + 2
+                = 14
+</code></pre></li>
+</ul>
+
+<p>看起來就是個梯形面積，上底 (m - n) 下底 (m - 1) 高 (n)</p>
+
+<pre><code>答案公式: ((m - n) + (m - 1)) * n / 2
+ps. n, m 大小是 10萬，C++ 需要 int64
+</code></pre>
+
+<h1 id="source-code">Source Code</h1>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e">#! /bin/python3</span>
+<span style="color:#75715e"># 2 star - math</span>
+<span style="color:#75715e"># 24119652  12918   Lucky Thief Accepted    PYTH3   0.480   2019-10-29 07:27:50</span>
+
+<span style="color:#f92672">import</span> sys
+
+t <span style="color:#f92672">=</span> int(input()<span style="color:#f92672">.</span>strip())
+<span style="color:#66d9ef">for</span> caseNum <span style="color:#f92672">in</span> range(t):
+    n, m <span style="color:#f92672">=</span> map(int, list(input()<span style="color:#f92672">.</span>strip()<span style="color:#f92672">.</span>split(<span style="color:#e6db74">&#39; &#39;</span>)))
+    <span style="color:#66d9ef">print</span>(int((m <span style="color:#f92672">-</span> n <span style="color:#f92672">+</span> m <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>) <span style="color:#f92672">*</span> n <span style="color:#f92672">/</span> <span style="color:#ae81ff">2</span>))
+</code></pre></div></article>
+    <footer class="post-footer">
+      
+      <ul class="post-tags">
+        
+		<li class="post-tag"><a href="https://kycd.github.io/onlinejudge/tags/uva"><span class="tag">UVa</span></a></li>
+        
+		<li class="post-tag"><a href="https://kycd.github.io/onlinejudge/tags/v129"><span class="tag">V129</span></a></li>
+        
+		<li class="post-tag"><a href="https://kycd.github.io/onlinejudge/tags/math"><span class="tag">Math</span></a></li>
+        
+		<li class="post-tag"><a href="https://kycd.github.io/onlinejudge/tags/2s"><span class="tag">2S</span></a></li>
+        
+      </ul>
+      
+      <div class="sharing">
+        <a class="share share-facebook" target="_blank" href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fkycd.github.io%2fonlinejudge%2fpost%2fuva%2fp12918-lucky-thief%2f" title="Share on Facebook">
+          <svg class="icon icon-facebook" fill="currentColor"><use xlink:href="#icon-facebook" /></svg>
+        </a>
+        <a class="share share-twitter" target="_blank" href="https://twitter.com/intent/tweet/?text=UVa%2012918%20-%20Lucky%20Thief&amp;url=https%3a%2f%2fkycd.github.io%2fonlinejudge%2fpost%2fuva%2fp12918-lucky-thief%2f" title="Share on Twitter">
+          <svg class="icon icon-twitter" fill="currentColor"><use xlink:href="#icon-twitter" /></svg>
+        </a>
+      </div>
+    </footer>
+  </section>
+  <footer class="footer">
+  <p>Copyright © 2018-2019 Online judge note site</p>
+  <p>Powered by <a href="https://gohugo.io/" target="_blank">Hugo</a> with theme <a href="https://github.com/huyb1991/hugo-lamp" title="Hugo LAMP" target="_blank">LAMP</a>.</p>
+</footer>
+
+
+
+
+
+
 
   </body>
 </html>
