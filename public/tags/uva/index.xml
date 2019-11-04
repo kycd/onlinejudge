@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Uva on Online judge note site</title>
+    <link>https://kycd.github.io/onlinejudge/tags/uva/</link>
+    <description>Recent content in Uva on Online judge note site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 04 Nov 2019 13:46:52 +0800</lastBuildDate>
+    
+	<atom:link href="https://kycd.github.io/onlinejudge/tags/uva/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>UVa 12918 - Lucky Thief</title>
+      <link>https://kycd.github.io/onlinejudge/post/uva/p12918/</link>
+      <pubDate>Mon, 04 Nov 2019 13:46:52 +0800</pubDate>
+      
+      <guid>https://kycd.github.io/onlinejudge/post/uva/p12918/</guid>
+      <description>&lt;h1 id=&#34;題目&#34;&gt;題目&lt;/h1&gt;
+
+&lt;p&gt;一個小偷拿到對應 m 個門的 n 把鑰匙，已知 n &amp;leq; m 且每一把鑰匙必定對應到一道門，問小偷最少需要嘗試開門幾次才能把所有鑰匙對應的門找出來&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
