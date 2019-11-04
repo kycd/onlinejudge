@@ -1,0 +1,23 @@
+baseURL = "https://kycd.github.io/onlinejudge"
+languageCode = "en-us"
+title = "Online judge note site"
+theme = "hugo-lamp"
+
+[Params]
+	author = "Kevin Cheng"
+	DateFormat = "Mon Jan 2, 2006"
+	logo = "/onlinejudge/img/logo.png"
+
+[taxonomies]
+	tag = "tags"
+
+[[menu.main]]
+  name = "Home"
+  weight = 1
+  url = "/"
+
+[[menu.main]]
+  name = "Tags"
+  weight = 3
+  identifier = "tags"
+  url = "/tags/"
