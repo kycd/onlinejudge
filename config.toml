@@ -7,6 +7,7 @@ theme = "hugo-lamp"
 	author = "Kevin Cheng"
 	DateFormat = "Mon Jan 2, 2006"
 	logo = "/onlinejudge/img/logo.png"
+	github = "kycd"
 
 [taxonomies]
 	tag = "tags"
