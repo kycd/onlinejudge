@@ -3,8 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://kycd.github.io/onlinejudge/post/uva/p12918/</loc>
+    <loc>https://kycd.github.io/onlinejudge/uva/p11747-heavy-cycle-edges/</loc>
+    <lastmod>2019-11-04T18:40:59+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kycd.github.io/onlinejudge/uva/p12918-lucky-thief/</loc>
     <lastmod>2019-11-04T13:46:52+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kycd.github.io/onlinejudge/tags/2.5s/</loc>
+    <lastmod>2019-11-04T18:40:59+08:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -20,26 +31,38 @@
   </url>
   
   <url>
-    <loc>https://kycd.github.io/onlinejudge/</loc>
-    <lastmod>2019-11-04T13:46:52+08:00</lastmod>
+    <loc>https://kycd.github.io/onlinejudge/tags/minimum-spanning-tree/</loc>
+    <lastmod>2019-11-04T18:40:59+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://kycd.github.io/onlinejudge/post/</loc>
-    <lastmod>2019-11-04T13:46:52+08:00</lastmod>
+    <loc>https://kycd.github.io/onlinejudge/tags/mst/</loc>
+    <lastmod>2019-11-04T18:40:59+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kycd.github.io/onlinejudge/</loc>
+    <lastmod>2019-11-04T18:40:59+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kycd.github.io/onlinejudge/tags/</loc>
-    <lastmod>2019-11-04T13:46:52+08:00</lastmod>
+    <lastmod>2019-11-04T18:40:59+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kycd.github.io/onlinejudge/tags/uva/</loc>
-    <lastmod>2019-11-04T13:46:52+08:00</lastmod>
+    <lastmod>2019-11-04T18:40:59+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kycd.github.io/onlinejudge/uva/</loc>
+    <lastmod>2019-11-04T18:40:59+08:00</lastmod>
     <priority>0</priority>
   </url>
   

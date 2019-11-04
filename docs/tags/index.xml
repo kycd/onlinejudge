@@ -6,10 +6,19 @@
     <description>Recent content in Tags on Online judge note site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 04 Nov 2019 13:46:52 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 04 Nov 2019 18:40:59 +0800</lastBuildDate>
     
 	<atom:link href="https://kycd.github.io/onlinejudge/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2.5s</title>
+      <link>https://kycd.github.io/onlinejudge/tags/2.5s/</link>
+      <pubDate>Mon, 04 Nov 2019 18:40:59 +0800</pubDate>
+      
+      <guid>https://kycd.github.io/onlinejudge/tags/2.5s/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>2s</title>
@@ -30,9 +39,27 @@
     </item>
     
     <item>
+      <title>Minimum Spanning Tree</title>
+      <link>https://kycd.github.io/onlinejudge/tags/minimum-spanning-tree/</link>
+      <pubDate>Mon, 04 Nov 2019 18:40:59 +0800</pubDate>
+      
+      <guid>https://kycd.github.io/onlinejudge/tags/minimum-spanning-tree/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mst</title>
+      <link>https://kycd.github.io/onlinejudge/tags/mst/</link>
+      <pubDate>Mon, 04 Nov 2019 18:40:59 +0800</pubDate>
+      
+      <guid>https://kycd.github.io/onlinejudge/tags/mst/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Uva</title>
       <link>https://kycd.github.io/onlinejudge/tags/uva/</link>
-      <pubDate>Mon, 04 Nov 2019 13:46:52 +0800</pubDate>
+      <pubDate>Mon, 04 Nov 2019 18:40:59 +0800</pubDate>
       
       <guid>https://kycd.github.io/onlinejudge/tags/uva/</guid>
       <description></description>
