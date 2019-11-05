@@ -19,7 +19,7 @@
       <guid>https://kycd.github.io/onlinejudge/post/uva/p12918-lucky-thief/</guid>
       <description>&lt;h1 id=&#34;題目&#34;&gt;題目&lt;/h1&gt;
 
-&lt;p&gt;一個小偷拿到對應 m 個門的 n 把鑰匙，已知 n &amp;leq; m 且每一把鑰匙必定對應到一道門，問小偷最少需要嘗試開門幾次才能把所有鑰匙對應的門找出來&lt;/p&gt;</description>
+&lt;p&gt;一個小偷拿到對應 $m$ 個門的 $n$ 把鑰匙，已知 $n \leq m$ 且每一把鑰匙必定對應到一道門，問小偷最少需要嘗試開門幾次才能把所有鑰匙對應的門找出來&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -21,7 +21,7 @@
 
 &lt;p&gt;講了一堆 MST 演算法的實作，當成廢話就好&lt;/p&gt;
 
-&lt;p&gt;給 n 個點，m 個邊，求不屬於 MST 的 edge 集合&lt;/p&gt;</description>
+&lt;p&gt;給 $n$ 個點，$m$ 個邊，求不屬於 MST 的 edge 集合&lt;/p&gt;</description>
     </item>
     
   </channel>
