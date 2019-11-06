@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://kycd.github.io/onlinejudge/post/uva/p1225-digit-counting/</loc>
+    <lastmod>2019-11-06T14:42:11+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://kycd.github.io/onlinejudge/post/uva/p1330-city-game/</loc>
     <lastmod>2019-11-05T16:57:17+08:00</lastmod>
   </url>
@@ -15,6 +20,12 @@
   <url>
     <loc>https://kycd.github.io/onlinejudge/post/uva/p12918-lucky-thief/</loc>
     <lastmod>2019-11-04T13:46:52+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kycd.github.io/onlinejudge/tags/1s/</loc>
+    <lastmod>2019-11-06T14:42:11+08:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -61,31 +72,43 @@
   
   <url>
     <loc>https://kycd.github.io/onlinejudge/</loc>
-    <lastmod>2019-11-05T16:57:17+08:00</lastmod>
+    <lastmod>2019-11-06T14:42:11+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kycd.github.io/onlinejudge/post/</loc>
-    <lastmod>2019-11-05T16:57:17+08:00</lastmod>
+    <lastmod>2019-11-06T14:42:11+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kycd.github.io/onlinejudge/tags/simulation/</loc>
+    <lastmod>2019-11-06T14:42:11+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kycd.github.io/onlinejudge/tags/</loc>
-    <lastmod>2019-11-04T18:40:59+08:00</lastmod>
+    <lastmod>2019-11-06T14:42:11+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kycd.github.io/onlinejudge/tags/uva/</loc>
-    <lastmod>2019-11-05T16:57:17+08:00</lastmod>
+    <lastmod>2019-11-06T14:42:11+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kycd.github.io/onlinejudge/tags/v117/</loc>
     <lastmod>2019-11-04T18:40:59+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kycd.github.io/onlinejudge/tags/v12/</loc>
+    <lastmod>2019-11-06T14:42:11+08:00</lastmod>
     <priority>0</priority>
   </url>
   

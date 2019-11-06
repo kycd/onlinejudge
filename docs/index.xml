@@ -6,10 +6,25 @@
     <description>Recent content on Online judge note site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 Nov 2019 16:57:17 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 06 Nov 2019 14:42:11 +0800</lastBuildDate>
     
 	<atom:link href="https://kycd.github.io/onlinejudge/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>UVa 1225 Digit Counting</title>
+      <link>https://kycd.github.io/onlinejudge/post/uva/p1225-digit-counting/</link>
+      <pubDate>Wed, 06 Nov 2019 14:42:11 +0800</pubDate>
+      
+      <guid>https://kycd.github.io/onlinejudge/post/uva/p1225-digit-counting/</guid>
+      <description>&lt;h1 id=&#34;題目&#34;&gt;題目&lt;/h1&gt;
+
+&lt;p&gt;對一個正整數 $N$，把 $1$~$N$ 黏在一起作成一個新的數後，計算每個 digit($0$~$9$) 的出現次數。&lt;/p&gt;
+
+&lt;p&gt;舉例，$N = 13$，黏在一起作成的新整數為 12345678910111213&lt;/p&gt;
+
+&lt;p&gt;digit 出現次數: $1$ 出現 6 次，$2$ 出現 2 次，$3$ 出現 3 次，以此類推。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>UVa 1330 City Game</title>
