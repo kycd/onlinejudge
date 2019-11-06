@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://kycd.github.io/onlinejudge/post/uva/p1330-city-game/</loc>
+    <lastmod>2019-11-05T16:57:17+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://kycd.github.io/onlinejudge/post/uva/p11747-heavy-cycle-edges/</loc>
     <lastmod>2019-11-04T18:40:59+08:00</lastmod>
   </url>
@@ -21,6 +26,18 @@
   <url>
     <loc>https://kycd.github.io/onlinejudge/tags/2s/</loc>
     <lastmod>2019-11-04T13:46:52+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kycd.github.io/onlinejudge/tags/3s/</loc>
+    <lastmod>2019-11-05T16:57:17+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kycd.github.io/onlinejudge/tags/dp/</loc>
+    <lastmod>2019-11-05T16:57:17+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -44,13 +61,13 @@
   
   <url>
     <loc>https://kycd.github.io/onlinejudge/</loc>
-    <lastmod>2019-11-04T18:40:59+08:00</lastmod>
+    <lastmod>2019-11-05T16:57:17+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kycd.github.io/onlinejudge/post/</loc>
-    <lastmod>2019-11-04T18:40:59+08:00</lastmod>
+    <lastmod>2019-11-05T16:57:17+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -62,7 +79,7 @@
   
   <url>
     <loc>https://kycd.github.io/onlinejudge/tags/uva/</loc>
-    <lastmod>2019-11-04T18:40:59+08:00</lastmod>
+    <lastmod>2019-11-05T16:57:17+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -75,6 +92,18 @@
   <url>
     <loc>https://kycd.github.io/onlinejudge/tags/v129/</loc>
     <lastmod>2019-11-04T13:46:52+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kycd.github.io/onlinejudge/tags/v13/</loc>
+    <lastmod>2019-11-05T16:57:17+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kycd.github.io/onlinejudge/tags/wip/</loc>
+    <lastmod>2019-11-05T16:57:17+08:00</lastmod>
     <priority>0</priority>
   </url>
   

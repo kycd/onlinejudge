@@ -10,30 +10,28 @@
     
 
     
-    <title>UVa 11747 - Heavy Cycle Edges</title>
-
-    
-    
-
-
-
+    <title>
+  Tag → wip
   
+   | Online judge note site
+</title>
+
+    
+    
+
+
+
+
   
   <meta name="author" content="Kevin Cheng" />
-  <meta name="description" content="題目 講了一堆 MST 演算法的實作，當成廢話就好
-給 $n$ 個點，$m$ 個邊，求不屬於 MST 的 edge 集合
-">
+  <meta name="description" content="" />
 
   
-  
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="@gohugoio" />
-    <meta name="twitter:title" content="UVa 11747 - Heavy Cycle Edges" />
-    <meta name="twitter:description" content="題目 講了一堆 MST 演算法的實作，當成廢話就好
-給 $n$ 個點，$m$ 個邊，求不屬於 MST 的 edge 集合
-" />
-    <meta name="twitter:image" content="https://kycd.github.io/img/avatar.jpg" />
-  
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@gohugoio" />
+  <meta name="twitter:title" content="Online judge note site" />
+  <meta name="twitter:description" content="" />
+  <meta name="twitter:image" content="https://kycd.github.io/img/avatar.jpg" />
 
 
 
@@ -41,7 +39,7 @@
 <meta name="generator" content="Hugo 0.54.0">
 
 
-<link rel="canonical" href="https://kycd.github.io/onlinejudge/post/uva/p11747-heavy-cycle-edges/">
+<link rel="canonical" href="https://kycd.github.io/onlinejudge/tags/wip/">
 <link rel="alternative" href="/index.xml" title="Online judge note site" type="application/atom+xml">
 
 
@@ -261,131 +259,61 @@ code.has-jax {
 
 </header>
 
-  <section class="main post-detail">
-    <header class="post-header">
-      <h1 class="post-title">UVa 11747 - Heavy Cycle Edges</h1>
-      <p class="entry-meta"><span class="entry-time">Nov 4, 2019</span> 2 min read</p>
+  <section class="main entry-list">
+    
+      <h2>Tag: wip</h2>
+    
+    <header class="list-header">
+      
+      
+        
+      
+        
+      
     </header>
     
-
-    <article class="post-content"><h1 id="題目">題目</h1>
-
-<p>講了一堆 MST 演算法的實作，當成廢話就好</p>
-
-<p>給 $n$ 個點，$m$ 個邊，求不屬於 MST 的 edge 集合</p>
-
-<h1 id="input">Input</h1>
-
-<p>每組測資第一行是兩個數字 $n$, $m$($1 \leq n \leq 1000$, $0 \leq m \leq 25000$)</p>
-
-<p>接下來 $m$ 行為 edge 資訊，每行三個數字 $u$, $v$, $w$($0 \leq u, v \lt n$, $0 \leq w \lt  2^{31}$) 表 edge 的兩個 vertex 編號 + weight</p>
-
-<h1 id="output">Output</h1>
-
-<p>每組測資輸出一行，將不屬於 MST 的 edge 的 weight 以空白分隔輸出(由小到大)</p>
-
-<p>如果沒有這種 edge 就輸出 <code>forest</code></p>
-
-<h1 id="解法">解法</h1>
-
-<ol>
-<li>讀取</li>
-<li>sort</li>
-<li>kruskal + 掃到不屬於 MST 的 edge 時就記下來。</li>
-<li>輸出</li>
-</ol>
-
-<h1 id="source-code">Source Code</h1>
-
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e">#!/bin/python3</span>
-<span style="color:#75715e"># 2~3 star</span>
-<span style="color:#75715e"># MST</span>
-<span style="color:#75715e"># 24147000  11747   Heavy Cycle Edges   Accepted    PYTH3   0.030   2019-11-04 08:43:37</span>
-
-<span style="color:#f92672">import</span> sys
-
-<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">getMapSize</span>():
-    <span style="color:#66d9ef">return</span> map(int, input()<span style="color:#f92672">.</span>strip()<span style="color:#f92672">.</span>split(<span style="color:#e6db74">&#39; &#39;</span>))
-
-<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">getEdge</span>():
-    x, y, w <span style="color:#f92672">=</span> list(map(int, input()<span style="color:#f92672">.</span>strip()<span style="color:#f92672">.</span>split(<span style="color:#e6db74">&#39; &#39;</span>)))
-    <span style="color:#66d9ef">return</span> Edge(x, y, w)
-
-<span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Edge</span>:
-    <span style="color:#66d9ef">def</span> __init__(self, x, y, w):
-        self<span style="color:#f92672">.</span>nodeX <span style="color:#f92672">=</span> x
-        self<span style="color:#f92672">.</span>nodeY <span style="color:#f92672">=</span> y
-        self<span style="color:#f92672">.</span>weight <span style="color:#f92672">=</span> w
-
-<span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Graph</span>:
-    <span style="color:#66d9ef">def</span> __init__(self, n):
-        self<span style="color:#f92672">.</span>n <span style="color:#f92672">=</span> n
-        self<span style="color:#f92672">.</span>parents <span style="color:#f92672">=</span> [i <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(n)]
-        self<span style="color:#f92672">.</span>edges <span style="color:#f92672">=</span> []
-        self<span style="color:#f92672">.</span>leftEdges <span style="color:#f92672">=</span> []
-
-    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">getEdges</span>(self, m):
-        <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(m):
-            self<span style="color:#f92672">.</span>edges<span style="color:#f92672">.</span>append(getEdge())
-        self<span style="color:#f92672">.</span>edges <span style="color:#f92672">=</span> sorted(self<span style="color:#f92672">.</span>edges, key<span style="color:#f92672">=</span><span style="color:#66d9ef">lambda</span> x: x<span style="color:#f92672">.</span>weight)
-
-    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">getRoot</span>(self, node):
-        <span style="color:#66d9ef">if</span> self<span style="color:#f92672">.</span>parents[node] <span style="color:#f92672">==</span> node:
-            <span style="color:#66d9ef">return</span> node
-
-        root <span style="color:#f92672">=</span> self<span style="color:#f92672">.</span>getRoot(self<span style="color:#f92672">.</span>parents[node])
-        self<span style="color:#f92672">.</span>parents[node] <span style="color:#f92672">=</span> root
-        <span style="color:#66d9ef">return</span> root
-
-    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">union</span>(self):
-        <span style="color:#66d9ef">for</span> edge <span style="color:#f92672">in</span> self<span style="color:#f92672">.</span>edges:
-            rootX <span style="color:#f92672">=</span> self<span style="color:#f92672">.</span>getRoot(edge<span style="color:#f92672">.</span>nodeX)
-            rootY <span style="color:#f92672">=</span> self<span style="color:#f92672">.</span>getRoot(edge<span style="color:#f92672">.</span>nodeY)
-            <span style="color:#66d9ef">if</span> rootX <span style="color:#f92672">!=</span> rootY:
-                self<span style="color:#f92672">.</span>parents[rootX] <span style="color:#f92672">=</span> rootY
-            <span style="color:#66d9ef">else</span>:
-                self<span style="color:#f92672">.</span>leftEdges<span style="color:#f92672">.</span>append(str(edge<span style="color:#f92672">.</span>weight))
-
-<span style="color:#66d9ef">while</span> <span style="color:#ae81ff">1</span>:
-    n, m <span style="color:#f92672">=</span> getMapSize()
-    <span style="color:#66d9ef">if</span> n <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>:
-        <span style="color:#66d9ef">break</span>
-
-    graph <span style="color:#f92672">=</span> Graph(n)
-    graph<span style="color:#f92672">.</span>getEdges(m)
-    graph<span style="color:#f92672">.</span>union()
-
-    <span style="color:#66d9ef">if</span> len(graph<span style="color:#f92672">.</span>leftEdges) <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>:
-        <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#34;forest&#34;</span>)
-    <span style="color:#66d9ef">else</span>:
-        <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#34; &#34;</span><span style="color:#f92672">.</span>join(graph<span style="color:#f92672">.</span>leftEdges))
-
-</code></pre></div></article>
-    <footer class="post-footer">
+    
       
-      <ul class="post-tags">
-        
-		<li class="post-tag"><a href="https://kycd.github.io/onlinejudge/tags/uva"><span class="tag">UVa</span></a></li>
-        
-		<li class="post-tag"><a href="https://kycd.github.io/onlinejudge/tags/v117"><span class="tag">V117</span></a></li>
-        
-		<li class="post-tag"><a href="https://kycd.github.io/onlinejudge/tags/mst"><span class="tag">MST</span></a></li>
-        
-		<li class="post-tag"><a href="https://kycd.github.io/onlinejudge/tags/minimum-spanning-tree"><span class="tag">Minimum Spanning Tree</span></a></li>
-        
-		<li class="post-tag"><a href="https://kycd.github.io/onlinejudge/tags/2.5s"><span class="tag">2.5S</span></a></li>
-        
-      </ul>
+        <article class="entry-single">
+  
+  <header class="entry-header">
+    <h3 class="entry-title"><a href="https://kycd.github.io/onlinejudge/post/uva/p1330-city-game/" title="UVa 1330 City Game" class="entry-link">UVa 1330 City Game</a></h3>
+  </header>
+
+  <p class="entry-summary">題目 Bob 想在 $M \times N$ 的地圖上，蓋一棟長方形建築物以獲取收益，$收益 = 建築物面積 * 3$
+已知字母 F 為可用空地，求 Bob 可獲得的最大收益(只蓋一棟)。
+</p>
+  
+    <ul id="entry-tags">
+	  
+	    <li class="entry-tag"> <a href="https://kycd.github.io/onlinejudge/tags/uva">UVa</a> </li>
+	  
+	    <li class="entry-tag"> <a href="https://kycd.github.io/onlinejudge/tags/v13">v13</a> </li>
+	  
+	    <li class="entry-tag"> <a href="https://kycd.github.io/onlinejudge/tags/dp">DP</a> </li>
+	  
+	    <li class="entry-tag"> <a href="https://kycd.github.io/onlinejudge/tags/3s">3S</a> </li>
+	  
+	    <li class="entry-tag"> <a href="https://kycd.github.io/onlinejudge/tags/wip">wip</a> </li>
+	  
+    </ul>
+  
+  <footer class="entry-footer">
+    <p class="entry-meta"><span class="entry-time">Nov 5, 2019</span> 1 min read</p>
+    <div class="sharing">
+      <a class="share share-facebook" target="_blank" href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fkycd.github.io%2fonlinejudge%2fpost%2fuva%2fp1330-city-game%2f" title="Share on Facebook">
+        <svg class="icon" fill="currentColor"><use xlink:href="#icon-facebook" /></svg>
+      </a>
+      <a class="share share-twitter" target="_blank" href="https://twitter.com/intent/tweet/?text=UVa%201330%20City%20Game&amp;url=https%3a%2f%2fkycd.github.io%2fonlinejudge%2fpost%2fuva%2fp1330-city-game%2f" title="Share on Twitter">
+        <svg class="icon share-twitter-icon" fill="currentColor"><use xlink:href="#icon-twitter" /></svg>
+      </a>
+    </div>
+  </footer>
+</article>
+
       
-      <div class="sharing">
-        <a class="share share-facebook" target="_blank" href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fkycd.github.io%2fonlinejudge%2fpost%2fuva%2fp11747-heavy-cycle-edges%2f" title="Share on Facebook">
-          <svg class="icon icon-facebook" fill="currentColor"><use xlink:href="#icon-facebook" /></svg>
-        </a>
-        <a class="share share-twitter" target="_blank" href="https://twitter.com/intent/tweet/?text=UVa%2011747%20-%20Heavy%20Cycle%20Edges&amp;url=https%3a%2f%2fkycd.github.io%2fonlinejudge%2fpost%2fuva%2fp11747-heavy-cycle-edges%2f" title="Share on Twitter">
-          <svg class="icon icon-twitter" fill="currentColor"><use xlink:href="#icon-twitter" /></svg>
-        </a>
-      </div>
-    </footer>
+    
+    
   </section>
   <footer class="footer">
   <p>Copyright © 2018-2019 Online judge note site</p>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>V13 on Online judge note site</title>
+    <link>https://kycd.github.io/onlinejudge/tags/v13/</link>
+    <description>Recent content in V13 on Online judge note site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 05 Nov 2019 16:57:17 +0800</lastBuildDate>
+    
+	<atom:link href="https://kycd.github.io/onlinejudge/tags/v13/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>UVa 1330 City Game</title>
+      <link>https://kycd.github.io/onlinejudge/post/uva/p1330-city-game/</link>
+      <pubDate>Tue, 05 Nov 2019 16:57:17 +0800</pubDate>
+      
+      <guid>https://kycd.github.io/onlinejudge/post/uva/p1330-city-game/</guid>
+      <description>&lt;h1 id=&#34;題目&#34;&gt;題目&lt;/h1&gt;
+
+&lt;p&gt;Bob 想在 $M \times N$ 的地圖上，蓋一棟長方形建築物以獲取收益，$收益 = 建築物面積 * 3$&lt;/p&gt;
+
+&lt;p&gt;已知字母 &lt;code&gt;F&lt;/code&gt; 為可用空地，求 Bob 可獲得的最大收益(只蓋一棟)。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
