@@ -19,5 +19,7 @@ case $1 in
         echo "Create input file uva/v$VOL_PREFIX/p$2-$3.in"
         touch "$CUR/uva/v$VOL_PREFIX/p$2-$3.out"
         echo "Create output file uva/v$VOL_PREFIX/p$2-$3.out"
+
+		hugo new --kind uva post/uva/p$2-$3.md
         ;;
 esac

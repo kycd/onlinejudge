@@ -1,7 +1,7 @@
 ---
 title: "{{ replace .TranslationBaseName "-" " " | replaceRE "^p" "UVa " | title }}"
 author: "Kevin Cheng"
-tags: ["UVa"]
+tags: ["UVa", "wip"]
 date: {{ .Date }}
 draft: true
 ---
@@ -22,4 +22,4 @@ draft: true
 
 # Source Code
 
-{{< readfile file="uva/OOXX" highlight="OOXX" >}}
+<!-- < readfile file="uva/OOXX" highlight="OOXX" > -->
