@@ -1,4 +1,4 @@
-baseURL = "https://kycd.github.io/onlinejudge"
+baseURL = "https://kycd.github.io/onlinejudge/"
 languageCode = "en-us"
 title = "Online judge note site"
 theme = "hugo-lamp"
