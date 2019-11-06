@@ -30,8 +30,6 @@ https://kycd.github.io/onlinejudge/
     - [ ] 11455 Behold My Quadrangle
     - [ ] 11470 Is this the easiest problem?
     - [ ] 11494 Queen
-  - [x] v117
-    - [x] 11747 Heavy Cycle Edges
   - [ ] v125
     - [ ] 12503 Robot Instructions
     - [ ] 12527 Different Digits
@@ -40,5 +38,8 @@ https://kycd.github.io/onlinejudge/
   - [ ] v129
     - [x] 12918 Lucky Thief
     - [ ] 12930 Bigger or Smaller
+- [ ] AC 有報告的！
+  - [ ] v13
+    - [ ] 1330 City Game
 - [ ] 搬其他地方的 code 過來(噩夢...)
 - [ ] 把 themes 調整成可吃 content/* 而不是只吃 content/post/*
