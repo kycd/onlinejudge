@@ -1,7 +1,7 @@
 ---
 title: "UVa 1225 Digit Counting"
 author: "Kevin Cheng"
-tags: ["UVa", "v12", "simulation", "1S"]
+tags: ["UVa", "v12", "simulation", "1-Star"]
 date: 2019-11-06T14:42:11+08:00
 ---
 

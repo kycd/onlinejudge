@@ -1,7 +1,7 @@
 ---
 title: "UVa 1330 City Game"
 author: "Kevin Cheng"
-tags: ["UVa", "v13", "DP", "3S", "wip"]
+tags: ["UVa", "v13", "DP", "3-Star", "wip"]
 date: 2019-11-05T16:57:17+08:00
 ---
 

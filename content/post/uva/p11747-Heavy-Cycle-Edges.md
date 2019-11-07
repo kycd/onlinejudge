@@ -1,7 +1,7 @@
 ---
 title: "UVa 11747 - Heavy Cycle Edges"
 author: "Kevin Cheng"
-tags: ["UVa", "v117", "MST", "minimum spanning tree", "2.5S"]
+tags: ["UVa", "v117", "MST", "minimum spanning tree", "2.5-Star"]
 date: 2019-11-04T18:40:59+08:00
 ---
 

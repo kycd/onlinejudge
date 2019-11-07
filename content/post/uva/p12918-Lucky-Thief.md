@@ -1,7 +1,7 @@
 ---
 title: "UVa 12918 - Lucky Thief"
 author: "Kevin Cheng"
-tags: ["UVa", "v129", "math", "2S"]
+tags: ["UVa", "v129", "math", "2-Star"]
 date: 2019-11-04T13:46:52+08:00
 ---
 
