@@ -12,7 +12,7 @@ https://kycd.github.io/onlinejudge/
   - [ ] v5
     - [ ] 530 Binomial Showdown
   - [ ] v12
-    - [ ] 1226 Numerical surprises
+    - [x] 1226 Numerical surprises
     - [ ] 1230 MODEX
     - [ ] 1260 Sales
   - [ ] v13
