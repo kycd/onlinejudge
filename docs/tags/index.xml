@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Online judge note site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 06 Nov 2019 14:42:11 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 07 Nov 2019 14:28:33 +0800</lastBuildDate>
     
 	<atom:link href="https://kycd.github.io/onlinejudge/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>1 Star</title>
       <link>https://kycd.github.io/onlinejudge/tags/1-star/</link>
-      <pubDate>Wed, 06 Nov 2019 14:42:11 +0800</pubDate>
+      <pubDate>Thu, 07 Nov 2019 14:28:33 +0800</pubDate>
       
       <guid>https://kycd.github.io/onlinejudge/tags/1-star/</guid>
       <description></description>
@@ -44,6 +44,15 @@
       <pubDate>Tue, 05 Nov 2019 16:57:17 +0800</pubDate>
       
       <guid>https://kycd.github.io/onlinejudge/tags/3-star/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Big Integer</title>
+      <link>https://kycd.github.io/onlinejudge/tags/big-integer/</link>
+      <pubDate>Thu, 07 Nov 2019 14:28:33 +0800</pubDate>
+      
+      <guid>https://kycd.github.io/onlinejudge/tags/big-integer/</guid>
       <description></description>
     </item>
     
@@ -95,7 +104,7 @@
     <item>
       <title>Uva</title>
       <link>https://kycd.github.io/onlinejudge/tags/uva/</link>
-      <pubDate>Wed, 06 Nov 2019 14:42:11 +0800</pubDate>
+      <pubDate>Thu, 07 Nov 2019 14:28:33 +0800</pubDate>
       
       <guid>https://kycd.github.io/onlinejudge/tags/uva/</guid>
       <description></description>
@@ -113,7 +122,7 @@
     <item>
       <title>V12</title>
       <link>https://kycd.github.io/onlinejudge/tags/v12/</link>
-      <pubDate>Wed, 06 Nov 2019 14:42:11 +0800</pubDate>
+      <pubDate>Thu, 07 Nov 2019 14:28:33 +0800</pubDate>
       
       <guid>https://kycd.github.io/onlinejudge/tags/v12/</guid>
       <description></description>
