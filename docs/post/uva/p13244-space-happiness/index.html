@@ -10,28 +10,28 @@
     
 
     
-    <title>
-  Tag → math
+    <title>UVa 13244 Space Happiness</title>
+
+    
+    
+
+
+
   
-   | Online judge note site
-</title>
-
-    
-    
-
-
-
-
   
   <meta name="author" content="Kevin Cheng" />
-  <meta name="description" content="" />
+  <meta name="description" content="題目 s 為一奇數，求數列 0, 1, 3, 5, ..., s - 2, s, s - 2, s - 4, ... , 3, 1, 0 的總和
+">
 
   
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:site" content="@gohugoio" />
-  <meta name="twitter:title" content="Online judge note site" />
-  <meta name="twitter:description" content="" />
-  <meta name="twitter:image" content="https://kycd.github.io/img/avatar.jpg" />
+  
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@gohugoio" />
+    <meta name="twitter:title" content="UVa 13244 Space Happiness" />
+    <meta name="twitter:description" content="題目 s 為一奇數，求數列 0, 1, 3, 5, ..., s - 2, s, s - 2, s - 4, ... , 3, 1, 0 的總和
+" />
+    <meta name="twitter:image" content="https://kycd.github.io/img/avatar.jpg" />
+  
 
 
 
@@ -39,7 +39,7 @@
 <meta name="generator" content="Hugo 0.54.0">
 
 
-<link rel="canonical" href="https://kycd.github.io/onlinejudge/tags/math/">
+<link rel="canonical" href="https://kycd.github.io/onlinejudge/post/uva/p13244-space-happiness/">
 <link rel="alternative" href="/index.xml" title="Online judge note site" type="application/atom+xml">
 
 
@@ -259,95 +259,95 @@ code.has-jax {
 
 </header>
 
-  <section class="main entry-list">
-    
-      <h2>Tag: math</h2>
-    
-    <header class="list-header">
-      
-      
-        
-      
-        
-      
+  <section class="main post-detail">
+    <header class="post-header">
+      <h1 class="post-title">UVa 13244 Space Happiness</h1>
+      <p class="entry-meta"><span class="entry-time">Nov 11, 2019</span> 1 min read</p>
     </header>
     
-    
+
+    <article class="post-content"><h1 id="題目">題目</h1>
+
+<p>s 為一奇數，求數列 <code>0, 1, 3, 5, ..., s - 2, s, s - 2, s - 4, ... , 3, 1, 0</code> 的總和</p>
+
+<h1 id="input">Input</h1>
+
+<p>第一行為測資筆數 $t$</p>
+
+<p>每組測資為一個正整數 $s(1 \le s \le 10^9 + 1)$</p>
+
+<h1 id="output">Output</h1>
+
+<p>對每組測資輸出一個整數，為題目描述之數列和</p>
+
+<h1 id="解法">解法</h1>
+
+<p>不看開頭結尾的 0 就是兩個等差數列</p>
+
+<ol>
+<li>$[1 + 3 + &hellip; + (s - 2) + s]$</li>
+<li>$[(s - 2) + (s - 4) + &hellip; + 3 + 1)$</li>
+</ol>
+
+<p>所以就</p>
+
+<ol>
+<li>$a_1 = 1, a_{n1} = s, n1 = (s + 1) / 2$，$S_1 = (1 + s) * [(s + 1) / 2] / 2 = $$s^2 + 2s + 1 \over 4$</li>
+<li>$a_1 = (s - 2), a_{n2} = 1, n2 = (s - 2 + 1) / 2$，$S_2 = [(s - 2) + 1] * [(s - 1) / 2] / 2 = $$s^2 - 2s + 1\over 4$</li>
+</ol>
+
+<p>so，答案就是 $S1 + S2 = $$s^2 + 1 \over 2$</p>
+
+<p>測資很仁慈，int64 就能解</p>
+
+<ul>
+<li><p>ps. python 需要額外注意 <code>/</code> 和 <code>//</code> 的用法&hellip;.</p>
+
+<pre><code>在 python 用 / 回 return float 型態，在 int64 的範圍精准度會出事
+必須要 // 來 return int 型態
+這東西就是C/C++ 的 /
+</code></pre>
+
+<h1 id="source-code">Source Code</h1></li>
+</ul>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python3" data-lang="python3"><span style="color:#75715e">#!/usr/bin/python</span>
+<span style="color:#75715e"># 1 star math</span>
+<span style="color:#75715e"># 24177452  13244   Space Happiness Accepted    PYTH3   0.000   2019-11-11 03:50:50</span>
+
+<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">countCost</span>(speed):
+    <span style="color:#66d9ef">return</span> (speed <span style="color:#f92672">*</span> speed <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>) <span style="color:#f92672">//</span> <span style="color:#ae81ff">2</span>
+
+n <span style="color:#f92672">=</span> int(input()<span style="color:#f92672">.</span>strip())
+<span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(n):
+    s <span style="color:#f92672">=</span> int(input()<span style="color:#f92672">.</span>strip())
+    print(countCost(s))
+</code></pre></div></article>
+    <footer class="post-footer">
       
-        <article class="entry-single">
-  
-  <header class="entry-header">
-    <h3 class="entry-title"><a href="https://kycd.github.io/onlinejudge/post/uva/p13244-space-happiness/" title="UVa 13244 Space Happiness" class="entry-link">UVa 13244 Space Happiness</a></h3>
-  </header>
-
-  <p class="entry-summary">題目 s 為一奇數，求數列 0, 1, 3, 5, ..., s - 2, s, s - 2, s - 4, ... , 3, 1, 0 的總和
-</p>
-  
-    <ul id="entry-tags">
-	  
-	    <li class="entry-tag"> <a href="https://kycd.github.io/onlinejudge/tags/uva">UVa</a> </li>
-	  
-	    <li class="entry-tag"> <a href="https://kycd.github.io/onlinejudge/tags/v132">v132</a> </li>
-	  
-	    <li class="entry-tag"> <a href="https://kycd.github.io/onlinejudge/tags/math">math</a> </li>
-	  
-	    <li class="entry-tag"> <a href="https://kycd.github.io/onlinejudge/tags/%E7%AD%89%E5%B7%AE%E7%B4%9A%E6%95%B8%E5%92%8C">等差級數和</a> </li>
-	  
-	    <li class="entry-tag"> <a href="https://kycd.github.io/onlinejudge/tags/1-star">1-star</a> </li>
-	  
-    </ul>
-  
-  <footer class="entry-footer">
-    <p class="entry-meta"><span class="entry-time">Nov 11, 2019</span> 1 min read</p>
-    <div class="sharing">
-      <a class="share share-facebook" target="_blank" href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fkycd.github.io%2fonlinejudge%2fpost%2fuva%2fp13244-space-happiness%2f" title="Share on Facebook">
-        <svg class="icon" fill="currentColor"><use xlink:href="#icon-facebook" /></svg>
-      </a>
-      <a class="share share-twitter" target="_blank" href="https://twitter.com/intent/tweet/?text=UVa%2013244%20Space%20Happiness&amp;url=https%3a%2f%2fkycd.github.io%2fonlinejudge%2fpost%2fuva%2fp13244-space-happiness%2f" title="Share on Twitter">
-        <svg class="icon share-twitter-icon" fill="currentColor"><use xlink:href="#icon-twitter" /></svg>
-      </a>
-    </div>
-  </footer>
-</article>
-
+      <ul class="post-tags">
+        
+		<li class="post-tag"><a href="https://kycd.github.io/onlinejudge/tags/uva"><span class="tag">UVa</span></a></li>
+        
+		<li class="post-tag"><a href="https://kycd.github.io/onlinejudge/tags/v132"><span class="tag">V132</span></a></li>
+        
+		<li class="post-tag"><a href="https://kycd.github.io/onlinejudge/tags/math"><span class="tag">Math</span></a></li>
+        
+		<li class="post-tag"><a href="https://kycd.github.io/onlinejudge/tags/%E7%AD%89%E5%B7%AE%E7%B4%9A%E6%95%B8%E5%92%8C"><span class="tag">等差級數和</span></a></li>
+        
+		<li class="post-tag"><a href="https://kycd.github.io/onlinejudge/tags/1-star"><span class="tag">1-Star</span></a></li>
+        
+      </ul>
       
-        <article class="entry-single">
-  
-  <header class="entry-header">
-    <h3 class="entry-title"><a href="https://kycd.github.io/onlinejudge/post/uva/p12918-lucky-thief/" title="UVa 12918 - Lucky Thief" class="entry-link">UVa 12918 - Lucky Thief</a></h3>
-  </header>
-
-  <p class="entry-summary">題目 一個小偷拿到對應 $m$ 個門的 $n$ 把鑰匙，已知 $n \leq m$ 且每一把鑰匙必定對應到一道門，問小偷最少需要嘗試開門幾次才能把所有鑰匙對應的門找出來
-</p>
-  
-    <ul id="entry-tags">
-	  
-	    <li class="entry-tag"> <a href="https://kycd.github.io/onlinejudge/tags/uva">UVa</a> </li>
-	  
-	    <li class="entry-tag"> <a href="https://kycd.github.io/onlinejudge/tags/v129">v129</a> </li>
-	  
-	    <li class="entry-tag"> <a href="https://kycd.github.io/onlinejudge/tags/math">math</a> </li>
-	  
-	    <li class="entry-tag"> <a href="https://kycd.github.io/onlinejudge/tags/2-star">2-Star</a> </li>
-	  
-    </ul>
-  
-  <footer class="entry-footer">
-    <p class="entry-meta"><span class="entry-time">Nov 4, 2019</span> 1 min read</p>
-    <div class="sharing">
-      <a class="share share-facebook" target="_blank" href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fkycd.github.io%2fonlinejudge%2fpost%2fuva%2fp12918-lucky-thief%2f" title="Share on Facebook">
-        <svg class="icon" fill="currentColor"><use xlink:href="#icon-facebook" /></svg>
-      </a>
-      <a class="share share-twitter" target="_blank" href="https://twitter.com/intent/tweet/?text=UVa%2012918%20-%20Lucky%20Thief&amp;url=https%3a%2f%2fkycd.github.io%2fonlinejudge%2fpost%2fuva%2fp12918-lucky-thief%2f" title="Share on Twitter">
-        <svg class="icon share-twitter-icon" fill="currentColor"><use xlink:href="#icon-twitter" /></svg>
-      </a>
-    </div>
-  </footer>
-</article>
-
-      
-    
-    
+      <div class="sharing">
+        <a class="share share-facebook" target="_blank" href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fkycd.github.io%2fonlinejudge%2fpost%2fuva%2fp13244-space-happiness%2f" title="Share on Facebook">
+          <svg class="icon icon-facebook" fill="currentColor"><use xlink:href="#icon-facebook" /></svg>
+        </a>
+        <a class="share share-twitter" target="_blank" href="https://twitter.com/intent/tweet/?text=UVa%2013244%20Space%20Happiness&amp;url=https%3a%2f%2fkycd.github.io%2fonlinejudge%2fpost%2fuva%2fp13244-space-happiness%2f" title="Share on Twitter">
+          <svg class="icon icon-twitter" fill="currentColor"><use xlink:href="#icon-twitter" /></svg>
+        </a>
+      </div>
+    </footer>
   </section>
   <footer class="footer">
   <p>Copyright © 2018-2019 Online judge note site</p>
