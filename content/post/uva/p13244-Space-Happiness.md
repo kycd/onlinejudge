@@ -1,7 +1,7 @@
 ---
 title: "UVa 13244 Space Happiness"
 author: "Kevin Cheng"
-tags: ["UVa", "v132", "math", "等差級數和", "1-star"]
+tags: ["UVa", "v132", "math", "等差級數和", "1-Star"]
 date: 2019-11-11T10:54:38+08:00
 ---
 

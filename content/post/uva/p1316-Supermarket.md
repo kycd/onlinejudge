@@ -1,7 +1,7 @@
 ---
 title: "UVa 1316 Supermarket"
 author: "Kevin Cheng"
-tags: ["UVa", "v13", "greedy", "2-star", "wip"]
+tags: ["UVa", "v13", "greedy", "2-Star", "wip"]
 date: 2019-11-12T13:33:08+08:00
 ---
 
