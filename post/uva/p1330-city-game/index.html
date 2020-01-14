@@ -264,7 +264,7 @@ code.has-jax {
   <section class="main post-detail">
     <header class="post-header">
       <h1 class="post-title">UVa 1330 City Game</h1>
-      <p class="entry-meta"><span class="entry-time">Nov 5, 2019</span> 1 min read</p>
+      <p class="entry-meta"><span class="entry-time">Nov 5, 2019</span> 2 min read</p>
     </header>
     
 
@@ -287,13 +287,68 @@ code.has-jax {
 
 <h1 id="解法">解法</h1>
 
-<p>DP 大概</p>
+<p>DP，對每個點窮舉以該點為右下點的長方形區域的最大面積，先把每個點的向左延伸最大值記錄下來(相當於長方形的底部長度)，就可以把時間壓在 $O(m^2 * n)$(只要這樣就可以 AC 不用 $O(m * n)$)。</p>
+
+<p>$O(m * n)$ 的解法應該是利用底部長度的 array 做 stack 匹配，但&hellip;.反正 AC 了XD。</p>
+
+<p>reference: 演算法筆記 Largest Empty Rectangle( <a href="http://www.csie.ntnu.edu.tw/~u91029/MaximumSubarray.html#2">http://www.csie.ntnu.edu.tw/~u91029/MaximumSubarray.html#2</a> )</p>
 
 <h1 id="source-code">Source Code</h1>
 
-<p>還沒寫</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c++" data-lang="c++"><span style="color:#75715e">/*
+</span><span style="color:#75715e"> * 3 star
+</span><span style="color:#75715e"> * DP
+</span><span style="color:#75715e"> * 24420565	1330	City Game	Accepted	C++11	0.080	2020-01-14 09:07:05
+</span><span style="color:#75715e"> */</span>
+<span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;iostream&gt;</span><span style="color:#75715e">
+</span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;string&gt;</span><span style="color:#75715e">
+</span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;vector&gt;</span><span style="color:#75715e">
+</span><span style="color:#75715e"></span>
+<span style="color:#66d9ef">using</span> <span style="color:#66d9ef">namespace</span> std;
 
-<!--< readfile file="uva/OOXX" highlight="OOXX" >--></article>
+<span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>() {
+	<span style="color:#66d9ef">int</span> t;
+	cin <span style="color:#f92672">&gt;&gt;</span> t;
+	<span style="color:#66d9ef">while</span> (t<span style="color:#f92672">--</span>) {
+		<span style="color:#66d9ef">int</span> m, n;
+		cin <span style="color:#f92672">&gt;&gt;</span> m <span style="color:#f92672">&gt;&gt;</span> n;
+		string cell;
+
+		<span style="color:#75715e">// create a map with wall at top and left
+</span><span style="color:#75715e"></span>		vector<span style="color:#f92672">&lt;</span>vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">char</span><span style="color:#f92672">&gt;</span> <span style="color:#f92672">&gt;</span> maps(m <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span> , vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">char</span><span style="color:#f92672">&gt;</span> (n <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>, <span style="color:#e6db74">&#39;R&#39;</span>));
+		<span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; i <span style="color:#f92672">&lt;=</span> m; <span style="color:#f92672">++</span>i) {
+			<span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> j <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; j <span style="color:#f92672">&lt;=</span> n; <span style="color:#f92672">++</span>j) {
+				cin <span style="color:#f92672">&gt;&gt;</span> cell;
+				maps[i][j] <span style="color:#f92672">=</span> cell[<span style="color:#ae81ff">0</span>];
+			}
+		}
+
+		vector<span style="color:#f92672">&lt;</span>vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> <span style="color:#f92672">&gt;</span> width(m <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>, vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> (n <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">0</span>));
+		<span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; i <span style="color:#f92672">&lt;=</span> m; <span style="color:#f92672">++</span>i) {
+			<span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> j <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; j <span style="color:#f92672">&lt;=</span> n; <span style="color:#f92672">++</span>j) {
+				<span style="color:#66d9ef">if</span> (maps[i][j] <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;F&#39;</span>) {
+					width[i][j] <span style="color:#f92672">=</span> width[i][j <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>] <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>;
+				}
+			}
+		}
+
+		<span style="color:#66d9ef">int</span> maxArea <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+		<span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> x <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; x <span style="color:#f92672">&lt;=</span> m; <span style="color:#f92672">++</span>x) {
+			<span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> y <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; y <span style="color:#f92672">&lt;=</span> n; <span style="color:#f92672">++</span>y) {
+				<span style="color:#66d9ef">int</span> maxWidth <span style="color:#f92672">=</span> width[x][y];
+				<span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> z <span style="color:#f92672">=</span> x; maps[z][y] <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;F&#39;</span>; <span style="color:#f92672">--</span>z) {
+					maxWidth <span style="color:#f92672">=</span> min(width[z][y], maxWidth);
+					<span style="color:#66d9ef">int</span> Area <span style="color:#f92672">=</span> maxWidth <span style="color:#f92672">*</span> (x <span style="color:#f92672">-</span> z <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>);
+					<span style="color:#66d9ef">if</span> (maxArea <span style="color:#f92672">&lt;</span> Area) {
+						maxArea <span style="color:#f92672">=</span> Area;
+					}
+				}
+			}
+		}
+		cout <span style="color:#f92672">&lt;&lt;</span> maxArea <span style="color:#f92672">*</span> <span style="color:#ae81ff">3</span> <span style="color:#f92672">&lt;&lt;</span> endl;
+	}
+}
+</code></pre></div></article>
     <footer class="post-footer">
       
       <ul class="post-tags">
@@ -305,8 +360,6 @@ code.has-jax {
 		<li class="post-tag"><a href="https://kycd.github.io/onlinejudge/tags/dp"><span class="tag">DP</span></a></li>
         
 		<li class="post-tag"><a href="https://kycd.github.io/onlinejudge/tags/3-star"><span class="tag">3-Star</span></a></li>
-        
-		<li class="post-tag"><a href="https://kycd.github.io/onlinejudge/tags/wip"><span class="tag">Wip</span></a></li>
         
       </ul>
       
@@ -321,7 +374,7 @@ code.has-jax {
     </footer>
   </section>
   <footer class="footer">
-  <p>Copyright © 2018-2019 Online judge note site</p>
+  <p>Copyright © 2018-2020 Online judge note site</p>
   <p>Powered by <a href="https://gohugo.io/" target="_blank">Hugo</a> with theme <a href="https://github.com/huyb1991/hugo-lamp" title="Hugo LAMP" target="_blank">LAMP</a>.</p>
 </footer>
 
