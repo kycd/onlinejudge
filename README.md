@@ -18,7 +18,7 @@ https://kycd.github.io/onlinejudge/
   - [ ] v13
     - [ ] 1317 Concert Hall Scheduling
     - [ ] 1329 Corporative Network
-    - [ ] 1366 Martian Mining
+    - [x] 1366 Martian Mining
   - [ ] v15
     - [ ] 1585 Score
   - [ ] v101
@@ -38,8 +38,8 @@ https://kycd.github.io/onlinejudge/
   - [ ] v129
     - [x] 12918 Lucky Thief
     - [ ] 12930 Bigger or Smaller
-- [ ] AC 有報告的！
-  - [ ] v13
-    - [ ] 1330 City Game
+- [x] AC 有報告的！
+  - [x] v13
+    - [x] 1330 City Game
 - [ ] 搬其他地方的 code 過來(噩夢...)
 - [ ] 把 themes 調整成可吃 content/* 而不是只吃 content/post/*
