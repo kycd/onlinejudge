@@ -6,10 +6,21 @@
     <description>Recent content on Online judge note site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 12 Nov 2019 18:36:09 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jan 2020 14:19:51 +0800</lastBuildDate>
     
 	<atom:link href="https://kycd.github.io/onlinejudge/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>UVa 11494 Queen</title>
+      <link>https://kycd.github.io/onlinejudge/post/uva/p11494-queen/</link>
+      <pubDate>Wed, 15 Jan 2020 14:19:51 +0800</pubDate>
+      
+      <guid>https://kycd.github.io/onlinejudge/post/uva/p11494-queen/</guid>
+      <description>&lt;h1 id=&#34;題目&#34;&gt;題目&lt;/h1&gt;
+
+&lt;p&gt;給西洋棋盤上的兩個座標，求皇后從 &lt;code&gt;座標1&lt;/code&gt;($X_1$, $Y_1$) 移動至 &lt;code&gt;座標2&lt;/code&gt;($X_2$, $Y_2$) 最少需要幾步。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>UVa 1366 Martian Mining</title>
