@@ -28,7 +28,7 @@ https://kycd.github.io/onlinejudge/
   - [ ] v114
     - [ ] 11417 GCD
     - [ ] 11455 Behold My Quadrangle
-    - [ ] 11470 Is this the easiest problem?
+    - [x] 11479 Is this the easiest problem?
     - [x] 11494 Queen
   - [ ] v125
     - [ ] 12503 Robot Instructions
