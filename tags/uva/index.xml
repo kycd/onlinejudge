@@ -6,10 +6,28 @@
     <description>Recent content in Uva on Online judge note site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Jan 2020 14:19:51 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jan 2020 15:09:47 +0800</lastBuildDate>
     
 	<atom:link href="https://kycd.github.io/onlinejudge/tags/uva/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>UVa 11479 Is This the Easiest Problem</title>
+      <link>https://kycd.github.io/onlinejudge/post/uva/p11479-is-this-the-easiest-problem/</link>
+      <pubDate>Wed, 15 Jan 2020 15:09:47 +0800</pubDate>
+      
+      <guid>https://kycd.github.io/onlinejudge/post/uva/p11479-is-this-the-easiest-problem/</guid>
+      <description>&lt;h1 id=&#34;題目&#34;&gt;題目&lt;/h1&gt;
+
+&lt;p&gt;給三角形的三邊長，求三角形種類，種類有以下四種。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Invalid: 不是三角形&lt;/li&gt;
+&lt;li&gt;Equilateral: 正三角形&lt;/li&gt;
+&lt;li&gt;Isosceles: 等腰三角形&lt;/li&gt;
+&lt;li&gt;Scalene: 不屬於量兩種的合法三角形&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     
     <item>
       <title>UVa 11494 Queen</title>
