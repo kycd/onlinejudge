@@ -6,10 +6,28 @@
     <description>Recent content in Posts on Online judge note site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Jan 2020 15:09:47 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jan 2020 18:19:24 +0800</lastBuildDate>
     
 	<atom:link href="https://kycd.github.io/onlinejudge/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>UVa 12952 Tri Du</title>
+      <link>https://kycd.github.io/onlinejudge/post/uva/p12952-tri-du/</link>
+      <pubDate>Thu, 16 Jan 2020 18:19:24 +0800</pubDate>
+      
+      <guid>https://kycd.github.io/onlinejudge/post/uva/p12952-tri-du/</guid>
+      <description>&lt;h1 id=&#34;題目&#34;&gt;題目&lt;/h1&gt;
+
+&lt;p&gt;兩個人，三張牌的梭哈，規則如下。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;三條最大，對子次之，單張最小&lt;/li&gt;
+&lt;li&gt;同 level 時就比數值。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;給其中一個玩家的前兩張牌(只有數值)，問哪張牌能讓該玩家的勝率最高(只求數值)。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>UVa 11479 Is This the Easiest Problem</title>
