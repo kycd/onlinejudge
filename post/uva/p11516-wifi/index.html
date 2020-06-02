@@ -10,17 +10,7 @@
     
 
     
-    <title>
-  
-    
-    
-      
-    
-      
-    
-  
-   | Online judge note site
-</title>
+    <title>UVa 11516 WiFi</title>
 
     
     
@@ -30,14 +20,20 @@
   
   
   <meta name="author" content="Kevin Cheng" />
-  <meta name="description" content="">
+  <meta name="description" content="題目 某條街的居民想買 AP 提供 $m$ 間房屋 wifi，但預算有限只能買 $n$ 台。
+假設所有房屋都在同一條線上(同一座標軸)，且房屋編號表示該房屋與街尾的距離(ex: 編號 123 的房屋與街尾的距離為 123)。
+若居民們最佳化擺放 AP，使所有房屋可離 AP 盡可能地接近，問離 AP 最遠的的房屋其距離為多少。
+">
 
   
   
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@gohugoio" />
-    <meta name="twitter:title" content="Posts" />
-    <meta name="twitter:description" content="" />
+    <meta name="twitter:title" content="UVa 11516 WiFi" />
+    <meta name="twitter:description" content="題目 某條街的居民想買 AP 提供 $m$ 間房屋 wifi，但預算有限只能買 $n$ 台。
+假設所有房屋都在同一條線上(同一座標軸)，且房屋編號表示該房屋與街尾的距離(ex: 編號 123 的房屋與街尾的距離為 123)。
+若居民們最佳化擺放 AP，使所有房屋可離 AP 盡可能地接近，問離 AP 最遠的的房屋其距離為多少。
+" />
     <meta name="twitter:image" content="https://kycd.github.io/img/avatar.jpg" />
   
 
@@ -47,7 +43,7 @@
 <meta name="generator" content="Hugo 0.54.0">
 
 
-<link rel="canonical" href="https://kycd.github.io/onlinejudge/post/">
+<link rel="canonical" href="https://kycd.github.io/onlinejudge/post/uva/p11516-wifi/">
 <link rel="alternative" href="/index.xml" title="Online judge note site" type="application/atom+xml">
 
 
@@ -267,101 +263,78 @@ code.has-jax {
 
 </header>
 
-  <section class="main entry-list">
-    
-    <header class="list-header">
-      
-      
-        
-      
-        
-      
+  <section class="main post-detail">
+    <header class="post-header">
+      <h1 class="post-title">UVa 11516 WiFi</h1>
+      <p class="entry-meta"><span class="entry-time">Jun 2, 2020</span> 1 min read</p>
     </header>
     
-    
+
+    <article class="post-content"><h1 id="題目">題目</h1>
+
+<p>某條街的居民想買 AP 提供 $m$ 間房屋 wifi，但預算有限只能買 $n$ 台。</p>
+
+<p>假設所有房屋都在同一條線上(同一座標軸)，且房屋編號表示該房屋與街尾的距離(ex: 編號 123 的房屋與街尾的距離為 123)。</p>
+
+<p>若居民們最佳化擺放 AP，使所有房屋可離 AP 盡可能地接近，問離 AP 最遠的的房屋其距離為多少。</p>
+
+<h1 id="input">Input</h1>
+
+<p>測資第一行唯一正整數，表測資組數。</p>
+
+<p>每組測資開頭為兩個正整數 $n$, $m (1 \le m \le 100000)$，表 AP 數量及房屋數量。</p>
+
+<p>接下來 $m$ 行，每行會有一個正整數( $\le 1000000$ )，表房屋編號</p>
+
+<h1 id="output">Output</h1>
+
+<p>對每組測資輸出房屋到 AP 的最遠距離，精度至小數點一位數。</p>
+
+<h1 id="解法">解法</h1>
+
+<p>直接去算 AP 排法的話&hellip;.我想到快炸掉了想不到方法XD，感覺走這條路應該會死人。</p>
+
+<p>然後就想到了，這題應該是用 guess() 的方式去解</p>
+
+<pre><code>生一個 sub-problem
+與原題目相同 m 間房屋，n 台 AP
+
+接著，差別
+假定每台 AP 可以覆蓋 x 的範圍，問這 n 台 AP 能不能覆蓋讓所有房屋？
+</code></pre>
+
+<p>這題就簡單多了，一個 $O(m)$ 掃過去就解出來，因為只是問 <code>true/false</code>。</p>
+
+<p>那接下來，把這個 sub-problem 拿來當 operator guess() 用</p>
+
+<p>整個題目就變成，在 $1$ ~ $m$ 之間，找到一個會讓 guess() return true 的最小 $x$。</p>
+
+<p>這樣就變成 binary search 了，只是這個 binary search 的時間複雜度是 $O(m)$</p>
+
+<p>整體複雜度會是 $O(mlogm)$</p>
+
+<h1 id="source-code">Source Code</h1>
+
+<p>還沒寫！ 雖然有 AC 記錄，但我沒印象有寫過&hellip;大概是大學時的模擬比賽被拿去當隊伍帳號了&hellip;</p></article>
+    <footer class="post-footer">
       
-        <article class="entry-single">
-  
-  <header class="entry-header">
-    <h3 class="entry-title"><a href="https://kycd.github.io/onlinejudge/post/uva/p11747-heavy-cycle-edges/" title="UVa 11747 - Heavy Cycle Edges" class="entry-link">UVa 11747 - Heavy Cycle Edges</a></h3>
-  </header>
-
-  <p class="entry-summary">題目 講了一堆 MST 演算法的實作，當成廢話就好
-給 $n$ 個點，$m$ 個邊，求不屬於 MST 的 edge 集合
-</p>
-  
-    <ul id="entry-tags">
-	  
-	    <li class="entry-tag"> <a href="https://kycd.github.io/onlinejudge/tags/uva">UVa</a> </li>
-	  
-	    <li class="entry-tag"> <a href="https://kycd.github.io/onlinejudge/tags/v117">v117</a> </li>
-	  
-	    <li class="entry-tag"> <a href="https://kycd.github.io/onlinejudge/tags/mst">MST</a> </li>
-	  
-	    <li class="entry-tag"> <a href="https://kycd.github.io/onlinejudge/tags/minimum-spanning-tree">minimum spanning tree</a> </li>
-	  
-	    <li class="entry-tag"> <a href="https://kycd.github.io/onlinejudge/tags/2.5-star">2.5-Star</a> </li>
-	  
-    </ul>
-  
-  <footer class="entry-footer">
-    <p class="entry-meta"><span class="entry-time">Nov 4, 2019</span> 2 min read</p>
-    <div class="sharing">
-      <a class="share share-facebook" target="_blank" href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fkycd.github.io%2fonlinejudge%2fpost%2fuva%2fp11747-heavy-cycle-edges%2f" title="Share on Facebook">
-        <svg class="icon" fill="currentColor"><use xlink:href="#icon-facebook" /></svg>
-      </a>
-      <a class="share share-twitter" target="_blank" href="https://twitter.com/intent/tweet/?text=UVa%2011747%20-%20Heavy%20Cycle%20Edges&amp;url=https%3a%2f%2fkycd.github.io%2fonlinejudge%2fpost%2fuva%2fp11747-heavy-cycle-edges%2f" title="Share on Twitter">
-        <svg class="icon share-twitter-icon" fill="currentColor"><use xlink:href="#icon-twitter" /></svg>
-      </a>
-    </div>
-  </footer>
-</article>
-
+      <ul class="post-tags">
+        
+		<li class="post-tag"><a href="https://kycd.github.io/onlinejudge/tags/uva"><span class="tag">UVa</span></a></li>
+        
+		<li class="post-tag"><a href="https://kycd.github.io/onlinejudge/tags/v115"><span class="tag">V115</span></a></li>
+        
+      </ul>
       
-        <article class="entry-single">
-  
-  <header class="entry-header">
-    <h3 class="entry-title"><a href="https://kycd.github.io/onlinejudge/post/uva/p12918-lucky-thief/" title="UVa 12918 - Lucky Thief" class="entry-link">UVa 12918 - Lucky Thief</a></h3>
-  </header>
-
-  <p class="entry-summary">題目 一個小偷拿到對應 $m$ 個門的 $n$ 把鑰匙，已知 $n \leq m$ 且每一把鑰匙必定對應到一道門，問小偷最少需要嘗試開門幾次才能把所有鑰匙對應的門找出來
-</p>
-  
-    <ul id="entry-tags">
-	  
-	    <li class="entry-tag"> <a href="https://kycd.github.io/onlinejudge/tags/uva">UVa</a> </li>
-	  
-	    <li class="entry-tag"> <a href="https://kycd.github.io/onlinejudge/tags/v129">v129</a> </li>
-	  
-	    <li class="entry-tag"> <a href="https://kycd.github.io/onlinejudge/tags/math">math</a> </li>
-	  
-	    <li class="entry-tag"> <a href="https://kycd.github.io/onlinejudge/tags/2-star">2-Star</a> </li>
-	  
-    </ul>
-  
-  <footer class="entry-footer">
-    <p class="entry-meta"><span class="entry-time">Nov 4, 2019</span> 1 min read</p>
-    <div class="sharing">
-      <a class="share share-facebook" target="_blank" href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fkycd.github.io%2fonlinejudge%2fpost%2fuva%2fp12918-lucky-thief%2f" title="Share on Facebook">
-        <svg class="icon" fill="currentColor"><use xlink:href="#icon-facebook" /></svg>
-      </a>
-      <a class="share share-twitter" target="_blank" href="https://twitter.com/intent/tweet/?text=UVa%2012918%20-%20Lucky%20Thief&amp;url=https%3a%2f%2fkycd.github.io%2fonlinejudge%2fpost%2fuva%2fp12918-lucky-thief%2f" title="Share on Twitter">
-        <svg class="icon share-twitter-icon" fill="currentColor"><use xlink:href="#icon-twitter" /></svg>
-      </a>
-    </div>
-  </footer>
-</article>
-
-      
-    
-    
-      <nav class="pagination">
-        
-          <a class="pagination-btn" href="/onlinejudge/post/">← Newer Posts</a>
-        
-        
-      </nav>
-    
+      <div class="sharing">
+        <a class="share share-facebook" target="_blank" href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fkycd.github.io%2fonlinejudge%2fpost%2fuva%2fp11516-wifi%2f" title="Share on Facebook">
+          <svg class="icon icon-facebook" fill="currentColor"><use xlink:href="#icon-facebook" /></svg>
+        </a>
+        <a class="share share-twitter" target="_blank" href="https://twitter.com/intent/tweet/?text=UVa%2011516%20WiFi&amp;url=https%3a%2f%2fkycd.github.io%2fonlinejudge%2fpost%2fuva%2fp11516-wifi%2f" title="Share on Twitter">
+          <svg class="icon icon-twitter" fill="currentColor"><use xlink:href="#icon-twitter" /></svg>
+        </a>
+      </div>
+    </footer>
   </section>
   <footer class="footer">
   <p>Copyright © 2018-2020 Online judge note site</p>

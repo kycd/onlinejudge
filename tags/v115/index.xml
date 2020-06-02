@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>V115 on Online judge note site</title>
+    <link>https://kycd.github.io/onlinejudge/tags/v115/</link>
+    <description>Recent content in V115 on Online judge note site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 02 Jun 2020 14:19:25 +0800</lastBuildDate>
+    
+	<atom:link href="https://kycd.github.io/onlinejudge/tags/v115/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>UVa 11516 WiFi</title>
+      <link>https://kycd.github.io/onlinejudge/post/uva/p11516-wifi/</link>
+      <pubDate>Tue, 02 Jun 2020 14:19:25 +0800</pubDate>
+      
+      <guid>https://kycd.github.io/onlinejudge/post/uva/p11516-wifi/</guid>
+      <description>&lt;h1 id=&#34;題目&#34;&gt;題目&lt;/h1&gt;
+
+&lt;p&gt;某條街的居民想買 AP 提供 $m$ 間房屋 wifi，但預算有限只能買 $n$ 台。&lt;/p&gt;
+
+&lt;p&gt;假設所有房屋都在同一條線上(同一座標軸)，且房屋編號表示該房屋與街尾的距離(ex: 編號 123 的房屋與街尾的距離為 123)。&lt;/p&gt;
+
+&lt;p&gt;若居民們最佳化擺放 AP，使所有房屋可離 AP 盡可能地接近，問離 AP 最遠的的房屋其距離為多少。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
