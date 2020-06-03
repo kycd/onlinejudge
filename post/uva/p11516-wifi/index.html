@@ -266,7 +266,7 @@ code.has-jax {
   <section class="main post-detail">
     <header class="post-header">
       <h1 class="post-title">UVa 11516 WiFi</h1>
-      <p class="entry-meta"><span class="entry-time">Jun 2, 2020</span> 1 min read</p>
+      <p class="entry-meta"><span class="entry-time">Jun 2, 2020</span> 2 min read</p>
     </header>
     
 
@@ -315,7 +315,50 @@ code.has-jax {
 
 <h1 id="source-code">Source Code</h1>
 
-<p>還沒寫！ 雖然有 AC 記錄，但我沒印象有寫過&hellip;大概是大學時的模擬比賽被拿去當隊伍帳號了&hellip;</p></article>
+<p><del>還沒寫！ 雖然有 AC 記錄，但我沒印象有寫過&hellip;大概是大學時的模擬比賽被拿去當隊伍帳號了&hellip;</del></p>
+
+<p>AC！跑回去查當初的模擬比賽紀錄，發現那場根本沒 AC 這題XD</p>
+
+<p>所以是後來看到解題報告心有不甘跑去寫的嗎&hellip;?</p>
+
+<p>而且這題的解題報告也不是我寫的，是蔡 paca 大神(遠目)</p>
+
+<p>總之&hellip;反正以前的 code 也找不到的，就當重寫一次吧</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py3" data-lang="py3"><span style="color:#75715e">#!/bin/python3</span>
+<span style="color:#75715e"># 3 star</span>
+<span style="color:#75715e"># binary search.</span>
+<span style="color:#75715e"># 25099298  11516   WiFi    Accepted    PYTH3   0.560   2020-06-03 07:10:52</span>
+
+<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">guess</span>(houses, n, preferRange):
+    cnt, coverdSide <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">0</span>
+    <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(len(houses)):
+        <span style="color:#66d9ef">if</span> houses[i] <span style="color:#f92672">&gt;</span> coverdSide:
+            cnt <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1</span>
+            coverdSide <span style="color:#f92672">=</span> houses[i] <span style="color:#f92672">+</span> preferRange
+
+    <span style="color:#66d9ef">return</span> cnt <span style="color:#f92672">&lt;=</span> n
+
+caseTotal <span style="color:#f92672">=</span> int(input()<span style="color:#f92672">.</span>strip())
+<span style="color:#66d9ef">for</span> caseNum <span style="color:#f92672">in</span> range(caseTotal):
+    n, m <span style="color:#f92672">=</span> list(map(int, input()<span style="color:#f92672">.</span>strip()<span style="color:#f92672">.</span>split(<span style="color:#e6db74">&#39; &#39;</span>)))
+
+    houses <span style="color:#f92672">=</span> []
+    <span style="color:#66d9ef">for</span> x <span style="color:#f92672">in</span> range(m):
+        houses<span style="color:#f92672">.</span>append(int(input()<span style="color:#f92672">.</span>strip()))
+    houses <span style="color:#f92672">=</span> sorted(houses)
+
+    rangeMin, rangeMax, ans <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>, houses[<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>], houses[<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>]
+    <span style="color:#66d9ef">while</span> rangeMin <span style="color:#f92672">&lt;=</span> rangeMax:
+        mid <span style="color:#f92672">=</span> (rangeMin <span style="color:#f92672">+</span> rangeMax) <span style="color:#f92672">//</span> <span style="color:#ae81ff">2</span>
+        <span style="color:#66d9ef">if</span> guess(houses, n, mid) <span style="color:#f92672">==</span> <span style="color:#66d9ef">True</span>:
+            ans <span style="color:#f92672">=</span> mid
+            rangeMax <span style="color:#f92672">=</span> mid <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>
+        <span style="color:#66d9ef">else</span>:
+            rangeMin <span style="color:#f92672">=</span> mid <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>
+
+    print(<span style="color:#e6db74">&#34;</span><span style="color:#e6db74">%.1f</span><span style="color:#e6db74">&#34;</span> <span style="color:#f92672">%</span> (ans <span style="color:#f92672">/</span> <span style="color:#ae81ff">2</span>))
+</code></pre></div></article>
     <footer class="post-footer">
       
       <ul class="post-tags">
@@ -323,6 +366,10 @@ code.has-jax {
 		<li class="post-tag"><a href="https://kycd.github.io/onlinejudge/tags/uva"><span class="tag">UVa</span></a></li>
         
 		<li class="post-tag"><a href="https://kycd.github.io/onlinejudge/tags/v115"><span class="tag">V115</span></a></li>
+        
+		<li class="post-tag"><a href="https://kycd.github.io/onlinejudge/tags/binary-search"><span class="tag">Binary Search</span></a></li>
+        
+		<li class="post-tag"><a href="https://kycd.github.io/onlinejudge/tags/3-star"><span class="tag">3-Star</span></a></li>
         
       </ul>
       
