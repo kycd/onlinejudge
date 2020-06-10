@@ -10,28 +10,28 @@
     
 
     
-    <title>
-  Tag → greedy
+    <title>UVa 12955 Factorial</title>
+
+    
+    
+
+
+
   
-   | Online judge note site
-</title>
-
-    
-    
-
-
-
-
   
   <meta name="author" content="Kevin Cheng" />
-  <meta name="description" content="" />
+  <meta name="description" content="題目 將一個正整數 $N$ 拆解為 $N = a_1! &#43; a_2! &#43; &amp;hellip; &#43; a_k!$，$a_n$ ($1 \le n \le k$) 皆為正整數，求最小 $k$
+">
 
   
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:site" content="@gohugoio" />
-  <meta name="twitter:title" content="Online judge note site" />
-  <meta name="twitter:description" content="" />
-  <meta name="twitter:image" content="https://kycd.github.io/img/avatar.jpg" />
+  
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@gohugoio" />
+    <meta name="twitter:title" content="UVa 12955 Factorial" />
+    <meta name="twitter:description" content="題目 將一個正整數 $N$ 拆解為 $N = a_1! &#43; a_2! &#43; &amp;hellip; &#43; a_k!$，$a_n$ ($1 \le n \le k$) 皆為正整數，求最小 $k$
+" />
+    <meta name="twitter:image" content="https://kycd.github.io/img/avatar.jpg" />
+  
 
 
 
@@ -39,7 +39,7 @@
 <meta name="generator" content="Hugo 0.54.0">
 
 
-<link rel="canonical" href="https://kycd.github.io/onlinejudge/tags/greedy/">
+<link rel="canonical" href="https://kycd.github.io/onlinejudge/post/uva/p12955-factorial/">
 <link rel="alternative" href="/index.xml" title="Online judge note site" type="application/atom+xml">
 
 
@@ -259,95 +259,89 @@ code.has-jax {
 
 </header>
 
-  <section class="main entry-list">
-    
-      <h2>Tag: greedy</h2>
-    
-    <header class="list-header">
-      
-      
-        
-      
-        
-      
+  <section class="main post-detail">
+    <header class="post-header">
+      <h1 class="post-title">UVa 12955 Factorial</h1>
+      <p class="entry-meta"><span class="entry-time">Jun 10, 2020</span> 1 min read</p>
     </header>
     
-    
+
+    <article class="post-content"><h1 id="題目">題目</h1>
+
+<p>將一個正整數 $N$ 拆解為 $N = a_1! + a_2! + &hellip; + a_k!$，$a_n$ ($1 \le n \le k$) 皆為正整數，求最小 $k$</p>
+
+<h1 id="input">Input</h1>
+
+<p>input 含多組測資，每組一行，每行一個 $N$ ($1 \le N \le 10^5$)。</p>
+
+<h1 id="output">Output</h1>
+
+<p>一個正整數 $k$，使題目等式可成立的最小 $k$</p>
+
+<h1 id="解法">解法</h1>
+
+<p>階層的特色是，兩個小的不如一個大的 $2 * (n-1)! \le n!$，所以 $a_n$ 越大越好。</p>
+
+<p>快樂地從後面砍回來就行了，最後的洞都可以用 $1!$ 補起來</p>
+
+<h1 id="source-code">Source Code</h1>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py3" data-lang="py3"><span style="color:#75715e">#!/usr/bin/python3</span>
+<span style="color:#75715e"># 1 star - greedy</span>
+<span style="color:#75715e"># 25125501  12955   Factorial   Accepted    PYTH3   0.010   2020-06-10 07:25:32</span>
+
+<span style="color:#f92672">import</span> sys
+
+<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">divide</span>(n, f):
+    ans <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+
+    idx <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+    <span style="color:#66d9ef">while</span> n <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">0</span>:
+        <span style="color:#66d9ef">if</span> n <span style="color:#f92672">&gt;=</span> f[idx]:
+            n <span style="color:#f92672">-=</span> f[idx]
+            ans <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1</span>
+        <span style="color:#66d9ef">else</span>:
+            idx <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1</span>
+
+    <span style="color:#66d9ef">return</span> ans
+
+<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">generateFactorial</span>():
+    f <span style="color:#f92672">=</span> [<span style="color:#ae81ff">1</span>]
+    x <span style="color:#f92672">=</span> <span style="color:#ae81ff">2</span>
+    <span style="color:#66d9ef">while</span> f[<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>] <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">10e5</span>:
+        f<span style="color:#f92672">.</span>append(f[<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>] <span style="color:#f92672">*</span> x)
+        x <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1</span>
+    f<span style="color:#f92672">.</span>reverse()
+    <span style="color:#66d9ef">return</span> f
+
+f <span style="color:#f92672">=</span> generateFactorial()
+<span style="color:#66d9ef">for</span> inputLine <span style="color:#f92672">in</span> sys<span style="color:#f92672">.</span>stdin:
+    n <span style="color:#f92672">=</span> int(inputLine<span style="color:#f92672">.</span>strip())
+    print(divide(n, f))
+</code></pre></div></article>
+    <footer class="post-footer">
       
-        <article class="entry-single">
-  
-  <header class="entry-header">
-    <h3 class="entry-title"><a href="https://kycd.github.io/onlinejudge/post/uva/p12955-factorial/" title="UVa 12955 Factorial" class="entry-link">UVa 12955 Factorial</a></h3>
-  </header>
-
-  <p class="entry-summary">題目 將一個正整數 $N$ 拆解為 $N = a_1! &#43; a_2! &#43; … &#43; a_k!$，$a_n$ ($1 \le n \le k$) 皆為正整數，求最小 $k$
-</p>
-  
-    <ul id="entry-tags">
-	  
-	    <li class="entry-tag"> <a href="https://kycd.github.io/onlinejudge/tags/uva">UVa</a> </li>
-	  
-	    <li class="entry-tag"> <a href="https://kycd.github.io/onlinejudge/tags/v129">v129</a> </li>
-	  
-	    <li class="entry-tag"> <a href="https://kycd.github.io/onlinejudge/tags/greedy">greedy</a> </li>
-	  
-	    <li class="entry-tag"> <a href="https://kycd.github.io/onlinejudge/tags/1-star">1-Star</a> </li>
-	  
-    </ul>
-  
-  <footer class="entry-footer">
-    <p class="entry-meta"><span class="entry-time">Jun 10, 2020</span> 1 min read</p>
-    <div class="sharing">
-      <a class="share share-facebook" target="_blank" href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fkycd.github.io%2fonlinejudge%2fpost%2fuva%2fp12955-factorial%2f" title="Share on Facebook">
-        <svg class="icon" fill="currentColor"><use xlink:href="#icon-facebook" /></svg>
-      </a>
-      <a class="share share-twitter" target="_blank" href="https://twitter.com/intent/tweet/?text=UVa%2012955%20Factorial&amp;url=https%3a%2f%2fkycd.github.io%2fonlinejudge%2fpost%2fuva%2fp12955-factorial%2f" title="Share on Twitter">
-        <svg class="icon share-twitter-icon" fill="currentColor"><use xlink:href="#icon-twitter" /></svg>
-      </a>
-    </div>
-  </footer>
-</article>
-
+      <ul class="post-tags">
+        
+		<li class="post-tag"><a href="https://kycd.github.io/onlinejudge/tags/uva"><span class="tag">UVa</span></a></li>
+        
+		<li class="post-tag"><a href="https://kycd.github.io/onlinejudge/tags/v129"><span class="tag">V129</span></a></li>
+        
+		<li class="post-tag"><a href="https://kycd.github.io/onlinejudge/tags/greedy"><span class="tag">Greedy</span></a></li>
+        
+		<li class="post-tag"><a href="https://kycd.github.io/onlinejudge/tags/1-star"><span class="tag">1-Star</span></a></li>
+        
+      </ul>
       
-        <article class="entry-single">
-  
-  <header class="entry-header">
-    <h3 class="entry-title"><a href="https://kycd.github.io/onlinejudge/post/uva/p1316-supermarket/" title="UVa 1316 Supermarket" class="entry-link">UVa 1316 Supermarket</a></h3>
-  </header>
-
-  <p class="entry-summary">題目 一間超市的商品 $x$ 都存在兩個值 $p_x, d_x$，$p_x$ 代表商品 $x$ 的價值，$d_x$ 代表商品 $x$ 的保存期限。假設超市每天只能賣掉一項商品，求超市的最大收益。
-</p>
-  
-    <ul id="entry-tags">
-	  
-	    <li class="entry-tag"> <a href="https://kycd.github.io/onlinejudge/tags/uva">UVa</a> </li>
-	  
-	    <li class="entry-tag"> <a href="https://kycd.github.io/onlinejudge/tags/v13">v13</a> </li>
-	  
-	    <li class="entry-tag"> <a href="https://kycd.github.io/onlinejudge/tags/heap">heap</a> </li>
-	  
-	    <li class="entry-tag"> <a href="https://kycd.github.io/onlinejudge/tags/greedy">greedy</a> </li>
-	  
-	    <li class="entry-tag"> <a href="https://kycd.github.io/onlinejudge/tags/2.5-star">2.5-Star</a> </li>
-	  
-    </ul>
-  
-  <footer class="entry-footer">
-    <p class="entry-meta"><span class="entry-time">Nov 12, 2019</span> 2 min read</p>
-    <div class="sharing">
-      <a class="share share-facebook" target="_blank" href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fkycd.github.io%2fonlinejudge%2fpost%2fuva%2fp1316-supermarket%2f" title="Share on Facebook">
-        <svg class="icon" fill="currentColor"><use xlink:href="#icon-facebook" /></svg>
-      </a>
-      <a class="share share-twitter" target="_blank" href="https://twitter.com/intent/tweet/?text=UVa%201316%20Supermarket&amp;url=https%3a%2f%2fkycd.github.io%2fonlinejudge%2fpost%2fuva%2fp1316-supermarket%2f" title="Share on Twitter">
-        <svg class="icon share-twitter-icon" fill="currentColor"><use xlink:href="#icon-twitter" /></svg>
-      </a>
-    </div>
-  </footer>
-</article>
-
-      
-    
-    
+      <div class="sharing">
+        <a class="share share-facebook" target="_blank" href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fkycd.github.io%2fonlinejudge%2fpost%2fuva%2fp12955-factorial%2f" title="Share on Facebook">
+          <svg class="icon icon-facebook" fill="currentColor"><use xlink:href="#icon-facebook" /></svg>
+        </a>
+        <a class="share share-twitter" target="_blank" href="https://twitter.com/intent/tweet/?text=UVa%2012955%20Factorial&amp;url=https%3a%2f%2fkycd.github.io%2fonlinejudge%2fpost%2fuva%2fp12955-factorial%2f" title="Share on Twitter">
+          <svg class="icon icon-twitter" fill="currentColor"><use xlink:href="#icon-twitter" /></svg>
+        </a>
+      </div>
+    </footer>
   </section>
   <footer class="footer">
   <p>Copyright © 2018-2020 Online judge note site</p>

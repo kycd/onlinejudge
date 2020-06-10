@@ -6,10 +6,21 @@
     <description>Recent content in V129 on Online judge note site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 16 Jan 2020 18:19:24 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jun 2020 14:32:12 +0800</lastBuildDate>
     
 	<atom:link href="https://kycd.github.io/onlinejudge/tags/v129/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>UVa 12955 Factorial</title>
+      <link>https://kycd.github.io/onlinejudge/post/uva/p12955-factorial/</link>
+      <pubDate>Wed, 10 Jun 2020 14:32:12 +0800</pubDate>
+      
+      <guid>https://kycd.github.io/onlinejudge/post/uva/p12955-factorial/</guid>
+      <description>&lt;h1 id=&#34;題目&#34;&gt;題目&lt;/h1&gt;
+
+&lt;p&gt;將一個正整數 $N$ 拆解為 $N = a_1! + a_2! + &amp;hellip; + a_k!$，$a_n$ ($1 \le n \le k$) 皆為正整數，求最小 $k$&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>UVa 12952 Tri Du</title>
