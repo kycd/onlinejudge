@@ -41,9 +41,18 @@
     <item>
       <title>3 Star</title>
       <link>https://kycd.github.io/onlinejudge/tags/3-star/</link>
-      <pubDate>Tue, 02 Jun 2020 14:19:25 +0800</pubDate>
+      <pubDate>Wed, 17 Jun 2020 15:13:49 +0800</pubDate>
       
       <guid>https://kycd.github.io/onlinejudge/tags/3-star/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bfs</title>
+      <link>https://kycd.github.io/onlinejudge/tags/bfs/</link>
+      <pubDate>Wed, 17 Jun 2020 15:13:49 +0800</pubDate>
+      
+      <guid>https://kycd.github.io/onlinejudge/tags/bfs/</guid>
       <description></description>
     </item>
     
@@ -131,7 +140,7 @@
     <item>
       <title>Uva</title>
       <link>https://kycd.github.io/onlinejudge/tags/uva/</link>
-      <pubDate>Wed, 10 Jun 2020 14:32:12 +0800</pubDate>
+      <pubDate>Wed, 17 Jun 2020 15:13:49 +0800</pubDate>
       
       <guid>https://kycd.github.io/onlinejudge/tags/uva/</guid>
       <description></description>
@@ -176,7 +185,7 @@
     <item>
       <title>V129</title>
       <link>https://kycd.github.io/onlinejudge/tags/v129/</link>
-      <pubDate>Wed, 10 Jun 2020 14:32:12 +0800</pubDate>
+      <pubDate>Wed, 17 Jun 2020 15:13:49 +0800</pubDate>
       
       <guid>https://kycd.github.io/onlinejudge/tags/v129/</guid>
       <description></description>
@@ -197,6 +206,15 @@
       <pubDate>Mon, 11 Nov 2019 10:54:38 +0800</pubDate>
       
       <guid>https://kycd.github.io/onlinejudge/tags/v132/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wip</title>
+      <link>https://kycd.github.io/onlinejudge/tags/wip/</link>
+      <pubDate>Wed, 17 Jun 2020 15:13:49 +0800</pubDate>
+      
+      <guid>https://kycd.github.io/onlinejudge/tags/wip/</guid>
       <description></description>
     </item>
     
