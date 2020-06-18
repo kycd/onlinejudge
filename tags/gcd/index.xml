@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>2 Star on Online judge note site</title>
-    <link>https://kycd.github.io/onlinejudge/tags/2-star/</link>
-    <description>Recent content in 2 Star on Online judge note site</description>
+    <title>Gcd on Online judge note site</title>
+    <link>https://kycd.github.io/onlinejudge/tags/gcd/</link>
+    <description>Recent content in Gcd on Online judge note site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 18 Jun 2020 15:27:14 +0800</lastBuildDate>
     
-	<atom:link href="https://kycd.github.io/onlinejudge/tags/2-star/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://kycd.github.io/onlinejudge/tags/gcd/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -26,17 +26,6 @@
 &lt;p&gt;另外，某些日子會出現 $node$ 的數值異動，這些異動會維持到 Tobby 不玩為止。&lt;/p&gt;
 
 &lt;p&gt;求每次 Tobby 玩遊戲時最後剩下的數。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>UVa 12918 - Lucky Thief</title>
-      <link>https://kycd.github.io/onlinejudge/post/uva/p12918-lucky-thief/</link>
-      <pubDate>Mon, 04 Nov 2019 13:46:52 +0800</pubDate>
-      
-      <guid>https://kycd.github.io/onlinejudge/post/uva/p12918-lucky-thief/</guid>
-      <description>&lt;h1 id=&#34;題目&#34;&gt;題目&lt;/h1&gt;
-
-&lt;p&gt;一個小偷拿到對應 $m$ 個門的 $n$ 把鑰匙，已知 $n \leq m$ 且每一把鑰匙必定對應到一道門，問小偷最少需要嘗試開門幾次才能把所有鑰匙對應的門找出來&lt;/p&gt;</description>
     </item>
     
   </channel>

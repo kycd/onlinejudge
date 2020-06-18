@@ -6,10 +6,27 @@
     <description>Recent content in Posts on Online judge note site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 17 Jun 2020 15:13:49 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2020 15:27:14 +0800</lastBuildDate>
     
 	<atom:link href="https://kycd.github.io/onlinejudge/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>UVa 13101 Tobby on Tree</title>
+      <link>https://kycd.github.io/onlinejudge/post/uva/p13101-tobby-on-tree/</link>
+      <pubDate>Thu, 18 Jun 2020 15:27:14 +0800</pubDate>
+      
+      <guid>https://kycd.github.io/onlinejudge/post/uva/p13101-tobby-on-tree/</guid>
+      <description>&lt;h1 id=&#34;題目&#34;&gt;題目&lt;/h1&gt;
+
+&lt;p&gt;有個遊戲叫減法遊戲，在一數列中，挑選任兩個不相等的數，將大的減掉小的，再把兩個數塞回數列中，最終，整個數列會變成全部一樣的數(就是只能做減法的多數字輾轉相除法啊XD)。&lt;/p&gt;
+
+&lt;p&gt;Tobby 對這個遊戲很有興趣，並想多次遊玩，所以他在一個 tree map 中，每天選擇 $node_u$ 與 $node_v$，從 $node_u$ 走到 $node_v$ 並將過程中的每個 $node$ 的數值蒐集起來(包含 $node_u$ 及 $node_v$)，用這些數進行玩減法遊戲。&lt;/p&gt;
+
+&lt;p&gt;另外，某些日子會出現 $node$ 的數值異動，這些異動會維持到 Tobby 不玩為止。&lt;/p&gt;
+
+&lt;p&gt;求每次 Tobby 玩遊戲時最後剩下的數。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>UVa 12933 Easy Graph Problem</title>
