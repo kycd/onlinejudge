@@ -29,7 +29,7 @@ draft: true
 {{ $existed := false -}}
 {{ range $key, $ext := (dict "py3" ".py" "c++" ".cpp" "c" ".c" "java" ".java" ) -}}
 	{{- $path := (path.Join "uva" $vol (print $title $ext)) -}}
-	{{- if and ((fileExists $path) (eq $existed false)) -}}
+	{{- if (and (fileExists $path) (eq $existed false)) -}}
 {{< readfile file="{{$path}}" highlight="{{$key}}" >}}
 		{{- $existed = true -}}
 	{{- end -}}
