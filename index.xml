@@ -6,10 +6,25 @@
     <description>Recent content on Online judge note site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Jun 2020 15:27:14 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2020 11:40:14 +0800</lastBuildDate>
     
 	<atom:link href="https://kycd.github.io/onlinejudge/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>UVa 13275 Leap Birthdays</title>
+      <link>https://kycd.github.io/onlinejudge/post/uva/p13275-leap-birthdays/</link>
+      <pubDate>Wed, 07 Oct 2020 11:40:14 +0800</pubDate>
+      
+      <guid>https://kycd.github.io/onlinejudge/post/uva/p13275-leap-birthdays/</guid>
+      <description>&lt;h1 id=&#34;題目&#34;&gt;題目&lt;/h1&gt;
+
+&lt;p&gt;給出生年月日 + 欲查詢年份，求過了幾次生日。&lt;/p&gt;
+
+&lt;p&gt;快樂的閏年計算題。&lt;/p&gt;
+
+&lt;p&gt;(ps. 出生那年不算度過生日，因為那天忙著出生)&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>UVa 13101 Tobby on Tree</title>
