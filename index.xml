@@ -6,10 +6,21 @@
     <description>Recent content on Online judge note site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 07 Oct 2020 11:40:14 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2020 17:18:21 +0800</lastBuildDate>
     
 	<atom:link href="https://kycd.github.io/onlinejudge/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>UVa 13291 Frosting on the Cake</title>
+      <link>https://kycd.github.io/onlinejudge/post/uva/p13291-frosting-on-the-cake/</link>
+      <pubDate>Fri, 16 Oct 2020 17:18:21 +0800</pubDate>
+      
+      <guid>https://kycd.github.io/onlinejudge/post/uva/p13291-frosting-on-the-cake/</guid>
+      <description>&lt;h1 id=&#34;題目&#34;&gt;題目&lt;/h1&gt;
+
+&lt;p&gt;一塊長方形蛋糕，水平切 $n$ 刀，垂直切 $n$ 刀，然後依題目所描述的規則撒上糖霜，給下刀切塊大小，求各種糖霜的使用量&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>UVa 13275 Leap Birthdays</title>
