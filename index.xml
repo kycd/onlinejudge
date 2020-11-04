@@ -6,10 +6,23 @@
     <description>Recent content on Online judge note site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 16 Oct 2020 17:18:21 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2020 17:47:07 +0800</lastBuildDate>
     
 	<atom:link href="https://kycd.github.io/onlinejudge/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>UVa 13245 Prime Darts</title>
+      <link>https://kycd.github.io/onlinejudge/post/uva/p13245-prime-darts/</link>
+      <pubDate>Wed, 28 Oct 2020 17:47:07 +0800</pubDate>
+      
+      <guid>https://kycd.github.io/onlinejudge/post/uva/p13245-prime-darts/</guid>
+      <description>&lt;h1 id=&#34;題目&#34;&gt;題目&lt;/h1&gt;
+
+&lt;p&gt;有個飛鏢靶均分為 $n$ 等分，將 $1$ &amp;amp; 前 $n - 1$ 個質數分別填入任意區塊，表示飛鏢射中該區域可獲得的分數&lt;/p&gt;
+
+&lt;p&gt;給一個目標分數 $q$，求剛好拿到分數 $q$ 所需要的最少鏢數為何。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>UVa 13291 Frosting on the Cake</title>
