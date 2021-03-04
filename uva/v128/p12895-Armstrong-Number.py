@@ -1,4 +1,7 @@
 #/usr/local/bin/python3
+# 1 star
+# math
+# 26153351  12895   Armstrong Number    Accepted    PYTH3   0.010   2021-03-04 06:27:15
 
 t = int(input().strip())
 
