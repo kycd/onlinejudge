@@ -3,7 +3,6 @@ title: "UVa 12895 Armstrong Number"
 author: "Kevin Cheng"
 tags: ["UVa", "v128", "1-Star", "Math"]
 date: 2021-03-04T14:12:51+08:00
-draft: true
 ---
 
 # 題目
