@@ -10,28 +10,30 @@
     
 
     
-    <title>
-  Tag → math
+    <title>UVa 12895 Armstrong Number</title>
+
+    
+    
+
+
+
   
-   | Online judge note site
-</title>
-
-    
-    
-
-
-
-
   
   <meta name="author" content="Kevin Cheng" />
-  <meta name="description" content="" />
+  <meta name="description" content="題目 對一個 $p$ 位數整數 $n$，若 $n$ 的每個數字的 $p$ 次方加總後等同 $n$，即可稱 $n$ 為一個阿姆斯壯數
+求輸入的數是否為阿姆斯壯數
+">
 
   
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:site" content="@gohugoio" />
-  <meta name="twitter:title" content="Online judge note site" />
-  <meta name="twitter:description" content="" />
-  <meta name="twitter:image" content="https://kycd.github.io/img/avatar.jpg" />
+  
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@gohugoio" />
+    <meta name="twitter:title" content="UVa 12895 Armstrong Number" />
+    <meta name="twitter:description" content="題目 對一個 $p$ 位數整數 $n$，若 $n$ 的每個數字的 $p$ 次方加總後等同 $n$，即可稱 $n$ 為一個阿姆斯壯數
+求輸入的數是否為阿姆斯壯數
+" />
+    <meta name="twitter:image" content="https://kycd.github.io/img/avatar.jpg" />
+  
 
 
 
@@ -39,7 +41,7 @@
 <meta name="generator" content="Hugo 0.54.0">
 
 
-<link rel="canonical" href="https://kycd.github.io/onlinejudge/tags/math/">
+<link rel="canonical" href="https://kycd.github.io/onlinejudge/post/uva/p12895-armstrong-number/">
 <link rel="alternative" href="/index.xml" title="Online judge note site" type="application/atom+xml">
 
 
@@ -259,273 +261,70 @@ code.has-jax {
 
 </header>
 
-  <section class="main entry-list">
-    
-      <h2>Tag: math</h2>
-    
-    <header class="list-header">
-      
-      
-        
-      
-        
-      
+  <section class="main post-detail">
+    <header class="post-header">
+      <h1 class="post-title">UVa 12895 Armstrong Number</h1>
+      <p class="entry-meta"><span class="entry-time">Mar 4, 2021</span> 1 min read</p>
     </header>
     
-    
+
+    <article class="post-content"><h1 id="題目">題目</h1>
+
+<p>對一個 $p$ 位數整數 $n$，若 $n$ 的每個數字的 $p$ 次方加總後等同 $n$，即可稱 $n$ 為一個阿姆斯壯數</p>
+
+<p>求輸入的數是否為阿姆斯壯數</p>
+
+<h1 id="input">Input</h1>
+
+<p>第一行為一正整數 $T$，表測資筆數，接下來 $T$ 行每行含一個正整數 $N$ ( $N \leq 10^9$ )。</p>
+
+<h1 id="output">Output</h1>
+
+<p>對每個正整數 $N$ 輸出一行，如 $N$ 為阿姆斯壯數，輸出 <code>Armstrong</code>，反之輸出 <code>Not Armstrong</code>。</p>
+
+<h1 id="解法">解法</h1>
+
+<p>Python 火力展示題。</p>
+
+<h1 id="source-code">Source Code</h1>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py3" data-lang="py3"><span style="color:#75715e">#/usr/local/bin/python3</span>
+
+t <span style="color:#f92672">=</span> int(input()<span style="color:#f92672">.</span>strip())
+
+<span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(t):
+    n <span style="color:#f92672">=</span> input()<span style="color:#f92672">.</span>strip()
+    arr <span style="color:#f92672">=</span> list(map(int, list(n)))
+    p <span style="color:#f92672">=</span> len(n)
+
+    <span style="color:#66d9ef">if</span> sum(map(<span style="color:#66d9ef">lambda</span> x: x <span style="color:#f92672">**</span> p, arr)) <span style="color:#f92672">==</span> int(n):
+        print(<span style="color:#e6db74">&#34;Armstrong&#34;</span>)
+    <span style="color:#66d9ef">else</span>:
+        print(<span style="color:#e6db74">&#34;Not Armstrong&#34;</span>)
+</code></pre></div></article>
+    <footer class="post-footer">
       
-        <article class="entry-single">
-  
-  <header class="entry-header">
-    <h3 class="entry-title"><a href="https://kycd.github.io/onlinejudge/post/uva/p12895-armstrong-number/" title="UVa 12895 Armstrong Number" class="entry-link">UVa 12895 Armstrong Number</a></h3>
-  </header>
-
-  <p class="entry-summary">題目 對一個 $p$ 位數整數 $n$，若 $n$ 的每個數字的 $p$ 次方加總後等同 $n$，即可稱 $n$ 為一個阿姆斯壯數
-求輸入的數是否為阿姆斯壯數
-</p>
-  
-    <ul id="entry-tags">
-	  
-	    <li class="entry-tag"> <a href="https://kycd.github.io/onlinejudge/tags/uva">UVa</a> </li>
-	  
-	    <li class="entry-tag"> <a href="https://kycd.github.io/onlinejudge/tags/v128">v128</a> </li>
-	  
-	    <li class="entry-tag"> <a href="https://kycd.github.io/onlinejudge/tags/1-star">1-Star</a> </li>
-	  
-	    <li class="entry-tag"> <a href="https://kycd.github.io/onlinejudge/tags/math">Math</a> </li>
-	  
-    </ul>
-  
-  <footer class="entry-footer">
-    <p class="entry-meta"><span class="entry-time">Mar 4, 2021</span> 1 min read</p>
-    <div class="sharing">
-      <a class="share share-facebook" target="_blank" href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fkycd.github.io%2fonlinejudge%2fpost%2fuva%2fp12895-armstrong-number%2f" title="Share on Facebook">
-        <svg class="icon" fill="currentColor"><use xlink:href="#icon-facebook" /></svg>
-      </a>
-      <a class="share share-twitter" target="_blank" href="https://twitter.com/intent/tweet/?text=UVa%2012895%20Armstrong%20Number&amp;url=https%3a%2f%2fkycd.github.io%2fonlinejudge%2fpost%2fuva%2fp12895-armstrong-number%2f" title="Share on Twitter">
-        <svg class="icon share-twitter-icon" fill="currentColor"><use xlink:href="#icon-twitter" /></svg>
-      </a>
-    </div>
-  </footer>
-</article>
-
+      <ul class="post-tags">
+        
+		<li class="post-tag"><a href="https://kycd.github.io/onlinejudge/tags/uva"><span class="tag">UVa</span></a></li>
+        
+		<li class="post-tag"><a href="https://kycd.github.io/onlinejudge/tags/v128"><span class="tag">V128</span></a></li>
+        
+		<li class="post-tag"><a href="https://kycd.github.io/onlinejudge/tags/1-star"><span class="tag">1-Star</span></a></li>
+        
+		<li class="post-tag"><a href="https://kycd.github.io/onlinejudge/tags/math"><span class="tag">Math</span></a></li>
+        
+      </ul>
       
-        <article class="entry-single">
-  
-  <header class="entry-header">
-    <h3 class="entry-title"><a href="https://kycd.github.io/onlinejudge/post/uva/p13291-frosting-on-the-cake/" title="UVa 13291 Frosting on the Cake" class="entry-link">UVa 13291 Frosting on the Cake</a></h3>
-  </header>
-
-  <p class="entry-summary">題目 一塊長方形蛋糕，水平切 $n$ 刀，垂直切 $n$ 刀，然後依題目所描述的規則撒上糖霜，給下刀切塊大小，求各種糖霜的使用量
-</p>
-  
-    <ul id="entry-tags">
-	  
-	    <li class="entry-tag"> <a href="https://kycd.github.io/onlinejudge/tags/uva">UVa</a> </li>
-	  
-	    <li class="entry-tag"> <a href="https://kycd.github.io/onlinejudge/tags/v132">v132</a> </li>
-	  
-	    <li class="entry-tag"> <a href="https://kycd.github.io/onlinejudge/tags/1-star">1-star</a> </li>
-	  
-	    <li class="entry-tag"> <a href="https://kycd.github.io/onlinejudge/tags/math">Math</a> </li>
-	  
-    </ul>
-  
-  <footer class="entry-footer">
-    <p class="entry-meta"><span class="entry-time">Oct 16, 2020</span> 1 min read</p>
-    <div class="sharing">
-      <a class="share share-facebook" target="_blank" href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fkycd.github.io%2fonlinejudge%2fpost%2fuva%2fp13291-frosting-on-the-cake%2f" title="Share on Facebook">
-        <svg class="icon" fill="currentColor"><use xlink:href="#icon-facebook" /></svg>
-      </a>
-      <a class="share share-twitter" target="_blank" href="https://twitter.com/intent/tweet/?text=UVa%2013291%20Frosting%20on%20the%20Cake&amp;url=https%3a%2f%2fkycd.github.io%2fonlinejudge%2fpost%2fuva%2fp13291-frosting-on-the-cake%2f" title="Share on Twitter">
-        <svg class="icon share-twitter-icon" fill="currentColor"><use xlink:href="#icon-twitter" /></svg>
-      </a>
-    </div>
-  </footer>
-</article>
-
-      
-        <article class="entry-single">
-  
-  <header class="entry-header">
-    <h3 class="entry-title"><a href="https://kycd.github.io/onlinejudge/post/uva/p13275-leap-birthdays/" title="UVa 13275 Leap Birthdays" class="entry-link">UVa 13275 Leap Birthdays</a></h3>
-  </header>
-
-  <p class="entry-summary">題目 給出生年月日 &#43; 欲查詢年份，求過了幾次生日。
-快樂的閏年計算題。
-(ps. 出生那年不算度過生日，因為那天忙著出生)
-</p>
-  
-    <ul id="entry-tags">
-	  
-	    <li class="entry-tag"> <a href="https://kycd.github.io/onlinejudge/tags/uva">UVa</a> </li>
-	  
-	    <li class="entry-tag"> <a href="https://kycd.github.io/onlinejudge/tags/v132">v132</a> </li>
-	  
-	    <li class="entry-tag"> <a href="https://kycd.github.io/onlinejudge/tags/math">Math</a> </li>
-	  
-	    <li class="entry-tag"> <a href="https://kycd.github.io/onlinejudge/tags/1-star">1-Star</a> </li>
-	  
-    </ul>
-  
-  <footer class="entry-footer">
-    <p class="entry-meta"><span class="entry-time">Oct 7, 2020</span> 1 min read</p>
-    <div class="sharing">
-      <a class="share share-facebook" target="_blank" href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fkycd.github.io%2fonlinejudge%2fpost%2fuva%2fp13275-leap-birthdays%2f" title="Share on Facebook">
-        <svg class="icon" fill="currentColor"><use xlink:href="#icon-facebook" /></svg>
-      </a>
-      <a class="share share-twitter" target="_blank" href="https://twitter.com/intent/tweet/?text=UVa%2013275%20Leap%20Birthdays&amp;url=https%3a%2f%2fkycd.github.io%2fonlinejudge%2fpost%2fuva%2fp13275-leap-birthdays%2f" title="Share on Twitter">
-        <svg class="icon share-twitter-icon" fill="currentColor"><use xlink:href="#icon-twitter" /></svg>
-      </a>
-    </div>
-  </footer>
-</article>
-
-      
-        <article class="entry-single">
-  
-  <header class="entry-header">
-    <h3 class="entry-title"><a href="https://kycd.github.io/onlinejudge/post/uva/p11479-is-this-the-easiest-problem/" title="UVa 11479 Is This the Easiest Problem" class="entry-link">UVa 11479 Is This the Easiest Problem</a></h3>
-  </header>
-
-  <p class="entry-summary">題目 給三角形的三邊長，求三角形種類，種類有以下四種。
- Invalid: 不是三角形 Equilateral: 正三角形 Isosceles: 等腰三角形 Scalene: 不屬於量兩種的合法三角形 </p>
-  
-    <ul id="entry-tags">
-	  
-	    <li class="entry-tag"> <a href="https://kycd.github.io/onlinejudge/tags/uva">UVa</a> </li>
-	  
-	    <li class="entry-tag"> <a href="https://kycd.github.io/onlinejudge/tags/v114">v114</a> </li>
-	  
-	    <li class="entry-tag"> <a href="https://kycd.github.io/onlinejudge/tags/math">math</a> </li>
-	  
-	    <li class="entry-tag"> <a href="https://kycd.github.io/onlinejudge/tags/1-star">1-Star</a> </li>
-	  
-    </ul>
-  
-  <footer class="entry-footer">
-    <p class="entry-meta"><span class="entry-time">Jan 15, 2020</span> 1 min read</p>
-    <div class="sharing">
-      <a class="share share-facebook" target="_blank" href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fkycd.github.io%2fonlinejudge%2fpost%2fuva%2fp11479-is-this-the-easiest-problem%2f" title="Share on Facebook">
-        <svg class="icon" fill="currentColor"><use xlink:href="#icon-facebook" /></svg>
-      </a>
-      <a class="share share-twitter" target="_blank" href="https://twitter.com/intent/tweet/?text=UVa%2011479%20Is%20This%20the%20Easiest%20Problem&amp;url=https%3a%2f%2fkycd.github.io%2fonlinejudge%2fpost%2fuva%2fp11479-is-this-the-easiest-problem%2f" title="Share on Twitter">
-        <svg class="icon share-twitter-icon" fill="currentColor"><use xlink:href="#icon-twitter" /></svg>
-      </a>
-    </div>
-  </footer>
-</article>
-
-      
-        <article class="entry-single">
-  
-  <header class="entry-header">
-    <h3 class="entry-title"><a href="https://kycd.github.io/onlinejudge/post/uva/p11494-queen/" title="UVa 11494 Queen" class="entry-link">UVa 11494 Queen</a></h3>
-  </header>
-
-  <p class="entry-summary">題目 給西洋棋盤上的兩個座標，求皇后從 座標1($X_1$, $Y_1$) 移動至 座標2($X_2$, $Y_2$) 最少需要幾步。
-</p>
-  
-    <ul id="entry-tags">
-	  
-	    <li class="entry-tag"> <a href="https://kycd.github.io/onlinejudge/tags/uva">UVa</a> </li>
-	  
-	    <li class="entry-tag"> <a href="https://kycd.github.io/onlinejudge/tags/v114">v114</a> </li>
-	  
-	    <li class="entry-tag"> <a href="https://kycd.github.io/onlinejudge/tags/math">math</a> </li>
-	  
-	    <li class="entry-tag"> <a href="https://kycd.github.io/onlinejudge/tags/1-star">1-Star</a> </li>
-	  
-    </ul>
-  
-  <footer class="entry-footer">
-    <p class="entry-meta"><span class="entry-time">Jan 15, 2020</span> 1 min read</p>
-    <div class="sharing">
-      <a class="share share-facebook" target="_blank" href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fkycd.github.io%2fonlinejudge%2fpost%2fuva%2fp11494-queen%2f" title="Share on Facebook">
-        <svg class="icon" fill="currentColor"><use xlink:href="#icon-facebook" /></svg>
-      </a>
-      <a class="share share-twitter" target="_blank" href="https://twitter.com/intent/tweet/?text=UVa%2011494%20Queen&amp;url=https%3a%2f%2fkycd.github.io%2fonlinejudge%2fpost%2fuva%2fp11494-queen%2f" title="Share on Twitter">
-        <svg class="icon share-twitter-icon" fill="currentColor"><use xlink:href="#icon-twitter" /></svg>
-      </a>
-    </div>
-  </footer>
-</article>
-
-      
-        <article class="entry-single">
-  
-  <header class="entry-header">
-    <h3 class="entry-title"><a href="https://kycd.github.io/onlinejudge/post/uva/p13244-space-happiness/" title="UVa 13244 Space Happiness" class="entry-link">UVa 13244 Space Happiness</a></h3>
-  </header>
-
-  <p class="entry-summary">題目 s 為一奇數，求數列 0, 1, 3, 5, ..., s - 2, s, s - 2, s - 4, ... , 3, 1, 0 的總和
-</p>
-  
-    <ul id="entry-tags">
-	  
-	    <li class="entry-tag"> <a href="https://kycd.github.io/onlinejudge/tags/uva">UVa</a> </li>
-	  
-	    <li class="entry-tag"> <a href="https://kycd.github.io/onlinejudge/tags/v132">v132</a> </li>
-	  
-	    <li class="entry-tag"> <a href="https://kycd.github.io/onlinejudge/tags/math">math</a> </li>
-	  
-	    <li class="entry-tag"> <a href="https://kycd.github.io/onlinejudge/tags/%E7%AD%89%E5%B7%AE%E7%B4%9A%E6%95%B8%E5%92%8C">等差級數和</a> </li>
-	  
-	    <li class="entry-tag"> <a href="https://kycd.github.io/onlinejudge/tags/1-star">1-Star</a> </li>
-	  
-    </ul>
-  
-  <footer class="entry-footer">
-    <p class="entry-meta"><span class="entry-time">Nov 11, 2019</span> 1 min read</p>
-    <div class="sharing">
-      <a class="share share-facebook" target="_blank" href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fkycd.github.io%2fonlinejudge%2fpost%2fuva%2fp13244-space-happiness%2f" title="Share on Facebook">
-        <svg class="icon" fill="currentColor"><use xlink:href="#icon-facebook" /></svg>
-      </a>
-      <a class="share share-twitter" target="_blank" href="https://twitter.com/intent/tweet/?text=UVa%2013244%20Space%20Happiness&amp;url=https%3a%2f%2fkycd.github.io%2fonlinejudge%2fpost%2fuva%2fp13244-space-happiness%2f" title="Share on Twitter">
-        <svg class="icon share-twitter-icon" fill="currentColor"><use xlink:href="#icon-twitter" /></svg>
-      </a>
-    </div>
-  </footer>
-</article>
-
-      
-        <article class="entry-single">
-  
-  <header class="entry-header">
-    <h3 class="entry-title"><a href="https://kycd.github.io/onlinejudge/post/uva/p12918-lucky-thief/" title="UVa 12918 - Lucky Thief" class="entry-link">UVa 12918 - Lucky Thief</a></h3>
-  </header>
-
-  <p class="entry-summary">題目 一個小偷拿到對應 $m$ 個門的 $n$ 把鑰匙，已知 $n \leq m$ 且每一把鑰匙必定對應到一道門，問小偷最少需要嘗試開門幾次才能把所有鑰匙對應的門找出來
-</p>
-  
-    <ul id="entry-tags">
-	  
-	    <li class="entry-tag"> <a href="https://kycd.github.io/onlinejudge/tags/uva">UVa</a> </li>
-	  
-	    <li class="entry-tag"> <a href="https://kycd.github.io/onlinejudge/tags/v129">v129</a> </li>
-	  
-	    <li class="entry-tag"> <a href="https://kycd.github.io/onlinejudge/tags/math">math</a> </li>
-	  
-	    <li class="entry-tag"> <a href="https://kycd.github.io/onlinejudge/tags/2-star">2-Star</a> </li>
-	  
-    </ul>
-  
-  <footer class="entry-footer">
-    <p class="entry-meta"><span class="entry-time">Nov 4, 2019</span> 1 min read</p>
-    <div class="sharing">
-      <a class="share share-facebook" target="_blank" href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fkycd.github.io%2fonlinejudge%2fpost%2fuva%2fp12918-lucky-thief%2f" title="Share on Facebook">
-        <svg class="icon" fill="currentColor"><use xlink:href="#icon-facebook" /></svg>
-      </a>
-      <a class="share share-twitter" target="_blank" href="https://twitter.com/intent/tweet/?text=UVa%2012918%20-%20Lucky%20Thief&amp;url=https%3a%2f%2fkycd.github.io%2fonlinejudge%2fpost%2fuva%2fp12918-lucky-thief%2f" title="Share on Twitter">
-        <svg class="icon share-twitter-icon" fill="currentColor"><use xlink:href="#icon-twitter" /></svg>
-      </a>
-    </div>
-  </footer>
-</article>
-
-      
-    
-    
+      <div class="sharing">
+        <a class="share share-facebook" target="_blank" href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fkycd.github.io%2fonlinejudge%2fpost%2fuva%2fp12895-armstrong-number%2f" title="Share on Facebook">
+          <svg class="icon icon-facebook" fill="currentColor"><use xlink:href="#icon-facebook" /></svg>
+        </a>
+        <a class="share share-twitter" target="_blank" href="https://twitter.com/intent/tweet/?text=UVa%2012895%20Armstrong%20Number&amp;url=https%3a%2f%2fkycd.github.io%2fonlinejudge%2fpost%2fuva%2fp12895-armstrong-number%2f" title="Share on Twitter">
+          <svg class="icon icon-twitter" fill="currentColor"><use xlink:href="#icon-twitter" /></svg>
+        </a>
+      </div>
+    </footer>
   </section>
   <footer class="footer">
   <p>Copyright © 2018-2021 Online judge note site</p>

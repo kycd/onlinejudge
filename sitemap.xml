@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://kycd.github.io/onlinejudge/post/uva/p12895-armstrong-number/</loc>
+    <lastmod>2021-03-04T14:12:51+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://kycd.github.io/onlinejudge/post/uva/p13245-prime-darts/</loc>
     <lastmod>2020-10-28T17:47:07+08:00</lastmod>
   </url>
@@ -94,7 +99,7 @@
   
   <url>
     <loc>https://kycd.github.io/onlinejudge/tags/1-star/</loc>
-    <lastmod>2020-10-16T17:18:21+08:00</lastmod>
+    <lastmod>2021-03-04T14:12:51+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -160,7 +165,7 @@
   
   <url>
     <loc>https://kycd.github.io/onlinejudge/tags/math/</loc>
-    <lastmod>2020-10-16T17:18:21+08:00</lastmod>
+    <lastmod>2021-03-04T14:12:51+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -178,13 +183,13 @@
   
   <url>
     <loc>https://kycd.github.io/onlinejudge/</loc>
-    <lastmod>2020-10-28T17:47:07+08:00</lastmod>
+    <lastmod>2021-03-04T14:12:51+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kycd.github.io/onlinejudge/post/</loc>
-    <lastmod>2020-10-28T17:47:07+08:00</lastmod>
+    <lastmod>2021-03-04T14:12:51+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -196,13 +201,13 @@
   
   <url>
     <loc>https://kycd.github.io/onlinejudge/tags/</loc>
-    <lastmod>2020-10-16T17:18:21+08:00</lastmod>
+    <lastmod>2021-03-04T14:12:51+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kycd.github.io/onlinejudge/tags/uva/</loc>
-    <lastmod>2020-10-28T17:47:07+08:00</lastmod>
+    <lastmod>2021-03-04T14:12:51+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -227,6 +232,12 @@
   <url>
     <loc>https://kycd.github.io/onlinejudge/tags/v12/</loc>
     <lastmod>2019-11-07T14:28:33+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kycd.github.io/onlinejudge/tags/v128/</loc>
+    <lastmod>2021-03-04T14:12:51+08:00</lastmod>
     <priority>0</priority>
   </url>
   
