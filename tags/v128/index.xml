@@ -6,10 +6,21 @@
     <description>Recent content in V128 on Online judge note site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 04 Mar 2021 17:26:34 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 05 Mar 2021 15:36:54 +0800</lastBuildDate>
     
 	<atom:link href="https://kycd.github.io/onlinejudge/tags/v128/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>UVa 12802 Gift From the Gods</title>
+      <link>https://kycd.github.io/onlinejudge/post/uva/p12802-gift-from-the-gods/</link>
+      <pubDate>Fri, 05 Mar 2021 15:36:54 +0800</pubDate>
+      
+      <guid>https://kycd.github.io/onlinejudge/post/uva/p12802-gift-from-the-gods/</guid>
+      <description>&lt;h1 id=&#34;題目&#34;&gt;題目&lt;/h1&gt;
+
+&lt;p&gt;輸出 input 數字的 double。直到輸入為迴文質數時終止。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>UVa 12854 Automated Checking Machine</title>
