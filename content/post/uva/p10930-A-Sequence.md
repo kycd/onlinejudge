@@ -1,5 +1,5 @@
 ---
-title: "UVa 10930 a Sequence"
+title: "UVa 10930 A-sequence"
 author: "Kevin Cheng"
 tags: ["UVa", "v109", "2-Star", "Set"]
 date: 2021-03-16T09:41:41+08:00
