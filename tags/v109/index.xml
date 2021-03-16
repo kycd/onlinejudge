@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>V109 on Online judge note site</title>
+    <title>v109 on Online judge note site</title>
     <link>https://kycd.github.io/onlinejudge/tags/v109/</link>
-    <description>Recent content in V109 on Online judge note site</description>
+    <description>Recent content in v109 on Online judge note site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 Mar 2021 09:41:41 +0800</lastBuildDate>
-    
-	<atom:link href="https://kycd.github.io/onlinejudge/tags/v109/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 16 Mar 2021 09:41:41 +0800</lastBuildDate><atom:link href="https://kycd.github.io/onlinejudge/tags/v109/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>UVa 10930 A-sequence</title>
       <link>https://kycd.github.io/onlinejudge/post/uva/p10930-a-sequence/</link>
@@ -18,8 +14,7 @@
       
       <guid>https://kycd.github.io/onlinejudge/post/uva/p10930-a-sequence/</guid>
       <description>&lt;h1 id=&#34;題目&#34;&gt;題目&lt;/h1&gt;
-
-&lt;p&gt;若數列滿足條件 $1 \leq a_1 \lt a_2 \lt &amp;hellip; \lt a_n$，且 $a_k$ 不為 $a&lt;em&gt;1$ ~ $a&lt;/em&gt;{k-1}$ 的任意和，則此數列可稱為 &lt;code&gt;A-sequence&lt;/code&gt;。&lt;/p&gt;</description>
+&lt;p&gt;若數列滿足條件 $1 \leq a_1 \lt a_2 \lt &amp;hellip; \lt a_n$，且 $a_k$ 不為 $a_1$ ~ $a_{k-1}$ 的任意和，則此數列可稱為 &lt;code&gt;A-sequence&lt;/code&gt;。&lt;/p&gt;</description>
     </item>
     
   </channel>

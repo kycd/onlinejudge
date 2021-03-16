@@ -38,7 +38,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.54.0">
+<meta name="generator" content="Hugo 0.81.0">
 
 
 <link rel="canonical" href="https://kycd.github.io/onlinejudge/post/uva/p11747-heavy-cycle-edges/">
@@ -269,34 +269,22 @@ code.has-jax {
     
 
     <article class="post-content"><h1 id="題目">題目</h1>
-
 <p>講了一堆 MST 演算法的實作，當成廢話就好</p>
-
 <p>給 $n$ 個點，$m$ 個邊，求不屬於 MST 的 edge 集合</p>
-
 <h1 id="input">Input</h1>
-
 <p>每組測資第一行是兩個數字 $n$, $m$($1 \leq n \leq 1000$, $0 \leq m \leq 25000$)</p>
-
 <p>接下來 $m$ 行為 edge 資訊，每行三個數字 $u$, $v$, $w$($0 \leq u, v \lt n$, $0 \leq w \lt  2^{31}$) 表 edge 的兩個 vertex 編號 + weight</p>
-
 <h1 id="output">Output</h1>
-
 <p>每組測資輸出一行，將不屬於 MST 的 edge 的 weight 以空白分隔輸出(由小到大)</p>
-
 <p>如果沒有這種 edge 就輸出 <code>forest</code></p>
-
 <h1 id="解法">解法</h1>
-
 <ol>
 <li>讀取</li>
 <li>sort</li>
 <li>kruskal + 掃到不屬於 MST 的 edge 時就記下來。</li>
 <li>輸出</li>
 </ol>
-
 <h1 id="source-code">Source Code</h1>
-
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e">#!/bin/python3</span>
 <span style="color:#75715e"># 2~3 star</span>
 <span style="color:#75715e"># MST</span>

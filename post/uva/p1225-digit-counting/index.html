@@ -40,7 +40,7 @@ digit 出現次數: $1$ 出現 6 次，$2$ 出現 2 次，$3$ 出現 3 次，以
 
 
 
-<meta name="generator" content="Hugo 0.54.0">
+<meta name="generator" content="Hugo 0.81.0">
 
 
 <link rel="canonical" href="https://kycd.github.io/onlinejudge/post/uva/p1225-digit-counting/">
@@ -271,32 +271,19 @@ code.has-jax {
     
 
     <article class="post-content"><h1 id="題目">題目</h1>
-
 <p>對一個正整數 $N$，把 $1$~$N$ 黏在一起作成一個新的數後，計算每個 digit($0$~$9$) 的出現次數。</p>
-
 <p>舉例，$N = 13$，黏在一起作成的新整數為 12345678910111213</p>
-
 <p>digit 出現次數: $1$ 出現 6 次，$2$ 出現 2 次，$3$ 出現 3 次，以此類推。</p>
-
 <h1 id="input">Input</h1>
-
 <p>測資第一行為一不大於 $20$ 的正整數，表測資筆數
 接下來每行為一組測資，每組測資僅一個正整數 $N$($1 \le N \le 10000$)</p>
-
 <h1 id="output">Output</h1>
-
 <p>每組測資一行，輸出由 $0$~$9$ 的出現次數，以空白分隔。</p>
-
 <h1 id="解法">解法</h1>
-
 <p>暴力題</p>
-
 <p>單個數字的 digit 的出現次數只要轉字串就能輕鬆拆出來。</p>
-
 <p>再加個迴圈就能算出 $1$~$N$ 的 digit 出現次數</p>
-
 <h1 id="source-code">Source Code</h1>
-
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e">#!/bin/python3</span>
 <span style="color:#75715e"># 1 star, simulation</span>
 <span style="color:#75715e"># 24156846  1225    Digit Counting  Accepted    PYTH3   0.050   2019-11-06 10:02:46</span>

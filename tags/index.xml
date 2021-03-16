@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Online judge note site</title>
@@ -6,143 +6,13 @@
     <description>Recent content in Tags on Online judge note site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 04 Mar 2021 17:26:34 +0800</lastBuildDate>
-    
-	<atom:link href="https://kycd.github.io/onlinejudge/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 16 Mar 2021 09:41:41 +0800</lastBuildDate><atom:link href="https://kycd.github.io/onlinejudge/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>1 Star</title>
-      <link>https://kycd.github.io/onlinejudge/tags/1-star/</link>
-      <pubDate>Thu, 04 Mar 2021 17:26:34 +0800</pubDate>
-      
-      <guid>https://kycd.github.io/onlinejudge/tags/1-star/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>2 Star</title>
+      <title>2-Star</title>
       <link>https://kycd.github.io/onlinejudge/tags/2-star/</link>
       <pubDate>Tue, 16 Mar 2021 09:41:41 +0800</pubDate>
       
       <guid>https://kycd.github.io/onlinejudge/tags/2-star/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>2.5 Star</title>
-      <link>https://kycd.github.io/onlinejudge/tags/2.5-star/</link>
-      <pubDate>Tue, 12 Nov 2019 13:33:08 +0800</pubDate>
-      
-      <guid>https://kycd.github.io/onlinejudge/tags/2.5-star/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>3 Star</title>
-      <link>https://kycd.github.io/onlinejudge/tags/3-star/</link>
-      <pubDate>Wed, 28 Oct 2020 17:47:07 +0800</pubDate>
-      
-      <guid>https://kycd.github.io/onlinejudge/tags/3-star/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Bfs</title>
-      <link>https://kycd.github.io/onlinejudge/tags/bfs/</link>
-      <pubDate>Thu, 18 Jun 2020 15:27:14 +0800</pubDate>
-      
-      <guid>https://kycd.github.io/onlinejudge/tags/bfs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Big Integer</title>
-      <link>https://kycd.github.io/onlinejudge/tags/big-integer/</link>
-      <pubDate>Thu, 07 Nov 2019 14:28:33 +0800</pubDate>
-      
-      <guid>https://kycd.github.io/onlinejudge/tags/big-integer/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Binary Search</title>
-      <link>https://kycd.github.io/onlinejudge/tags/binary-search/</link>
-      <pubDate>Tue, 02 Jun 2020 14:19:25 +0800</pubDate>
-      
-      <guid>https://kycd.github.io/onlinejudge/tags/binary-search/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Dp</title>
-      <link>https://kycd.github.io/onlinejudge/tags/dp/</link>
-      <pubDate>Wed, 28 Oct 2020 17:47:07 +0800</pubDate>
-      
-      <guid>https://kycd.github.io/onlinejudge/tags/dp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Gcd</title>
-      <link>https://kycd.github.io/onlinejudge/tags/gcd/</link>
-      <pubDate>Thu, 18 Jun 2020 15:27:14 +0800</pubDate>
-      
-      <guid>https://kycd.github.io/onlinejudge/tags/gcd/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Greedy</title>
-      <link>https://kycd.github.io/onlinejudge/tags/greedy/</link>
-      <pubDate>Wed, 10 Jun 2020 14:32:12 +0800</pubDate>
-      
-      <guid>https://kycd.github.io/onlinejudge/tags/greedy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Heap</title>
-      <link>https://kycd.github.io/onlinejudge/tags/heap/</link>
-      <pubDate>Tue, 12 Nov 2019 13:33:08 +0800</pubDate>
-      
-      <guid>https://kycd.github.io/onlinejudge/tags/heap/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Math</title>
-      <link>https://kycd.github.io/onlinejudge/tags/math/</link>
-      <pubDate>Thu, 04 Mar 2021 14:12:51 +0800</pubDate>
-      
-      <guid>https://kycd.github.io/onlinejudge/tags/math/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Minimum Spanning Tree</title>
-      <link>https://kycd.github.io/onlinejudge/tags/minimum-spanning-tree/</link>
-      <pubDate>Mon, 04 Nov 2019 18:40:59 +0800</pubDate>
-      
-      <guid>https://kycd.github.io/onlinejudge/tags/minimum-spanning-tree/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mst</title>
-      <link>https://kycd.github.io/onlinejudge/tags/mst/</link>
-      <pubDate>Mon, 04 Nov 2019 18:40:59 +0800</pubDate>
-      
-      <guid>https://kycd.github.io/onlinejudge/tags/mst/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Prime</title>
-      <link>https://kycd.github.io/onlinejudge/tags/prime/</link>
-      <pubDate>Fri, 05 Mar 2021 15:36:54 +0800</pubDate>
-      
-      <guid>https://kycd.github.io/onlinejudge/tags/prime/</guid>
       <description></description>
     </item>
     
@@ -156,16 +26,7 @@
     </item>
     
     <item>
-      <title>Simulation</title>
-      <link>https://kycd.github.io/onlinejudge/tags/simulation/</link>
-      <pubDate>Thu, 16 Jan 2020 18:19:24 +0800</pubDate>
-      
-      <guid>https://kycd.github.io/onlinejudge/tags/simulation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Uva</title>
+      <title>UVa</title>
       <link>https://kycd.github.io/onlinejudge/tags/uva/</link>
       <pubDate>Tue, 16 Mar 2021 09:41:41 +0800</pubDate>
       
@@ -174,7 +35,7 @@
     </item>
     
     <item>
-      <title>V109</title>
+      <title>v109</title>
       <link>https://kycd.github.io/onlinejudge/tags/v109/</link>
       <pubDate>Tue, 16 Mar 2021 09:41:41 +0800</pubDate>
       
@@ -183,43 +44,16 @@
     </item>
     
     <item>
-      <title>V114</title>
-      <link>https://kycd.github.io/onlinejudge/tags/v114/</link>
-      <pubDate>Wed, 15 Jan 2020 15:09:47 +0800</pubDate>
+      <title>Prime</title>
+      <link>https://kycd.github.io/onlinejudge/tags/prime/</link>
+      <pubDate>Fri, 05 Mar 2021 15:36:54 +0800</pubDate>
       
-      <guid>https://kycd.github.io/onlinejudge/tags/v114/</guid>
+      <guid>https://kycd.github.io/onlinejudge/tags/prime/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>V115</title>
-      <link>https://kycd.github.io/onlinejudge/tags/v115/</link>
-      <pubDate>Tue, 02 Jun 2020 14:19:25 +0800</pubDate>
-      
-      <guid>https://kycd.github.io/onlinejudge/tags/v115/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>V117</title>
-      <link>https://kycd.github.io/onlinejudge/tags/v117/</link>
-      <pubDate>Mon, 04 Nov 2019 18:40:59 +0800</pubDate>
-      
-      <guid>https://kycd.github.io/onlinejudge/tags/v117/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>V12</title>
-      <link>https://kycd.github.io/onlinejudge/tags/v12/</link>
-      <pubDate>Thu, 07 Nov 2019 14:28:33 +0800</pubDate>
-      
-      <guid>https://kycd.github.io/onlinejudge/tags/v12/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>V128</title>
+      <title>v128</title>
       <link>https://kycd.github.io/onlinejudge/tags/v128/</link>
       <pubDate>Fri, 05 Mar 2021 15:36:54 +0800</pubDate>
       
@@ -228,34 +62,52 @@
     </item>
     
     <item>
-      <title>V129</title>
-      <link>https://kycd.github.io/onlinejudge/tags/v129/</link>
-      <pubDate>Wed, 17 Jun 2020 15:13:49 +0800</pubDate>
+      <title>1-Star</title>
+      <link>https://kycd.github.io/onlinejudge/tags/1-star/</link>
+      <pubDate>Thu, 04 Mar 2021 17:26:34 +0800</pubDate>
       
-      <guid>https://kycd.github.io/onlinejudge/tags/v129/</guid>
+      <guid>https://kycd.github.io/onlinejudge/tags/1-star/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>V13</title>
-      <link>https://kycd.github.io/onlinejudge/tags/v13/</link>
-      <pubDate>Tue, 12 Nov 2019 18:36:09 +0800</pubDate>
+      <title>xor</title>
+      <link>https://kycd.github.io/onlinejudge/tags/xor/</link>
+      <pubDate>Thu, 04 Mar 2021 17:26:34 +0800</pubDate>
       
-      <guid>https://kycd.github.io/onlinejudge/tags/v13/</guid>
+      <guid>https://kycd.github.io/onlinejudge/tags/xor/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>V131</title>
-      <link>https://kycd.github.io/onlinejudge/tags/v131/</link>
-      <pubDate>Thu, 18 Jun 2020 15:27:14 +0800</pubDate>
+      <title>math</title>
+      <link>https://kycd.github.io/onlinejudge/tags/math/</link>
+      <pubDate>Thu, 04 Mar 2021 14:12:51 +0800</pubDate>
       
-      <guid>https://kycd.github.io/onlinejudge/tags/v131/</guid>
+      <guid>https://kycd.github.io/onlinejudge/tags/math/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>V132</title>
+      <title>3-Star</title>
+      <link>https://kycd.github.io/onlinejudge/tags/3-star/</link>
+      <pubDate>Wed, 28 Oct 2020 17:47:07 +0800</pubDate>
+      
+      <guid>https://kycd.github.io/onlinejudge/tags/3-star/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DP</title>
+      <link>https://kycd.github.io/onlinejudge/tags/dp/</link>
+      <pubDate>Wed, 28 Oct 2020 17:47:07 +0800</pubDate>
+      
+      <guid>https://kycd.github.io/onlinejudge/tags/dp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>v132</title>
       <link>https://kycd.github.io/onlinejudge/tags/v132/</link>
       <pubDate>Wed, 28 Oct 2020 17:47:07 +0800</pubDate>
       
@@ -264,7 +116,34 @@
     </item>
     
     <item>
-      <title>Wip</title>
+      <title>BFS</title>
+      <link>https://kycd.github.io/onlinejudge/tags/bfs/</link>
+      <pubDate>Thu, 18 Jun 2020 15:27:14 +0800</pubDate>
+      
+      <guid>https://kycd.github.io/onlinejudge/tags/bfs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GCD</title>
+      <link>https://kycd.github.io/onlinejudge/tags/gcd/</link>
+      <pubDate>Thu, 18 Jun 2020 15:27:14 +0800</pubDate>
+      
+      <guid>https://kycd.github.io/onlinejudge/tags/gcd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>v131</title>
+      <link>https://kycd.github.io/onlinejudge/tags/v131/</link>
+      <pubDate>Thu, 18 Jun 2020 15:27:14 +0800</pubDate>
+      
+      <guid>https://kycd.github.io/onlinejudge/tags/v131/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wip</title>
       <link>https://kycd.github.io/onlinejudge/tags/wip/</link>
       <pubDate>Thu, 18 Jun 2020 15:27:14 +0800</pubDate>
       
@@ -273,11 +152,83 @@
     </item>
     
     <item>
-      <title>Xor</title>
-      <link>https://kycd.github.io/onlinejudge/tags/xor/</link>
-      <pubDate>Thu, 04 Mar 2021 17:26:34 +0800</pubDate>
+      <title>v129</title>
+      <link>https://kycd.github.io/onlinejudge/tags/v129/</link>
+      <pubDate>Wed, 17 Jun 2020 15:13:49 +0800</pubDate>
       
-      <guid>https://kycd.github.io/onlinejudge/tags/xor/</guid>
+      <guid>https://kycd.github.io/onlinejudge/tags/v129/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>greedy</title>
+      <link>https://kycd.github.io/onlinejudge/tags/greedy/</link>
+      <pubDate>Wed, 10 Jun 2020 14:32:12 +0800</pubDate>
+      
+      <guid>https://kycd.github.io/onlinejudge/tags/greedy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>binary search</title>
+      <link>https://kycd.github.io/onlinejudge/tags/binary-search/</link>
+      <pubDate>Tue, 02 Jun 2020 14:19:25 +0800</pubDate>
+      
+      <guid>https://kycd.github.io/onlinejudge/tags/binary-search/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>v115</title>
+      <link>https://kycd.github.io/onlinejudge/tags/v115/</link>
+      <pubDate>Tue, 02 Jun 2020 14:19:25 +0800</pubDate>
+      
+      <guid>https://kycd.github.io/onlinejudge/tags/v115/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>simulation</title>
+      <link>https://kycd.github.io/onlinejudge/tags/simulation/</link>
+      <pubDate>Thu, 16 Jan 2020 18:19:24 +0800</pubDate>
+      
+      <guid>https://kycd.github.io/onlinejudge/tags/simulation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>v114</title>
+      <link>https://kycd.github.io/onlinejudge/tags/v114/</link>
+      <pubDate>Wed, 15 Jan 2020 15:09:47 +0800</pubDate>
+      
+      <guid>https://kycd.github.io/onlinejudge/tags/v114/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>v13</title>
+      <link>https://kycd.github.io/onlinejudge/tags/v13/</link>
+      <pubDate>Tue, 12 Nov 2019 18:36:09 +0800</pubDate>
+      
+      <guid>https://kycd.github.io/onlinejudge/tags/v13/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2.5-Star</title>
+      <link>https://kycd.github.io/onlinejudge/tags/2.5-star/</link>
+      <pubDate>Tue, 12 Nov 2019 13:33:08 +0800</pubDate>
+      
+      <guid>https://kycd.github.io/onlinejudge/tags/2.5-star/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>heap</title>
+      <link>https://kycd.github.io/onlinejudge/tags/heap/</link>
+      <pubDate>Tue, 12 Nov 2019 13:33:08 +0800</pubDate>
+      
+      <guid>https://kycd.github.io/onlinejudge/tags/heap/</guid>
       <description></description>
     </item>
     
@@ -287,6 +238,51 @@
       <pubDate>Mon, 11 Nov 2019 10:54:38 +0800</pubDate>
       
       <guid>https://kycd.github.io/onlinejudge/tags/%E7%AD%89%E5%B7%AE%E7%B4%9A%E6%95%B8%E5%92%8C/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Big Integer</title>
+      <link>https://kycd.github.io/onlinejudge/tags/big-integer/</link>
+      <pubDate>Thu, 07 Nov 2019 14:28:33 +0800</pubDate>
+      
+      <guid>https://kycd.github.io/onlinejudge/tags/big-integer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>v12</title>
+      <link>https://kycd.github.io/onlinejudge/tags/v12/</link>
+      <pubDate>Thu, 07 Nov 2019 14:28:33 +0800</pubDate>
+      
+      <guid>https://kycd.github.io/onlinejudge/tags/v12/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>minimum spanning tree</title>
+      <link>https://kycd.github.io/onlinejudge/tags/minimum-spanning-tree/</link>
+      <pubDate>Mon, 04 Nov 2019 18:40:59 +0800</pubDate>
+      
+      <guid>https://kycd.github.io/onlinejudge/tags/minimum-spanning-tree/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MST</title>
+      <link>https://kycd.github.io/onlinejudge/tags/mst/</link>
+      <pubDate>Mon, 04 Nov 2019 18:40:59 +0800</pubDate>
+      
+      <guid>https://kycd.github.io/onlinejudge/tags/mst/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>v117</title>
+      <link>https://kycd.github.io/onlinejudge/tags/v117/</link>
+      <pubDate>Mon, 04 Nov 2019 18:40:59 +0800</pubDate>
+      
+      <guid>https://kycd.github.io/onlinejudge/tags/v117/</guid>
       <description></description>
     </item>
     

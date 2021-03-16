@@ -38,7 +38,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.54.0">
+<meta name="generator" content="Hugo 0.81.0">
 
 
 <link rel="canonical" href="https://kycd.github.io/onlinejudge/post/uva/p1330-city-game/">
@@ -269,32 +269,20 @@ code.has-jax {
     
 
     <article class="post-content"><h1 id="題目">題目</h1>
-
 <p>Bob 想在 $M \times N$ 的地圖上，蓋一棟長方形建築物以獲取收益，$收益 = 建築物面積 * 3$</p>
-
 <p>已知字母 <code>F</code> 為可用空地，求 Bob 可獲得的最大收益(只蓋一棟)。</p>
-
 <h1 id="input">Input</h1>
-
 <p>第一行為數字 $K$，表 case 數量。
 每組測資第一行爲數字 $M$($M \leq 1000$), $N$($N \leq 1000$) 表地圖大小。
 接下來 $M$ 行，每行會有 $N$ 的字母，字母只會有 <code>R</code> 或 <code>F</code>，字母之間以空白間隔
 每組測資後會有一行空白行。</p>
-
 <h1 id="output">Output</h1>
-
 <p>輸出字母 <code>F</code> 組成的最大長方形面積 $\times$ 3</p>
-
 <h1 id="解法">解法</h1>
-
 <p>DP，對每個點窮舉以該點為右下點的長方形區域的最大面積，先把每個點的向左延伸最大值記錄下來(相當於長方形的底部長度)，就可以把時間壓在 $O(m^2 * n)$(只要這樣就可以 AC 不用 $O(m * n)$)。</p>
-
 <p>$O(m * n)$ 的解法應該是利用底部長度的 array 做 stack 匹配，但&hellip;.反正 AC 了XD。</p>
-
 <p>reference: 演算法筆記 Largest Empty Rectangle( <a href="http://www.csie.ntnu.edu.tw/~u91029/MaximumSubarray.html#2">http://www.csie.ntnu.edu.tw/~u91029/MaximumSubarray.html#2</a> )</p>
-
 <h1 id="source-code">Source Code</h1>
-
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c++" data-lang="c++"><span style="color:#75715e">/*
 </span><span style="color:#75715e"> * 3 star
 </span><span style="color:#75715e"> * DP

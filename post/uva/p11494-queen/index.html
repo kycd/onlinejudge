@@ -36,7 +36,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.54.0">
+<meta name="generator" content="Hugo 0.81.0">
 
 
 <link rel="canonical" href="https://kycd.github.io/onlinejudge/post/uva/p11494-queen/">
@@ -267,35 +267,22 @@ code.has-jax {
     
 
     <article class="post-content"><h1 id="題目">題目</h1>
-
 <p>給西洋棋盤上的兩個座標，求皇后從 <code>座標1</code>($X_1$, $Y_1$) 移動至 <code>座標2</code>($X_2$, $Y_2$) 最少需要幾步。</p>
-
 <h1 id="input">Input</h1>
-
 <p>題目含多組測資，每組測資一行。</p>
-
 <p>每組測資含四個數字 $X_1$, $Y_1$, $X_2$, $Y_2$ ($1 \leq X_1, Y_1, X_2, Y_2 \leq 8$)，以空白分隔。</p>
-
 <p>最後一組測資為四個 0，表測資結束(這組不用處理)。</p>
-
 <h1 id="output">Output</h1>
-
 <p>對每組測資輸出一個整數，表皇后從 <code>座標1</code> 移動至 <code>座標2</code> 最少所需步數。</p>
-
 <h1 id="解法">解法</h1>
-
 <p>因為是皇后，移動兩步就能到達棋盤任何地方，所以結果只會有三種</p>
-
 <ol>
 <li>0 =&gt; <code>座標1</code> = <code>座標2</code></li>
 <li>1 =&gt; <code>座標1</code> 與 <code>座標2</code> 在同一直行、橫列、斜線上。</li>
 <li>2 =&gt; 以上皆非</li>
 </ol>
-
 <p>case 2 的算法就檢查 X, Y 座標差的絕對值，看是不是一樣(在斜線上)，或其中一個為0(在同一直行 or 橫列上)。</p>
-
 <h1 id="source-code">Source Code</h1>
-
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py3" data-lang="py3"><span style="color:#75715e">#!/bin/python3</span>
 <span style="color:#75715e"># 1 star</span>
 <span style="color:#75715e"># math</span>

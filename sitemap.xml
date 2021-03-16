@@ -1,319 +1,173 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  <url>
-    <loc>https://kycd.github.io/onlinejudge/post/uva/p10930-a-sequence/</loc>
-    <lastmod>2021-03-16T09:41:41+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kycd.github.io/onlinejudge/post/uva/p12802-gift-from-the-gods/</loc>
-    <lastmod>2021-03-05T15:36:54+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kycd.github.io/onlinejudge/post/uva/p12854-automated-checking-machine/</loc>
-    <lastmod>2021-03-04T17:26:34+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kycd.github.io/onlinejudge/post/uva/p12895-armstrong-number/</loc>
-    <lastmod>2021-03-04T14:12:51+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kycd.github.io/onlinejudge/post/uva/p13245-prime-darts/</loc>
-    <lastmod>2020-10-28T17:47:07+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kycd.github.io/onlinejudge/post/uva/p13291-frosting-on-the-cake/</loc>
-    <lastmod>2020-10-16T17:18:21+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kycd.github.io/onlinejudge/post/uva/p13275-leap-birthdays/</loc>
-    <lastmod>2020-10-07T11:40:14+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kycd.github.io/onlinejudge/post/uva/p13101-tobby-on-tree/</loc>
-    <lastmod>2020-06-18T15:27:14+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kycd.github.io/onlinejudge/post/uva/p12933-easy-graph-problem/</loc>
-    <lastmod>2020-06-17T15:13:49+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kycd.github.io/onlinejudge/post/uva/p12955-factorial/</loc>
-    <lastmod>2020-06-10T14:32:12+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kycd.github.io/onlinejudge/post/uva/p11516-wifi/</loc>
-    <lastmod>2020-06-02T14:19:25+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kycd.github.io/onlinejudge/post/uva/p12952-tri-du/</loc>
-    <lastmod>2020-01-16T18:19:24+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kycd.github.io/onlinejudge/post/uva/p11479-is-this-the-easiest-problem/</loc>
-    <lastmod>2020-01-15T15:09:47+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kycd.github.io/onlinejudge/post/uva/p11494-queen/</loc>
-    <lastmod>2020-01-15T14:19:51+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kycd.github.io/onlinejudge/post/uva/p1366-martian-mining/</loc>
-    <lastmod>2019-11-12T18:36:09+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kycd.github.io/onlinejudge/post/uva/p1316-supermarket/</loc>
-    <lastmod>2019-11-12T13:33:08+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kycd.github.io/onlinejudge/post/uva/p13244-space-happiness/</loc>
-    <lastmod>2019-11-11T10:54:38+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kycd.github.io/onlinejudge/post/uva/p1226-numerical-surprises/</loc>
-    <lastmod>2019-11-07T14:28:33+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kycd.github.io/onlinejudge/post/uva/p1225-digit-counting/</loc>
-    <lastmod>2019-11-06T14:42:11+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kycd.github.io/onlinejudge/post/uva/p1330-city-game/</loc>
-    <lastmod>2019-11-05T16:57:17+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kycd.github.io/onlinejudge/post/uva/p11747-heavy-cycle-edges/</loc>
-    <lastmod>2019-11-04T18:40:59+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kycd.github.io/onlinejudge/post/uva/p12918-lucky-thief/</loc>
-    <lastmod>2019-11-04T13:46:52+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kycd.github.io/onlinejudge/tags/1-star/</loc>
-    <lastmod>2021-03-04T17:26:34+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
   <url>
     <loc>https://kycd.github.io/onlinejudge/tags/2-star/</loc>
     <lastmod>2021-03-16T09:41:41+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kycd.github.io/onlinejudge/tags/2.5-star/</loc>
-    <lastmod>2019-11-12T13:33:08+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kycd.github.io/onlinejudge/tags/3-star/</loc>
-    <lastmod>2020-10-28T17:47:07+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kycd.github.io/onlinejudge/tags/bfs/</loc>
-    <lastmod>2020-06-18T15:27:14+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kycd.github.io/onlinejudge/tags/big-integer/</loc>
-    <lastmod>2019-11-07T14:28:33+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kycd.github.io/onlinejudge/tags/binary-search/</loc>
-    <lastmod>2020-06-02T14:19:25+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kycd.github.io/onlinejudge/tags/dp/</loc>
-    <lastmod>2020-10-28T17:47:07+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kycd.github.io/onlinejudge/tags/gcd/</loc>
-    <lastmod>2020-06-18T15:27:14+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kycd.github.io/onlinejudge/tags/greedy/</loc>
-    <lastmod>2020-06-10T14:32:12+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kycd.github.io/onlinejudge/tags/heap/</loc>
-    <lastmod>2019-11-12T13:33:08+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kycd.github.io/onlinejudge/tags/math/</loc>
-    <lastmod>2021-03-04T14:12:51+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kycd.github.io/onlinejudge/tags/minimum-spanning-tree/</loc>
-    <lastmod>2019-11-04T18:40:59+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kycd.github.io/onlinejudge/tags/mst/</loc>
-    <lastmod>2019-11-04T18:40:59+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kycd.github.io/onlinejudge/</loc>
     <lastmod>2021-03-16T09:41:41+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kycd.github.io/onlinejudge/post/</loc>
     <lastmod>2021-03-16T09:41:41+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kycd.github.io/onlinejudge/tags/prime/</loc>
-    <lastmod>2021-03-05T15:36:54+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kycd.github.io/onlinejudge/tags/set/</loc>
     <lastmod>2021-03-16T09:41:41+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kycd.github.io/onlinejudge/tags/simulation/</loc>
-    <lastmod>2020-01-16T18:19:24+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://kycd.github.io/onlinejudge/tags/</loc>
-    <lastmod>2021-03-04T17:26:34+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+    <lastmod>2021-03-16T09:41:41+08:00</lastmod>
+  </url><url>
     <loc>https://kycd.github.io/onlinejudge/tags/uva/</loc>
     <lastmod>2021-03-16T09:41:41+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://kycd.github.io/onlinejudge/post/uva/p10930-a-sequence/</loc>
+    <lastmod>2021-03-16T09:41:41+08:00</lastmod>
+  </url><url>
     <loc>https://kycd.github.io/onlinejudge/tags/v109/</loc>
     <lastmod>2021-03-16T09:41:41+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kycd.github.io/onlinejudge/tags/v114/</loc>
-    <lastmod>2020-01-15T15:09:47+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kycd.github.io/onlinejudge/tags/v115/</loc>
-    <lastmod>2020-06-02T14:19:25+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kycd.github.io/onlinejudge/tags/v117/</loc>
-    <lastmod>2019-11-04T18:40:59+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kycd.github.io/onlinejudge/tags/v12/</loc>
-    <lastmod>2019-11-07T14:28:33+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://kycd.github.io/onlinejudge/tags/prime/</loc>
+    <lastmod>2021-03-05T15:36:54+08:00</lastmod>
+  </url><url>
+    <loc>https://kycd.github.io/onlinejudge/post/uva/p12802-gift-from-the-gods/</loc>
+    <lastmod>2021-03-05T15:36:54+08:00</lastmod>
+  </url><url>
     <loc>https://kycd.github.io/onlinejudge/tags/v128/</loc>
     <lastmod>2021-03-05T15:36:54+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kycd.github.io/onlinejudge/tags/v129/</loc>
-    <lastmod>2020-06-17T15:13:49+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kycd.github.io/onlinejudge/tags/v13/</loc>
-    <lastmod>2019-11-12T18:36:09+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kycd.github.io/onlinejudge/tags/v131/</loc>
-    <lastmod>2020-06-18T15:27:14+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kycd.github.io/onlinejudge/tags/v132/</loc>
-    <lastmod>2020-10-28T17:47:07+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kycd.github.io/onlinejudge/tags/wip/</loc>
-    <lastmod>2020-06-18T15:27:14+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://kycd.github.io/onlinejudge/tags/1-star/</loc>
+    <lastmod>2021-03-04T17:26:34+08:00</lastmod>
+  </url><url>
+    <loc>https://kycd.github.io/onlinejudge/post/uva/p12854-automated-checking-machine/</loc>
+    <lastmod>2021-03-04T17:26:34+08:00</lastmod>
+  </url><url>
     <loc>https://kycd.github.io/onlinejudge/tags/xor/</loc>
     <lastmod>2021-03-04T17:26:34+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://kycd.github.io/onlinejudge/tags/math/</loc>
+    <lastmod>2021-03-04T14:12:51+08:00</lastmod>
+  </url><url>
+    <loc>https://kycd.github.io/onlinejudge/post/uva/p12895-armstrong-number/</loc>
+    <lastmod>2021-03-04T14:12:51+08:00</lastmod>
+  </url><url>
+    <loc>https://kycd.github.io/onlinejudge/tags/3-star/</loc>
+    <lastmod>2020-10-28T17:47:07+08:00</lastmod>
+  </url><url>
+    <loc>https://kycd.github.io/onlinejudge/tags/dp/</loc>
+    <lastmod>2020-10-28T17:47:07+08:00</lastmod>
+  </url><url>
+    <loc>https://kycd.github.io/onlinejudge/post/uva/p13245-prime-darts/</loc>
+    <lastmod>2020-10-28T17:47:07+08:00</lastmod>
+  </url><url>
+    <loc>https://kycd.github.io/onlinejudge/tags/v132/</loc>
+    <lastmod>2020-10-28T17:47:07+08:00</lastmod>
+  </url><url>
+    <loc>https://kycd.github.io/onlinejudge/post/uva/p13291-frosting-on-the-cake/</loc>
+    <lastmod>2020-10-16T17:18:21+08:00</lastmod>
+  </url><url>
+    <loc>https://kycd.github.io/onlinejudge/post/uva/p13275-leap-birthdays/</loc>
+    <lastmod>2020-10-07T11:40:14+08:00</lastmod>
+  </url><url>
+    <loc>https://kycd.github.io/onlinejudge/tags/bfs/</loc>
+    <lastmod>2020-06-18T15:27:14+08:00</lastmod>
+  </url><url>
+    <loc>https://kycd.github.io/onlinejudge/tags/gcd/</loc>
+    <lastmod>2020-06-18T15:27:14+08:00</lastmod>
+  </url><url>
+    <loc>https://kycd.github.io/onlinejudge/post/uva/p13101-tobby-on-tree/</loc>
+    <lastmod>2020-06-18T15:27:14+08:00</lastmod>
+  </url><url>
+    <loc>https://kycd.github.io/onlinejudge/tags/v131/</loc>
+    <lastmod>2020-06-18T15:27:14+08:00</lastmod>
+  </url><url>
+    <loc>https://kycd.github.io/onlinejudge/tags/wip/</loc>
+    <lastmod>2020-06-18T15:27:14+08:00</lastmod>
+  </url><url>
+    <loc>https://kycd.github.io/onlinejudge/post/uva/p12933-easy-graph-problem/</loc>
+    <lastmod>2020-06-17T15:13:49+08:00</lastmod>
+  </url><url>
+    <loc>https://kycd.github.io/onlinejudge/tags/v129/</loc>
+    <lastmod>2020-06-17T15:13:49+08:00</lastmod>
+  </url><url>
+    <loc>https://kycd.github.io/onlinejudge/tags/greedy/</loc>
+    <lastmod>2020-06-10T14:32:12+08:00</lastmod>
+  </url><url>
+    <loc>https://kycd.github.io/onlinejudge/post/uva/p12955-factorial/</loc>
+    <lastmod>2020-06-10T14:32:12+08:00</lastmod>
+  </url><url>
+    <loc>https://kycd.github.io/onlinejudge/tags/binary-search/</loc>
+    <lastmod>2020-06-02T14:19:25+08:00</lastmod>
+  </url><url>
+    <loc>https://kycd.github.io/onlinejudge/post/uva/p11516-wifi/</loc>
+    <lastmod>2020-06-02T14:19:25+08:00</lastmod>
+  </url><url>
+    <loc>https://kycd.github.io/onlinejudge/tags/v115/</loc>
+    <lastmod>2020-06-02T14:19:25+08:00</lastmod>
+  </url><url>
+    <loc>https://kycd.github.io/onlinejudge/tags/simulation/</loc>
+    <lastmod>2020-01-16T18:19:24+08:00</lastmod>
+  </url><url>
+    <loc>https://kycd.github.io/onlinejudge/post/uva/p12952-tri-du/</loc>
+    <lastmod>2020-01-16T18:19:24+08:00</lastmod>
+  </url><url>
+    <loc>https://kycd.github.io/onlinejudge/post/uva/p11479-is-this-the-easiest-problem/</loc>
+    <lastmod>2020-01-15T15:09:47+08:00</lastmod>
+  </url><url>
+    <loc>https://kycd.github.io/onlinejudge/tags/v114/</loc>
+    <lastmod>2020-01-15T15:09:47+08:00</lastmod>
+  </url><url>
+    <loc>https://kycd.github.io/onlinejudge/post/uva/p11494-queen/</loc>
+    <lastmod>2020-01-15T14:19:51+08:00</lastmod>
+  </url><url>
+    <loc>https://kycd.github.io/onlinejudge/post/uva/p1366-martian-mining/</loc>
+    <lastmod>2019-11-12T18:36:09+08:00</lastmod>
+  </url><url>
+    <loc>https://kycd.github.io/onlinejudge/tags/v13/</loc>
+    <lastmod>2019-11-12T18:36:09+08:00</lastmod>
+  </url><url>
+    <loc>https://kycd.github.io/onlinejudge/tags/2.5-star/</loc>
+    <lastmod>2019-11-12T13:33:08+08:00</lastmod>
+  </url><url>
+    <loc>https://kycd.github.io/onlinejudge/tags/heap/</loc>
+    <lastmod>2019-11-12T13:33:08+08:00</lastmod>
+  </url><url>
+    <loc>https://kycd.github.io/onlinejudge/post/uva/p1316-supermarket/</loc>
+    <lastmod>2019-11-12T13:33:08+08:00</lastmod>
+  </url><url>
+    <loc>https://kycd.github.io/onlinejudge/post/uva/p13244-space-happiness/</loc>
+    <lastmod>2019-11-11T10:54:38+08:00</lastmod>
+  </url><url>
     <loc>https://kycd.github.io/onlinejudge/tags/%E7%AD%89%E5%B7%AE%E7%B4%9A%E6%95%B8%E5%92%8C/</loc>
     <lastmod>2019-11-11T10:54:38+08:00</lastmod>
-    <priority>0</priority>
+  </url><url>
+    <loc>https://kycd.github.io/onlinejudge/tags/big-integer/</loc>
+    <lastmod>2019-11-07T14:28:33+08:00</lastmod>
+  </url><url>
+    <loc>https://kycd.github.io/onlinejudge/post/uva/p1226-numerical-surprises/</loc>
+    <lastmod>2019-11-07T14:28:33+08:00</lastmod>
+  </url><url>
+    <loc>https://kycd.github.io/onlinejudge/tags/v12/</loc>
+    <lastmod>2019-11-07T14:28:33+08:00</lastmod>
+  </url><url>
+    <loc>https://kycd.github.io/onlinejudge/post/uva/p1225-digit-counting/</loc>
+    <lastmod>2019-11-06T14:42:11+08:00</lastmod>
+  </url><url>
+    <loc>https://kycd.github.io/onlinejudge/post/uva/p1330-city-game/</loc>
+    <lastmod>2019-11-05T16:57:17+08:00</lastmod>
+  </url><url>
+    <loc>https://kycd.github.io/onlinejudge/tags/minimum-spanning-tree/</loc>
+    <lastmod>2019-11-04T18:40:59+08:00</lastmod>
+  </url><url>
+    <loc>https://kycd.github.io/onlinejudge/tags/mst/</loc>
+    <lastmod>2019-11-04T18:40:59+08:00</lastmod>
+  </url><url>
+    <loc>https://kycd.github.io/onlinejudge/post/uva/p11747-heavy-cycle-edges/</loc>
+    <lastmod>2019-11-04T18:40:59+08:00</lastmod>
+  </url><url>
+    <loc>https://kycd.github.io/onlinejudge/tags/v117/</loc>
+    <lastmod>2019-11-04T18:40:59+08:00</lastmod>
+  </url><url>
+    <loc>https://kycd.github.io/onlinejudge/post/uva/p12918-lucky-thief/</loc>
+    <lastmod>2019-11-04T13:46:52+08:00</lastmod>
   </url>
-  
 </urlset>

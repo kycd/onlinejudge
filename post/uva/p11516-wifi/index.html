@@ -40,7 +40,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.54.0">
+<meta name="generator" content="Hugo 0.81.0">
 
 
 <link rel="canonical" href="https://kycd.github.io/onlinejudge/post/uva/p11516-wifi/">
@@ -271,60 +271,35 @@ code.has-jax {
     
 
     <article class="post-content"><h1 id="題目">題目</h1>
-
 <p>某條街的居民想買 AP 提供 $m$ 間房屋 wifi，但預算有限只能買 $n$ 台。</p>
-
 <p>假設所有房屋都在同一條線上(同一座標軸)，且房屋編號表示該房屋與街尾的距離(ex: 編號 123 的房屋與街尾的距離為 123)。</p>
-
 <p>若居民們最佳化擺放 AP，使所有房屋可離 AP 盡可能地接近，問離 AP 最遠的的房屋其距離為多少。</p>
-
 <h1 id="input">Input</h1>
-
 <p>測資第一行唯一正整數，表測資組數。</p>
-
 <p>每組測資開頭為兩個正整數 $n$, $m (1 \le m \le 100000)$，表 AP 數量及房屋數量。</p>
-
 <p>接下來 $m$ 行，每行會有一個正整數( $\le 1000000$ )，表房屋編號</p>
-
 <h1 id="output">Output</h1>
-
 <p>對每組測資輸出房屋到 AP 的最遠距離，精度至小數點一位數。</p>
-
 <h1 id="解法">解法</h1>
-
 <p>直接去算 AP 排法的話&hellip;.我想到快炸掉了想不到方法XD，感覺走這條路應該會死人。</p>
-
 <p>然後就想到了，這題應該是用 guess() 的方式去解</p>
-
 <pre><code>生一個 sub-problem
 與原題目相同 m 間房屋，n 台 AP
 
 接著，差別
 假定每台 AP 可以覆蓋 x 的範圍，問這 n 台 AP 能不能覆蓋讓所有房屋？
 </code></pre>
-
 <p>這題就簡單多了，一個 $O(m)$ 掃過去就解出來，因為只是問 <code>true/false</code>。</p>
-
 <p>那接下來，把這個 sub-problem 拿來當 operator guess() 用</p>
-
 <p>整個題目就變成，在 $1$ ~ $m$ 之間，找到一個會讓 guess() return true 的最小 $x$。</p>
-
 <p>這樣就變成 binary search 了，只是這個 binary search 的時間複雜度是 $O(m)$</p>
-
 <p>整體複雜度會是 $O(mlogm)$</p>
-
 <h1 id="source-code">Source Code</h1>
-
 <p><del>還沒寫！ 雖然有 AC 記錄，但我沒印象有寫過&hellip;大概是大學時的模擬比賽被拿去當隊伍帳號了&hellip;</del></p>
-
 <p>AC！跑回去查當初的模擬比賽紀錄，發現那場根本沒 AC 這題XD</p>
-
 <p>所以是後來看到解題報告心有不甘跑去寫的嗎&hellip;?</p>
-
 <p>而且這題的解題報告也不是我寫的，是蔡 paca 大神(遠目)</p>
-
 <p>總之&hellip;反正以前的 code 也找不到的，就當重寫一次吧</p>
-
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py3" data-lang="py3"><span style="color:#75715e">#!/bin/python3</span>
 <span style="color:#75715e"># 3 star</span>
 <span style="color:#75715e"># binary search.</span>

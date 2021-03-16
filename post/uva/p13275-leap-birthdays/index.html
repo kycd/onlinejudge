@@ -40,7 +40,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.54.0">
+<meta name="generator" content="Hugo 0.81.0">
 
 
 <link rel="canonical" href="https://kycd.github.io/onlinejudge/post/uva/p13275-leap-birthdays/">
@@ -271,33 +271,19 @@ code.has-jax {
     
 
     <article class="post-content"><h1 id="題目">題目</h1>
-
 <p>給出生年月日 + 欲查詢年份，求過了幾次生日。</p>
-
 <p>快樂的閏年計算題。</p>
-
 <p>(ps. 出生那年不算度過生日，因為那天忙著出生)</p>
-
 <h1 id="input">Input</h1>
-
 <p>第一行為一整數 $T$ ($T \leq 100$)，表 case 數量。</p>
-
 <p>接下來 $T$ 行，每行一組測資，每組測資含四個整數 $D$, $M$ ($1 \leq M \leq 12$), $Y$ ($1850 \leq Y \leq 2016$), $QY$ ($Y \leq QY \leq 3000$)。</p>
-
 <p>其中 $D$, $M$, $Y$ 表出生年月日，可以假設這個日期會是合法日期(不會出現2/30 這種鬼日子)</p>
-
 <p>$QY$ 為想查詢的年份</p>
-
 <h1 id="output">Output</h1>
-
 <p>對每組測資輸出一行 <code>Case C: X</code>，其中 $C$ 為測資編號，$X$ 為題目所求的次數。</p>
-
 <h1 id="解法">解法</h1>
-
 <p>就&hellip;標準閏年題</p>
-
 <h1 id="source-code">Source Code</h1>
-
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py3" data-lang="py3"><span style="color:#75715e">#!/usr/local/bin/python3</span>
 <span style="color:#75715e"># 1 star math</span>
 <span style="color:#75715e"># 25585264  13275   Leap Birthdays  Accepted    PYTH3   0.010   2020-10-07 04:02:15</span>

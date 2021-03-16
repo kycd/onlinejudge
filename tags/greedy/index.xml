@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Greedy on Online judge note site</title>
+    <title>greedy on Online judge note site</title>
     <link>https://kycd.github.io/onlinejudge/tags/greedy/</link>
-    <description>Recent content in Greedy on Online judge note site</description>
+    <description>Recent content in greedy on Online judge note site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 10 Jun 2020 14:32:12 +0800</lastBuildDate>
-    
-	<atom:link href="https://kycd.github.io/onlinejudge/tags/greedy/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 10 Jun 2020 14:32:12 +0800</lastBuildDate><atom:link href="https://kycd.github.io/onlinejudge/tags/greedy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>UVa 12955 Factorial</title>
       <link>https://kycd.github.io/onlinejudge/post/uva/p12955-factorial/</link>
@@ -18,7 +14,6 @@
       
       <guid>https://kycd.github.io/onlinejudge/post/uva/p12955-factorial/</guid>
       <description>&lt;h1 id=&#34;題目&#34;&gt;題目&lt;/h1&gt;
-
 &lt;p&gt;將一個正整數 $N$ 拆解為 $N = a_1! + a_2! + &amp;hellip; + a_k!$，$a_n$ ($1 \le n \le k$) 皆為正整數，求最小 $k$&lt;/p&gt;</description>
     </item>
     
@@ -29,7 +24,6 @@
       
       <guid>https://kycd.github.io/onlinejudge/post/uva/p1316-supermarket/</guid>
       <description>&lt;h1 id=&#34;題目&#34;&gt;題目&lt;/h1&gt;
-
 &lt;p&gt;一間超市的商品 $x$ 都存在兩個值 $p_x, d_x$，$p_x$ 代表商品 $x$ 的價值，$d_x$ 代表商品 $x$ 的保存期限。假設超市每天只能賣掉一項商品，求超市的最大收益。&lt;/p&gt;</description>
     </item>
     

@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Uva on Online judge note site</title>
+    <title>UVa on Online judge note site</title>
     <link>https://kycd.github.io/onlinejudge/tags/uva/</link>
-    <description>Recent content in Uva on Online judge note site</description>
+    <description>Recent content in UVa on Online judge note site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 Mar 2021 09:41:41 +0800</lastBuildDate>
-    
-	<atom:link href="https://kycd.github.io/onlinejudge/tags/uva/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 16 Mar 2021 09:41:41 +0800</lastBuildDate><atom:link href="https://kycd.github.io/onlinejudge/tags/uva/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>UVa 10930 A-sequence</title>
       <link>https://kycd.github.io/onlinejudge/post/uva/p10930-a-sequence/</link>
@@ -18,8 +14,7 @@
       
       <guid>https://kycd.github.io/onlinejudge/post/uva/p10930-a-sequence/</guid>
       <description>&lt;h1 id=&#34;題目&#34;&gt;題目&lt;/h1&gt;
-
-&lt;p&gt;若數列滿足條件 $1 \leq a_1 \lt a_2 \lt &amp;hellip; \lt a_n$，且 $a_k$ 不為 $a&lt;em&gt;1$ ~ $a&lt;/em&gt;{k-1}$ 的任意和，則此數列可稱為 &lt;code&gt;A-sequence&lt;/code&gt;。&lt;/p&gt;</description>
+&lt;p&gt;若數列滿足條件 $1 \leq a_1 \lt a_2 \lt &amp;hellip; \lt a_n$，且 $a_k$ 不為 $a_1$ ~ $a_{k-1}$ 的任意和，則此數列可稱為 &lt;code&gt;A-sequence&lt;/code&gt;。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -29,7 +24,6 @@
       
       <guid>https://kycd.github.io/onlinejudge/post/uva/p12802-gift-from-the-gods/</guid>
       <description>&lt;h1 id=&#34;題目&#34;&gt;題目&lt;/h1&gt;
-
 &lt;p&gt;輸出 input 數字的 double。直到輸入為迴文質數時終止。&lt;/p&gt;</description>
     </item>
     
@@ -40,7 +34,6 @@
       
       <guid>https://kycd.github.io/onlinejudge/post/uva/p12854-automated-checking-machine/</guid>
       <description>&lt;h1 id=&#34;題目&#34;&gt;題目&lt;/h1&gt;
-
 &lt;p&gt;給兩個長度為 5 的板子，1 代表凸，0 代表凹，判斷兩塊板子能不能完美重疊(無縫)。&lt;/p&gt;</description>
     </item>
     
@@ -51,9 +44,7 @@
       
       <guid>https://kycd.github.io/onlinejudge/post/uva/p12895-armstrong-number/</guid>
       <description>&lt;h1 id=&#34;題目&#34;&gt;題目&lt;/h1&gt;
-
 &lt;p&gt;對一個 $p$ 位數整數 $n$，若 $n$ 的每個數字的 $p$ 次方加總後等同 $n$，即可稱 $n$ 為一個阿姆斯壯數&lt;/p&gt;
-
 &lt;p&gt;求輸入的數是否為阿姆斯壯數&lt;/p&gt;</description>
     </item>
     
@@ -64,9 +55,7 @@
       
       <guid>https://kycd.github.io/onlinejudge/post/uva/p13245-prime-darts/</guid>
       <description>&lt;h1 id=&#34;題目&#34;&gt;題目&lt;/h1&gt;
-
 &lt;p&gt;有個飛鏢靶均分為 $n$ 等分，將 $1$ &amp;amp; 前 $n - 1$ 個質數分別填入任意區塊，表示飛鏢射中該區域可獲得的分數&lt;/p&gt;
-
 &lt;p&gt;給一個目標分數 $q$，求剛好拿到分數 $q$ 所需要的最少鏢數為何。&lt;/p&gt;</description>
     </item>
     
@@ -77,7 +66,6 @@
       
       <guid>https://kycd.github.io/onlinejudge/post/uva/p13291-frosting-on-the-cake/</guid>
       <description>&lt;h1 id=&#34;題目&#34;&gt;題目&lt;/h1&gt;
-
 &lt;p&gt;一塊長方形蛋糕，水平切 $n$ 刀，垂直切 $n$ 刀，然後依題目所描述的規則撒上糖霜，給下刀切塊大小，求各種糖霜的使用量&lt;/p&gt;</description>
     </item>
     
@@ -88,11 +76,8 @@
       
       <guid>https://kycd.github.io/onlinejudge/post/uva/p13275-leap-birthdays/</guid>
       <description>&lt;h1 id=&#34;題目&#34;&gt;題目&lt;/h1&gt;
-
 &lt;p&gt;給出生年月日 + 欲查詢年份，求過了幾次生日。&lt;/p&gt;
-
 &lt;p&gt;快樂的閏年計算題。&lt;/p&gt;
-
 &lt;p&gt;(ps. 出生那年不算度過生日，因為那天忙著出生)&lt;/p&gt;</description>
     </item>
     
@@ -103,13 +88,9 @@
       
       <guid>https://kycd.github.io/onlinejudge/post/uva/p13101-tobby-on-tree/</guid>
       <description>&lt;h1 id=&#34;題目&#34;&gt;題目&lt;/h1&gt;
-
 &lt;p&gt;有個遊戲叫減法遊戲，在一數列中，挑選任兩個不相等的數，將大的減掉小的，再把兩個數塞回數列中，最終，整個數列會變成全部一樣的數(就是只能做減法的多數字輾轉相除法啊XD)。&lt;/p&gt;
-
 &lt;p&gt;Tobby 對這個遊戲很有興趣，並想多次遊玩，所以他在一個 tree map 中，每天選擇 $node_u$ 與 $node_v$，從 $node_u$ 走到 $node_v$ 並將過程中的每個 $node$ 的數值蒐集起來(包含 $node_u$ 及 $node_v$)，用這些數進行玩減法遊戲。&lt;/p&gt;
-
 &lt;p&gt;另外，某些日子會出現 $node$ 的數值異動，這些異動會維持到 Tobby 不玩為止。&lt;/p&gt;
-
 &lt;p&gt;求每次 Tobby 玩遊戲時最後剩下的數。&lt;/p&gt;</description>
     </item>
     
@@ -120,7 +101,6 @@
       
       <guid>https://kycd.github.io/onlinejudge/post/uva/p12933-easy-graph-problem/</guid>
       <description>&lt;h1 id=&#34;題目&#34;&gt;題目&lt;/h1&gt;
-
 &lt;p&gt;給一個矩形迷宮，求點1 走到點 2 的最小 cost，以及走的過程中必須不停轉彎(左轉右轉迴轉)的最小 cost&lt;/p&gt;</description>
     </item>
     
@@ -131,7 +111,6 @@
       
       <guid>https://kycd.github.io/onlinejudge/post/uva/p12955-factorial/</guid>
       <description>&lt;h1 id=&#34;題目&#34;&gt;題目&lt;/h1&gt;
-
 &lt;p&gt;將一個正整數 $N$ 拆解為 $N = a_1! + a_2! + &amp;hellip; + a_k!$，$a_n$ ($1 \le n \le k$) 皆為正整數，求最小 $k$&lt;/p&gt;</description>
     </item>
     
@@ -142,11 +121,8 @@
       
       <guid>https://kycd.github.io/onlinejudge/post/uva/p11516-wifi/</guid>
       <description>&lt;h1 id=&#34;題目&#34;&gt;題目&lt;/h1&gt;
-
 &lt;p&gt;某條街的居民想買 AP 提供 $m$ 間房屋 wifi，但預算有限只能買 $n$ 台。&lt;/p&gt;
-
 &lt;p&gt;假設所有房屋都在同一條線上(同一座標軸)，且房屋編號表示該房屋與街尾的距離(ex: 編號 123 的房屋與街尾的距離為 123)。&lt;/p&gt;
-
 &lt;p&gt;若居民們最佳化擺放 AP，使所有房屋可離 AP 盡可能地接近，問離 AP 最遠的的房屋其距離為多少。&lt;/p&gt;</description>
     </item>
     
@@ -157,14 +133,11 @@
       
       <guid>https://kycd.github.io/onlinejudge/post/uva/p12952-tri-du/</guid>
       <description>&lt;h1 id=&#34;題目&#34;&gt;題目&lt;/h1&gt;
-
 &lt;p&gt;兩個人，三張牌的梭哈，規則如下。&lt;/p&gt;
-
 &lt;ol&gt;
 &lt;li&gt;三條最大，對子次之，單張最小&lt;/li&gt;
 &lt;li&gt;同 level 時就比數值。&lt;/li&gt;
 &lt;/ol&gt;
-
 &lt;p&gt;給其中一個玩家的前兩張牌(只有數值)，問哪張牌能讓該玩家的勝率最高(只求數值)。&lt;/p&gt;</description>
     </item>
     
@@ -175,9 +148,7 @@
       
       <guid>https://kycd.github.io/onlinejudge/post/uva/p11479-is-this-the-easiest-problem/</guid>
       <description>&lt;h1 id=&#34;題目&#34;&gt;題目&lt;/h1&gt;
-
 &lt;p&gt;給三角形的三邊長，求三角形種類，種類有以下四種。&lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;Invalid: 不是三角形&lt;/li&gt;
 &lt;li&gt;Equilateral: 正三角形&lt;/li&gt;
@@ -193,7 +164,6 @@
       
       <guid>https://kycd.github.io/onlinejudge/post/uva/p11494-queen/</guid>
       <description>&lt;h1 id=&#34;題目&#34;&gt;題目&lt;/h1&gt;
-
 &lt;p&gt;給西洋棋盤上的兩個座標，求皇后從 &lt;code&gt;座標1&lt;/code&gt;($X_1$, $Y_1$) 移動至 &lt;code&gt;座標2&lt;/code&gt;($X_2$, $Y_2$) 最少需要幾步。&lt;/p&gt;</description>
     </item>
     
@@ -204,17 +174,13 @@
       
       <guid>https://kycd.github.io/onlinejudge/post/uva/p1366-martian-mining/</guid>
       <description>&lt;h1 id=&#34;題目&#34;&gt;題目&lt;/h1&gt;
-
 &lt;p&gt;NASA 在某個星球上採礦，已知採礦點是個長方形區塊，存在兩種礦石 &lt;code&gt;Bloggium&lt;/code&gt;、&lt;code&gt;Yeyenum&lt;/code&gt;，&lt;code&gt;Bloggium&lt;/code&gt; 的冶煉廠位於正北方，&lt;code&gt;Yeyenum&lt;/code&gt; 的冶煉廠位於西方，冶煉廠很大，大到足以覆蓋整個北方及西方。&lt;/p&gt;
-
 &lt;p&gt;NASA 決定打造輸送帶來輸送礦石至冶煉廠進行精練，但輸送帶有其限制&lt;/p&gt;
-
 &lt;ol&gt;
 &lt;li&gt;不能轉彎，只能一直線。&lt;/li&gt;
 &lt;li&gt;同一個點只能建造一種(往北 or 往西) 的輸送帶。&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;Yeyenum&lt;/code&gt; 礦石送到 &lt;code&gt;Bloggium&lt;/code&gt; 冶煉廠會被拋棄，反之亦然。&lt;/li&gt;
 &lt;/ol&gt;
-
 &lt;p&gt;請算出 NASA 可以運送至冶煉廠的最大礦石數量。&lt;/p&gt;</description>
     </item>
     
@@ -225,7 +191,6 @@
       
       <guid>https://kycd.github.io/onlinejudge/post/uva/p1316-supermarket/</guid>
       <description>&lt;h1 id=&#34;題目&#34;&gt;題目&lt;/h1&gt;
-
 &lt;p&gt;一間超市的商品 $x$ 都存在兩個值 $p_x, d_x$，$p_x$ 代表商品 $x$ 的價值，$d_x$ 代表商品 $x$ 的保存期限。假設超市每天只能賣掉一項商品，求超市的最大收益。&lt;/p&gt;</description>
     </item>
     
@@ -236,7 +201,6 @@
       
       <guid>https://kycd.github.io/onlinejudge/post/uva/p13244-space-happiness/</guid>
       <description>&lt;h1 id=&#34;題目&#34;&gt;題目&lt;/h1&gt;
-
 &lt;p&gt;s 為一奇數，求數列 &lt;code&gt;0, 1, 3, 5, ..., s - 2, s, s - 2, s - 4, ... , 3, 1, 0&lt;/code&gt; 的總和&lt;/p&gt;</description>
     </item>
     
@@ -247,7 +211,6 @@
       
       <guid>https://kycd.github.io/onlinejudge/post/uva/p1226-numerical-surprises/</guid>
       <description>&lt;h1 id=&#34;題目&#34;&gt;題目&lt;/h1&gt;
-
 &lt;p&gt;廢文一堆，然後最後講說要算 $P$ % $N$，除了 $P$ 是大數以外沒有特別的地方&lt;/p&gt;</description>
     </item>
     
@@ -258,11 +221,8 @@
       
       <guid>https://kycd.github.io/onlinejudge/post/uva/p1225-digit-counting/</guid>
       <description>&lt;h1 id=&#34;題目&#34;&gt;題目&lt;/h1&gt;
-
 &lt;p&gt;對一個正整數 $N$，把 $1$~$N$ 黏在一起作成一個新的數後，計算每個 digit($0$~$9$) 的出現次數。&lt;/p&gt;
-
 &lt;p&gt;舉例，$N = 13$，黏在一起作成的新整數為 12345678910111213&lt;/p&gt;
-
 &lt;p&gt;digit 出現次數: $1$ 出現 6 次，$2$ 出現 2 次，$3$ 出現 3 次，以此類推。&lt;/p&gt;</description>
     </item>
     
@@ -273,9 +233,7 @@
       
       <guid>https://kycd.github.io/onlinejudge/post/uva/p1330-city-game/</guid>
       <description>&lt;h1 id=&#34;題目&#34;&gt;題目&lt;/h1&gt;
-
 &lt;p&gt;Bob 想在 $M \times N$ 的地圖上，蓋一棟長方形建築物以獲取收益，$收益 = 建築物面積 * 3$&lt;/p&gt;
-
 &lt;p&gt;已知字母 &lt;code&gt;F&lt;/code&gt; 為可用空地，求 Bob 可獲得的最大收益(只蓋一棟)。&lt;/p&gt;</description>
     </item>
     
@@ -286,9 +244,7 @@
       
       <guid>https://kycd.github.io/onlinejudge/post/uva/p11747-heavy-cycle-edges/</guid>
       <description>&lt;h1 id=&#34;題目&#34;&gt;題目&lt;/h1&gt;
-
 &lt;p&gt;講了一堆 MST 演算法的實作，當成廢話就好&lt;/p&gt;
-
 &lt;p&gt;給 $n$ 個點，$m$ 個邊，求不屬於 MST 的 edge 集合&lt;/p&gt;</description>
     </item>
     
@@ -299,7 +255,6 @@
       
       <guid>https://kycd.github.io/onlinejudge/post/uva/p12918-lucky-thief/</guid>
       <description>&lt;h1 id=&#34;題目&#34;&gt;題目&lt;/h1&gt;
-
 &lt;p&gt;一個小偷拿到對應 $m$ 個門的 $n$ 把鑰匙，已知 $n \leq m$ 且每一把鑰匙必定對應到一道門，問小偷最少需要嘗試開門幾次才能把所有鑰匙對應的門找出來&lt;/p&gt;</description>
     </item>
     

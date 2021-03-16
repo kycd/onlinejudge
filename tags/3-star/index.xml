@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>3 Star on Online judge note site</title>
+    <title>3-Star on Online judge note site</title>
     <link>https://kycd.github.io/onlinejudge/tags/3-star/</link>
-    <description>Recent content in 3 Star on Online judge note site</description>
+    <description>Recent content in 3-Star on Online judge note site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Oct 2020 17:47:07 +0800</lastBuildDate>
-    
-	<atom:link href="https://kycd.github.io/onlinejudge/tags/3-star/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 28 Oct 2020 17:47:07 +0800</lastBuildDate><atom:link href="https://kycd.github.io/onlinejudge/tags/3-star/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>UVa 13245 Prime Darts</title>
       <link>https://kycd.github.io/onlinejudge/post/uva/p13245-prime-darts/</link>
@@ -18,9 +14,7 @@
       
       <guid>https://kycd.github.io/onlinejudge/post/uva/p13245-prime-darts/</guid>
       <description>&lt;h1 id=&#34;題目&#34;&gt;題目&lt;/h1&gt;
-
 &lt;p&gt;有個飛鏢靶均分為 $n$ 等分，將 $1$ &amp;amp; 前 $n - 1$ 個質數分別填入任意區塊，表示飛鏢射中該區域可獲得的分數&lt;/p&gt;
-
 &lt;p&gt;給一個目標分數 $q$，求剛好拿到分數 $q$ 所需要的最少鏢數為何。&lt;/p&gt;</description>
     </item>
     
@@ -31,7 +25,6 @@
       
       <guid>https://kycd.github.io/onlinejudge/post/uva/p12933-easy-graph-problem/</guid>
       <description>&lt;h1 id=&#34;題目&#34;&gt;題目&lt;/h1&gt;
-
 &lt;p&gt;給一個矩形迷宮，求點1 走到點 2 的最小 cost，以及走的過程中必須不停轉彎(左轉右轉迴轉)的最小 cost&lt;/p&gt;</description>
     </item>
     
@@ -42,11 +35,8 @@
       
       <guid>https://kycd.github.io/onlinejudge/post/uva/p11516-wifi/</guid>
       <description>&lt;h1 id=&#34;題目&#34;&gt;題目&lt;/h1&gt;
-
 &lt;p&gt;某條街的居民想買 AP 提供 $m$ 間房屋 wifi，但預算有限只能買 $n$ 台。&lt;/p&gt;
-
 &lt;p&gt;假設所有房屋都在同一條線上(同一座標軸)，且房屋編號表示該房屋與街尾的距離(ex: 編號 123 的房屋與街尾的距離為 123)。&lt;/p&gt;
-
 &lt;p&gt;若居民們最佳化擺放 AP，使所有房屋可離 AP 盡可能地接近，問離 AP 最遠的的房屋其距離為多少。&lt;/p&gt;</description>
     </item>
     
@@ -57,17 +47,13 @@
       
       <guid>https://kycd.github.io/onlinejudge/post/uva/p1366-martian-mining/</guid>
       <description>&lt;h1 id=&#34;題目&#34;&gt;題目&lt;/h1&gt;
-
 &lt;p&gt;NASA 在某個星球上採礦，已知採礦點是個長方形區塊，存在兩種礦石 &lt;code&gt;Bloggium&lt;/code&gt;、&lt;code&gt;Yeyenum&lt;/code&gt;，&lt;code&gt;Bloggium&lt;/code&gt; 的冶煉廠位於正北方，&lt;code&gt;Yeyenum&lt;/code&gt; 的冶煉廠位於西方，冶煉廠很大，大到足以覆蓋整個北方及西方。&lt;/p&gt;
-
 &lt;p&gt;NASA 決定打造輸送帶來輸送礦石至冶煉廠進行精練，但輸送帶有其限制&lt;/p&gt;
-
 &lt;ol&gt;
 &lt;li&gt;不能轉彎，只能一直線。&lt;/li&gt;
 &lt;li&gt;同一個點只能建造一種(往北 or 往西) 的輸送帶。&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;Yeyenum&lt;/code&gt; 礦石送到 &lt;code&gt;Bloggium&lt;/code&gt; 冶煉廠會被拋棄，反之亦然。&lt;/li&gt;
 &lt;/ol&gt;
-
 &lt;p&gt;請算出 NASA 可以運送至冶煉廠的最大礦石數量。&lt;/p&gt;</description>
     </item>
     
@@ -78,9 +64,7 @@
       
       <guid>https://kycd.github.io/onlinejudge/post/uva/p1330-city-game/</guid>
       <description>&lt;h1 id=&#34;題目&#34;&gt;題目&lt;/h1&gt;
-
 &lt;p&gt;Bob 想在 $M \times N$ 的地圖上，蓋一棟長方形建築物以獲取收益，$收益 = 建築物面積 * 3$&lt;/p&gt;
-
 &lt;p&gt;已知字母 &lt;code&gt;F&lt;/code&gt; 為可用空地，求 Bob 可獲得的最大收益(只蓋一棟)。&lt;/p&gt;</description>
     </item>
     

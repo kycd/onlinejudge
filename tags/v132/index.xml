@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>V132 on Online judge note site</title>
+    <title>v132 on Online judge note site</title>
     <link>https://kycd.github.io/onlinejudge/tags/v132/</link>
-    <description>Recent content in V132 on Online judge note site</description>
+    <description>Recent content in v132 on Online judge note site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Oct 2020 17:47:07 +0800</lastBuildDate>
-    
-	<atom:link href="https://kycd.github.io/onlinejudge/tags/v132/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 28 Oct 2020 17:47:07 +0800</lastBuildDate><atom:link href="https://kycd.github.io/onlinejudge/tags/v132/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>UVa 13245 Prime Darts</title>
       <link>https://kycd.github.io/onlinejudge/post/uva/p13245-prime-darts/</link>
@@ -18,9 +14,7 @@
       
       <guid>https://kycd.github.io/onlinejudge/post/uva/p13245-prime-darts/</guid>
       <description>&lt;h1 id=&#34;題目&#34;&gt;題目&lt;/h1&gt;
-
 &lt;p&gt;有個飛鏢靶均分為 $n$ 等分，將 $1$ &amp;amp; 前 $n - 1$ 個質數分別填入任意區塊，表示飛鏢射中該區域可獲得的分數&lt;/p&gt;
-
 &lt;p&gt;給一個目標分數 $q$，求剛好拿到分數 $q$ 所需要的最少鏢數為何。&lt;/p&gt;</description>
     </item>
     
@@ -31,7 +25,6 @@
       
       <guid>https://kycd.github.io/onlinejudge/post/uva/p13291-frosting-on-the-cake/</guid>
       <description>&lt;h1 id=&#34;題目&#34;&gt;題目&lt;/h1&gt;
-
 &lt;p&gt;一塊長方形蛋糕，水平切 $n$ 刀，垂直切 $n$ 刀，然後依題目所描述的規則撒上糖霜，給下刀切塊大小，求各種糖霜的使用量&lt;/p&gt;</description>
     </item>
     
@@ -42,11 +35,8 @@
       
       <guid>https://kycd.github.io/onlinejudge/post/uva/p13275-leap-birthdays/</guid>
       <description>&lt;h1 id=&#34;題目&#34;&gt;題目&lt;/h1&gt;
-
 &lt;p&gt;給出生年月日 + 欲查詢年份，求過了幾次生日。&lt;/p&gt;
-
 &lt;p&gt;快樂的閏年計算題。&lt;/p&gt;
-
 &lt;p&gt;(ps. 出生那年不算度過生日，因為那天忙著出生)&lt;/p&gt;</description>
     </item>
     
@@ -57,7 +47,6 @@
       
       <guid>https://kycd.github.io/onlinejudge/post/uva/p13244-space-happiness/</guid>
       <description>&lt;h1 id=&#34;題目&#34;&gt;題目&lt;/h1&gt;
-
 &lt;p&gt;s 為一奇數，求數列 &lt;code&gt;0, 1, 3, 5, ..., s - 2, s, s - 2, s - 4, ... , 3, 1, 0&lt;/code&gt; 的總和&lt;/p&gt;</description>
     </item>
     

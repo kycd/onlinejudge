@@ -36,7 +36,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.54.0">
+<meta name="generator" content="Hugo 0.81.0">
 
 
 <link rel="canonical" href="https://kycd.github.io/onlinejudge/post/uva/p13291-frosting-on-the-cake/">
@@ -267,33 +267,19 @@ code.has-jax {
     
 
     <article class="post-content"><h1 id="題目">題目</h1>
-
 <p>一塊長方形蛋糕，水平切 $n$ 刀，垂直切 $n$ 刀，然後依題目所描述的規則撒上糖霜，給下刀切塊大小，求各種糖霜的使用量</p>
-
 <h1 id="input">Input</h1>
-
 <p>多組測資，每組 3 行</p>
-
 <p>第 1 行為一正整數 $n$($3 \leq n \leq 10^5$)</p>
-
 <p>第 2 行為 n 個正整數，表垂直下刀時的切塊大小 $A_1, &hellip;, A_n$</p>
-
 <p>第 3 行為 n 個正整數，表水平下刀時的切塊大小 $B_1, &hellip;, B_n$</p>
-
 <p>$1 \leq A_1, &hellip;, A_n, B_1, &hellip;, B_n \leq 10^4$</p>
-
 <h1 id="output">Output</h1>
-
 <p>每組測資印出 1 行 3 個整數，表示三種糖霜的使用量</p>
-
 <h1 id="解法">解法</h1>
-
 <p>分組，相乘，end！</p>
-
 <p>根據題目的圖平移一下各個顏色的區塊應該很容易就能推出怎麼算的。</p>
-
 <h1 id="source-code">Source Code</h1>
-
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py3" data-lang="py3"><span style="color:#75715e">#!/usr/local/bin/python3</span>
 <span style="color:#75715e"># 1 star math</span>
 <span style="color:#75715e"># 25622733  13291   Frosting on the Cake    Accepted    PYTH3   0.580   2020-10-16 09:36:14</span>

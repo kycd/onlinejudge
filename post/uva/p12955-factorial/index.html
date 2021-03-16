@@ -36,7 +36,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.54.0">
+<meta name="generator" content="Hugo 0.81.0">
 
 
 <link rel="canonical" href="https://kycd.github.io/onlinejudge/post/uva/p12955-factorial/">
@@ -267,25 +267,15 @@ code.has-jax {
     
 
     <article class="post-content"><h1 id="題目">題目</h1>
-
 <p>將一個正整數 $N$ 拆解為 $N = a_1! + a_2! + &hellip; + a_k!$，$a_n$ ($1 \le n \le k$) 皆為正整數，求最小 $k$</p>
-
 <h1 id="input">Input</h1>
-
 <p>input 含多組測資，每組一行，每行一個 $N$ ($1 \le N \le 10^5$)。</p>
-
 <h1 id="output">Output</h1>
-
 <p>一個正整數 $k$，使題目等式可成立的最小 $k$</p>
-
 <h1 id="解法">解法</h1>
-
 <p>階層的特色是，兩個小的不如一個大的 $2 * (n-1)! \le n!$，所以 $a_n$ 越大越好。</p>
-
 <p>快樂地從後面砍回來就行了，最後的洞都可以用 $1!$ 補起來</p>
-
 <h1 id="source-code">Source Code</h1>
-
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py3" data-lang="py3"><span style="color:#75715e">#!/usr/bin/python3</span>
 <span style="color:#75715e"># 1 star - greedy</span>
 <span style="color:#75715e"># 25125501  12955   Factorial   Accepted    PYTH3   0.010   2020-06-10 07:25:32</span>

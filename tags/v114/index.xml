@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>V114 on Online judge note site</title>
+    <title>v114 on Online judge note site</title>
     <link>https://kycd.github.io/onlinejudge/tags/v114/</link>
-    <description>Recent content in V114 on Online judge note site</description>
+    <description>Recent content in v114 on Online judge note site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Jan 2020 15:09:47 +0800</lastBuildDate>
-    
-	<atom:link href="https://kycd.github.io/onlinejudge/tags/v114/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 15 Jan 2020 15:09:47 +0800</lastBuildDate><atom:link href="https://kycd.github.io/onlinejudge/tags/v114/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>UVa 11479 Is This the Easiest Problem</title>
       <link>https://kycd.github.io/onlinejudge/post/uva/p11479-is-this-the-easiest-problem/</link>
@@ -18,9 +14,7 @@
       
       <guid>https://kycd.github.io/onlinejudge/post/uva/p11479-is-this-the-easiest-problem/</guid>
       <description>&lt;h1 id=&#34;題目&#34;&gt;題目&lt;/h1&gt;
-
 &lt;p&gt;給三角形的三邊長，求三角形種類，種類有以下四種。&lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;Invalid: 不是三角形&lt;/li&gt;
 &lt;li&gt;Equilateral: 正三角形&lt;/li&gt;
@@ -36,7 +30,6 @@
       
       <guid>https://kycd.github.io/onlinejudge/post/uva/p11494-queen/</guid>
       <description>&lt;h1 id=&#34;題目&#34;&gt;題目&lt;/h1&gt;
-
 &lt;p&gt;給西洋棋盤上的兩個座標，求皇后從 &lt;code&gt;座標1&lt;/code&gt;($X_1$, $Y_1$) 移動至 &lt;code&gt;座標2&lt;/code&gt;($X_2$, $Y_2$) 最少需要幾步。&lt;/p&gt;</description>
     </item>
     

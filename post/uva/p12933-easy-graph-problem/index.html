@@ -36,7 +36,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.54.0">
+<meta name="generator" content="Hugo 0.81.0">
 
 
 <link rel="canonical" href="https://kycd.github.io/onlinejudge/post/uva/p12933-easy-graph-problem/">
@@ -267,34 +267,22 @@ code.has-jax {
     
 
     <article class="post-content"><h1 id="題目">題目</h1>
-
 <p>給一個矩形迷宮，求點1 走到點 2 的最小 cost，以及走的過程中必須不停轉彎(左轉右轉迴轉)的最小 cost</p>
-
 <h1 id="input">Input</h1>
-
 <p>多組測資，每組第一行為 6 個正整數 $n$, $m$, $r1$, $c1$, $r2$, $c2$($2 \le n, m \le 500$, $1 \le r1, r2 \le n$, $1 \le c1, c2 \le m$)，$n, m$ 表迷宮大小，$(r1, c1)$ 表點1 座標，$(r2, c2)$ 表點2 座標</p>
-
 <p>接下來 n 行，每行 m 個數字($1$ ~ $100$ 或 <code>*</code> )，如為數字表示該格的 cost，如為 <code>*</code> 表該格無法進入。</p>
-
 <h1 id="output">Output</h1>
-
 <p>每組測資輸出一行，格式 <code>Case {case_number}: {minimum_cost} {minimum_cost_must_turn}</code></p>
-
 <ul>
 <li><code>{case_number}</code>: case 編號</li>
 <li><code>{minimum_cost}</code>: 最小 cost</li>
 <li><code>{minimum_cost_must_turn}</code>: 每步都必須轉彎的最小 cost</li>
 </ul>
-
 <h1 id="解法">解法</h1>
-
 <p>BFS 大概</p>
-
 <p>不停轉彎的就從記錄最小 cost 變成紀錄最小 cost + 來向(記錄量 * 4)</p>
-
 <h1 id="source-code">Source Code</h1>
-
-<!--{ {< readfile file="uva/v129/p12933-Easy-Graph-Problem.py" highlight="py3" >} }--></article>
+<!-- raw HTML omitted --></article>
     <footer class="post-footer">
       
       <ul class="post-tags">

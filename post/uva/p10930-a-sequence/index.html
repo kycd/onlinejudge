@@ -20,7 +20,7 @@
   
   
   <meta name="author" content="Kevin Cheng" />
-  <meta name="description" content="題目 若數列滿足條件 $1 \leq a_1 \lt a_2 \lt &amp;hellip; \lt a_n$，且 $a_k$ 不為 $a1$ ~ $a{k-1}$ 的任意和，則此數列可稱為 A-sequence。
+  <meta name="description" content="題目 若數列滿足條件 $1 \leq a_1 \lt a_2 \lt &amp;hellip; \lt a_n$，且 $a_k$ 不為 $a_1$ ~ $a_{k-1}$ 的任意和，則此數列可稱為 A-sequence。
 ">
 
   
@@ -28,7 +28,7 @@
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@gohugoio" />
     <meta name="twitter:title" content="UVa 10930 A-sequence" />
-    <meta name="twitter:description" content="題目 若數列滿足條件 $1 \leq a_1 \lt a_2 \lt &amp;hellip; \lt a_n$，且 $a_k$ 不為 $a1$ ~ $a{k-1}$ 的任意和，則此數列可稱為 A-sequence。
+    <meta name="twitter:description" content="題目 若數列滿足條件 $1 \leq a_1 \lt a_2 \lt &amp;hellip; \lt a_n$，且 $a_k$ 不為 $a_1$ ~ $a_{k-1}$ 的任意和，則此數列可稱為 A-sequence。
 " />
     <meta name="twitter:image" content="https://kycd.github.io/img/avatar.jpg" />
   
@@ -36,7 +36,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.54.0">
+<meta name="generator" content="Hugo 0.81.0">
 
 
 <link rel="canonical" href="https://kycd.github.io/onlinejudge/post/uva/p10930-a-sequence/">
@@ -267,23 +267,14 @@ code.has-jax {
     
 
     <article class="post-content"><h1 id="題目">題目</h1>
-
-<p>若數列滿足條件 $1 \leq a_1 \lt a_2 \lt &hellip; \lt a_n$，且 $a_k$ 不為 $a<em>1$ ~ $a</em>{k-1}$ 的任意和，則此數列可稱為 <code>A-sequence</code>。</p>
-
+<p>若數列滿足條件 $1 \leq a_1 \lt a_2 \lt &hellip; \lt a_n$，且 $a_k$ 不為 $a_1$ ~ $a_{k-1}$ 的任意和，則此數列可稱為 <code>A-sequence</code>。</p>
 <h1 id="input">Input</h1>
-
 <p>每組測資一行，每行第一個數字 $D$($2 \leq D \leq 30$) 代表數列長度，接下來 $D$ 個 $1$ ~ $1000$ 的整數。</p>
-
 <h1 id="output">Output</h1>
-
 <p>每組測資輸出兩行，第一行輸出數列內容，第二行輸出數列是否為 <code>A-sequence</code>。</p>
-
 <h1 id="解法">解法</h1>
-
-<p>用 Set 紀錄 $a<em>1$ ~ $a</em>{k-1}$ 的任意和，$O(logn)$ 就可以判斷 $a_k$ 是否為 $a<em>1$ ~ $a</em>{k-1}$ 的任意和，再掃一次 set 把每個 element 加上 $a_k$ insert 進 set 就可以做出 $a_1$ ~ $a_k$ 的任意和。</p>
-
+<p>用 Set 紀錄 $a_1$ ~ $a_{k-1}$ 的任意和，$O(logn)$ 就可以判斷 $a_k$ 是否為 $a_1$ ~ $a_{k-1}$ 的任意和，再掃一次 set 把每個 element 加上 $a_k$ insert 進 set 就可以做出 $a_1$ ~ $a_k$ 的任意和。</p>
 <h1 id="source-code">Source Code</h1>
-
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py3" data-lang="py3"><span style="color:#75715e">#!/usr/local/bin/python3</span>
 <span style="color:#75715e"># 2 Sstar</span>
 <span style="color:#75715e"># set</span>

@@ -38,7 +38,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.54.0">
+<meta name="generator" content="Hugo 0.81.0">
 
 
 <link rel="canonical" href="https://kycd.github.io/onlinejudge/post/uva/p12952-tri-du/">
@@ -269,36 +269,22 @@ code.has-jax {
     
 
     <article class="post-content"><h1 id="題目">題目</h1>
-
 <p>兩個人，三張牌的梭哈，規則如下。</p>
-
 <ol>
 <li>三條最大，對子次之，單張最小</li>
 <li>同 level 時就比數值。</li>
 </ol>
-
 <p>給其中一個玩家的前兩張牌(只有數值)，問哪張牌能讓該玩家的勝率最高(只求數值)。</p>
-
 <h1 id="input">Input</h1>
-
 <p>測資含多組，每組一行，每組測資含兩個數 $A (1 \le A \le 13)$, $B (1 \le B \le 13)$，表該玩家獲得的前兩張牌的數值。</p>
-
 <h1 id="output">Output</h1>
-
 <p>每組測資輸出一個數字，表會讓玩家勝率最高的第三張牌的數值。</p>
-
 <h1 id="解法">解法</h1>
-
 <p>選大的！</p>
-
 <p>當兩張一樣，當然繼續跟，做三條。</p>
-
 <p>兩張不一樣，選大的最大一點的對子。</p>
-
 <p>所以，大即為正義！</p>
-
 <h1 id="source-code">Source Code</h1>
-
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py3" data-lang="py3"><span style="color:#75715e">#!/usr/bin/python3</span>
 <span style="color:#75715e"># 1 star - simulation</span>
 <span style="color:#75715e"># 24429326  12952   Tri-du  Accepted    PYTH3   0.010   2020-01-16 10:23:17</span>

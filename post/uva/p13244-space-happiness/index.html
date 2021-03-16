@@ -36,7 +36,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.54.0">
+<meta name="generator" content="Hugo 0.81.0">
 
 
 <link rel="canonical" href="https://kycd.github.io/onlinejudge/post/uva/p13244-space-happiness/">
@@ -267,50 +267,35 @@ code.has-jax {
     
 
     <article class="post-content"><h1 id="題目">題目</h1>
-
 <p>s 為一奇數，求數列 <code>0, 1, 3, 5, ..., s - 2, s, s - 2, s - 4, ... , 3, 1, 0</code> 的總和</p>
-
 <h1 id="input">Input</h1>
-
 <p>第一行為測資筆數 $t$</p>
-
 <p>每組測資為一個正整數 $s(1 \le s \le 10^9 + 1)$</p>
-
 <h1 id="output">Output</h1>
-
 <p>對每組測資輸出一個整數，為題目描述之數列和</p>
-
 <h1 id="解法">解法</h1>
-
 <p>不看開頭結尾的 0 就是兩個等差數列</p>
-
 <ol>
 <li>$[1 + 3 + &hellip; + (s - 2) + s]$</li>
 <li>$[(s - 2) + (s - 4) + &hellip; + 3 + 1)$</li>
 </ol>
-
 <p>所以就</p>
-
 <ol>
 <li>$a_1 = 1, a_{n1} = s, n1 = (s + 1) / 2$，$S_1 = (1 + s) * [(s + 1) / 2] / 2 = $$s^2 + 2s + 1 \over 4$</li>
 <li>$a_1 = (s - 2), a_{n2} = 1, n2 = (s - 2 + 1) / 2$，$S_2 = [(s - 2) + 1] * [(s - 1) / 2] / 2 = $$s^2 - 2s + 1\over 4$</li>
 </ol>
-
 <p>so，答案就是 $S1 + S2 = $$s^2 + 1 \over 2$</p>
-
 <p>測資很仁慈，int64 就能解</p>
-
 <ul>
-<li><p>ps. python 需要額外注意 <code>/</code> 和 <code>//</code> 的用法&hellip;.</p>
-
-<pre><code>在 python 用 / 回 return float 型態，在 int64 的範圍精准度會出事
-必須要 // 來 return int 型態
-這東西就是C/C++ 的 /
+<li>
+<p>ps. python 需要額外注意 <code>/</code> 和 <code>//</code> 的用法&hellip;.</p>
+<pre><code>  在 python 用 / 回 return float 型態，在 int64 的範圍精准度會出事
+  必須要 // 來 return int 型態
+  這東西就是C/C++ 的 /
 </code></pre>
-
-<h1 id="source-code">Source Code</h1></li>
+</li>
 </ul>
-
+<h1 id="source-code">Source Code</h1>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python3" data-lang="python3"><span style="color:#75715e">#!/usr/bin/python</span>
 <span style="color:#75715e"># 1 star math</span>
 <span style="color:#75715e"># 24177452  13244   Space Happiness Accepted    PYTH3   0.000   2019-11-11 03:50:50</span>

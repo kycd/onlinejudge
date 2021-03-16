@@ -36,7 +36,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.54.0">
+<meta name="generator" content="Hugo 0.81.0">
 
 
 <link rel="canonical" href="https://kycd.github.io/onlinejudge/post/uva/p11479-is-this-the-easiest-problem/">
@@ -267,40 +267,25 @@ code.has-jax {
     
 
     <article class="post-content"><h1 id="題目">題目</h1>
-
 <p>給三角形的三邊長，求三角形種類，種類有以下四種。</p>
-
 <ul>
 <li>Invalid: 不是三角形</li>
 <li>Equilateral: 正三角形</li>
 <li>Isosceles: 等腰三角形</li>
 <li>Scalene: 不屬於量兩種的合法三角形</li>
 </ul>
-
 <h1 id="input">Input</h1>
-
 <p>第一行為一個正整數 $T$ ($T \le 20)$，表測資筆數。</p>
-
 <p>接下來 $T$行，每行為一組測資，每組測資有三個 32 bit 的整數，以空白分隔。</p>
-
 <h1 id="output">Output</h1>
-
 <p>對每組測資輸出以下格式，$x$ 為測資編號，由 1 開始，三角形種類如題目描述。</p>
-
 <p><code>Case x: triangle type.</code></p>
-
 <h1 id="解法">解法</h1>
-
 <p>排序以後進入國小數學。</p>
-
 <p>唯一要注意的是檢查合法時如果不是用 python 的話要小心 overflow，題目標明 32-bit integer 感覺就會有 overflow 陷阱 + 負數陷阱。</p>
-
 <p>所以不要用 $a + b &gt; c$ 檢查，用 $a &gt; c - b$ 避開 overflow。</p>
-
 <p>負數&hellip;不用講吧(攤手)。</p>
-
 <h1 id="source-code">Source Code</h1>
-
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py3" data-lang="py3"><span style="color:#75715e">#!/bin/python3</span>
 <span style="color:#75715e"># 1 star</span>
 <span style="color:#75715e"># 22229505    11479    Is this the easiest problem?    Accepted    PYTH3    0.000    2018-11-01 10:23:49</span>

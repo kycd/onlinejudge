@@ -36,7 +36,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.54.0">
+<meta name="generator" content="Hugo 0.81.0">
 
 
 <link rel="canonical" href="https://kycd.github.io/onlinejudge/post/uva/p12918-lucky-thief/">
@@ -267,54 +267,41 @@ code.has-jax {
     
 
     <article class="post-content"><h1 id="題目">題目</h1>
-
 <p>一個小偷拿到對應 $m$ 個門的 $n$ 把鑰匙，已知 $n \leq m$ 且每一把鑰匙必定對應到一道門，問小偷最少需要嘗試開門幾次才能把所有鑰匙對應的門找出來</p>
-
 <h1 id="input">Input</h1>
-
 <p>第一行的 $T$($T \leq 100000$) 表示 case 數量，接下來 $T$ 行每行都有兩個數字 $n$, $m$ ($1 \leq n \leq m \leq 100000$)</p>
-
 <h1 id="output">Output</h1>
-
 <p>對每組測資 $n$, $m$ 輸出一個整數，表最小嘗試次數。</p>
-
 <h1 id="解法">解法</h1>
-
 <p>題目沒寫很清楚，但意思應該是假設小偷運氣超爛，一定要試到最後才會找到對應的門</p>
-
 <p>以這個想法 + 題目給的幾組測資推論</p>
-
 <ul>
-<li><p>$n = 1$, $m = 2$</p>
-
-<pre><code>1
-一把鑰匙，運氣最爛開第一扇 fail，得知第二個門為正解
-所以 n = 1 時，答案為 m - 1
-</code></pre></li>
-
-<li><p>$n = 4$, $m = 6$</p>
-
-<pre><code>14
-推測先試第一把，撞出答案以後再考慮剩下的情況
-f(n = 4, m = 6) = 5 + f(n = 3, m = 5)
-翻譯: 第一把鑰匙撞 5 次出解 + 剩下 3 把鑰匙 5 扇門
-so
-f(n = 4, m = 6) = 5 + f(n = 3, m = 5)
-                = 5 + 4 + f(n = 2, m = 4)
-                = 5 + 4 + 3 + f(n = 1, m = 3)
-                = 5 + 4 + 3 + 2
-                = 14
-</code></pre></li>
+<li>
+<p>$n = 1$, $m = 2$</p>
+<pre><code>  1
+  一把鑰匙，運氣最爛開第一扇 fail，得知第二個門為正解
+  所以 n = 1 時，答案為 m - 1
+</code></pre>
+</li>
+<li>
+<p>$n = 4$, $m = 6$</p>
+<pre><code>  14
+  推測先試第一把，撞出答案以後再考慮剩下的情況
+  f(n = 4, m = 6) = 5 + f(n = 3, m = 5)
+  翻譯: 第一把鑰匙撞 5 次出解 + 剩下 3 把鑰匙 5 扇門
+  so
+  f(n = 4, m = 6) = 5 + f(n = 3, m = 5)
+                  = 5 + 4 + f(n = 2, m = 4)
+                  = 5 + 4 + 3 + f(n = 1, m = 3)
+                  = 5 + 4 + 3 + 2
+                  = 14
+</code></pre>
+</li>
 </ul>
-
 <p>看起來就是個梯形面積，上底 $m - n$ 下底 $m - 1$ 高 $n$</p>
-
 <p>公式: $((m - n) + (m - 1)) * n \over 2$</p>
-
 <p><strong>ps. n, m 上限是 10萬，C++ 需要 int64</strong></p>
-
 <h1 id="source-code">Source Code</h1>
-
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e">#! /bin/python3</span>
 <span style="color:#75715e"># 2 star - math</span>
 <span style="color:#75715e"># 24119652  12918   Lucky Thief Accepted    PYTH3   0.480   2019-10-29 07:27:50</span>

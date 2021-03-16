@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Xor on Online judge note site</title>
+    <title>xor on Online judge note site</title>
     <link>https://kycd.github.io/onlinejudge/tags/xor/</link>
-    <description>Recent content in Xor on Online judge note site</description>
+    <description>Recent content in xor on Online judge note site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 04 Mar 2021 17:26:34 +0800</lastBuildDate>
-    
-	<atom:link href="https://kycd.github.io/onlinejudge/tags/xor/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 04 Mar 2021 17:26:34 +0800</lastBuildDate><atom:link href="https://kycd.github.io/onlinejudge/tags/xor/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>UVa 12854 Automated Checking Machine</title>
       <link>https://kycd.github.io/onlinejudge/post/uva/p12854-automated-checking-machine/</link>
@@ -18,7 +14,6 @@
       
       <guid>https://kycd.github.io/onlinejudge/post/uva/p12854-automated-checking-machine/</guid>
       <description>&lt;h1 id=&#34;題目&#34;&gt;題目&lt;/h1&gt;
-
 &lt;p&gt;給兩個長度為 5 的板子，1 代表凸，0 代表凹，判斷兩塊板子能不能完美重疊(無縫)。&lt;/p&gt;</description>
     </item>
     
