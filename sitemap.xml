@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://kycd.github.io/onlinejudge/post/uva/p10930-a-sequence/</loc>
+    <lastmod>2021-03-16T09:41:41+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://kycd.github.io/onlinejudge/post/uva/p12802-gift-from-the-gods/</loc>
     <lastmod>2021-03-05T15:36:54+08:00</lastmod>
   </url>
@@ -115,7 +120,7 @@
   
   <url>
     <loc>https://kycd.github.io/onlinejudge/tags/2-star/</loc>
-    <lastmod>2021-03-05T15:36:54+08:00</lastmod>
+    <lastmod>2021-03-16T09:41:41+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -193,19 +198,25 @@
   
   <url>
     <loc>https://kycd.github.io/onlinejudge/</loc>
-    <lastmod>2021-03-05T15:36:54+08:00</lastmod>
+    <lastmod>2021-03-16T09:41:41+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kycd.github.io/onlinejudge/post/</loc>
-    <lastmod>2021-03-05T15:36:54+08:00</lastmod>
+    <lastmod>2021-03-16T09:41:41+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kycd.github.io/onlinejudge/tags/prime/</loc>
     <lastmod>2021-03-05T15:36:54+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kycd.github.io/onlinejudge/tags/set/</loc>
+    <lastmod>2021-03-16T09:41:41+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -223,7 +234,13 @@
   
   <url>
     <loc>https://kycd.github.io/onlinejudge/tags/uva/</loc>
-    <lastmod>2021-03-05T15:36:54+08:00</lastmod>
+    <lastmod>2021-03-16T09:41:41+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kycd.github.io/onlinejudge/tags/v109/</loc>
+    <lastmod>2021-03-16T09:41:41+08:00</lastmod>
     <priority>0</priority>
   </url>
   

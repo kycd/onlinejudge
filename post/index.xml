@@ -6,10 +6,21 @@
     <description>Recent content in Posts on Online judge note site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 05 Mar 2021 15:36:54 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 16 Mar 2021 09:41:41 +0800</lastBuildDate>
     
 	<atom:link href="https://kycd.github.io/onlinejudge/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>UVa 10930 a Sequence</title>
+      <link>https://kycd.github.io/onlinejudge/post/uva/p10930-a-sequence/</link>
+      <pubDate>Tue, 16 Mar 2021 09:41:41 +0800</pubDate>
+      
+      <guid>https://kycd.github.io/onlinejudge/post/uva/p10930-a-sequence/</guid>
+      <description>&lt;h1 id=&#34;題目&#34;&gt;題目&lt;/h1&gt;
+
+&lt;p&gt;若數列滿足條件 $1 \leq a_1 \lt a_2 \lt &amp;hellip; \lt a_n$，且 $a_k$ 不為 $a&lt;em&gt;1$ ~ $a&lt;/em&gt;{k-1}$ 的任意和，則此數列可稱為 &lt;code&gt;A-sequence&lt;/code&gt;。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>UVa 12802 Gift From the Gods</title>
